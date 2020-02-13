@@ -1,7 +1,7 @@
 library(shiny)
 library(DT)
 
-io_table <- as.data.frame(read.csv(file="InterventionOutcomesR.csv", header=TRUE, na.strings = ""))
+io_table <- as.data.frame(read.csv(file="InterventionOutcomesR.csv", header=TRUE, na.strings = "NaN"))
 
 categorical <- c("StudyName", "Include", "Design", "IndependentVariable", "IndependentType",
                  "DependentVariable", "DependentType", "DependentSubType", "LinkType",
