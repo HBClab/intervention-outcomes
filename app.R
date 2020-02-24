@@ -12,6 +12,13 @@ numerical <- c("TotalSampleSize", "InterventionDuration", "ExperimentalGroupN",
                "ExperimentalGroup2N", "ExperimentalGroup3N", "ControlGroupN", "MeanAge",
                "PercFemale")
 
+# Fix slider increments
+io_table$TotalSampleSize <- as.integer(io_table$TotalSampleSize)
+io_table$InterventionDuration <- as.integer(io_table$InterventionDuration)
+io_table$ExperimentalGroupN <- as.integer(io_table$ExperimentalGroupN)
+io_table$ExperimentalGroup2N <- as.integer(io_table$ExperimentalGroup2N)
+io_table$ExperimentalGroup3N <- as.integer(io_table$ExperimentalGroup3N)
+io_table$ControlGroupN <- as.integer(io_table$ControlGroupN)
 
 ui <- fluidPage(
   
@@ -20,12 +27,14 @@ ui <- fluidPage(
   sidebarLayout(
     
     sidebarPanel(
+      
       selectInput("plotType", "Plot type", 
                   c("bar", "histogram", "box", "scatter")
       ),
       conditionalPanel(
         condition = "input.plotType == 'bar'",
-        selectInput("barCol", "Categorical Value", categorical)
+        selectInput("barCol", "Categorical Value", categorical),
+        checkboxInput("proportion", "Proportions", value = FALSE)
       ),
       conditionalPanel(
         condition = "input.plotType == 'histogram'",
@@ -54,10 +63,7 @@ server <- function(input, output) {
   
   output$mytable <- DT::renderDT({
     DT::datatable(io_table, filter = "top", options = list(pageLength = 10,
-                                                           sDom  = '<"top">lrt<"bottom">ip',
-                                                           scrollX=TRUE,
-                                                           autoWidth = TRUE,
-                                                           columnDefs = list(list(width = '150px', targets = c(1: 23)))
+                                                           sDom  = '<"top">lrt<"bottom">ip'
                                                            )
                   )
   })
@@ -68,7 +74,11 @@ server <- function(input, output) {
       interestCol <- input$barCol
       val <- io_table[input$mytable_rows_all, interestCol]
       tbl <- as.data.frame(table(val))
-      plt <- barplot(tbl$Freq, ylab = "Frequency", xlab = interestCol)
+      if (input$proportion == TRUE){
+        tbl$Freq <- round(tbl$Freq/(sum(tbl$Freq)), 2)
+      }
+      plt <- barplot(tbl$Freq, ylab = "Frequency", xlab = interestCol, ylim = c(0, 1.1*max(tbl$Freq)))
+      text(x = plt, y = tbl$Freq, label = tbl$Freq, pos = 3, cex = 0.8, offset = .5)
       axis(1, at=plt, labels = tbl$val)
     }
     
@@ -76,7 +86,8 @@ server <- function(input, output) {
       interestCol <- input$histCol
       val <- io_table[input$mytable_rows_all, interestCol]
       numVal <- as.numeric(val)
-      hist(numVal, main = "Histogram", xlab = interestCol)
+      par(mai=c(0.0,0.82,0.82,0.42))
+      hist(numVal, main = paste("Histogram of", interestCol, sep = " "), xlab = interestCol, labels = TRUE)
     }
     
     if (input$plotType == "box"){
