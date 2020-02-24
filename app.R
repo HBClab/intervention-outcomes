@@ -77,7 +77,7 @@ server <- function(input, output) {
       if (input$proportion == TRUE){
         tbl$Freq <- round(tbl$Freq/(sum(tbl$Freq)), 2)
       }
-      plt <- barplot(tbl$Freq, ylab = "Frequency", xlab = interestCol, ylim = c(0, 1.1*max(tbl$Freq)))
+      plt <- barplot(tbl$Freq, ylab = "Frequency", main = paste("Bar Plot of", interestCol), ylim = c(0, 1.1*max(tbl$Freq)))
       text(x = plt, y = tbl$Freq, label = tbl$Freq, pos = 3, cex = 0.8, offset = .5)
       axis(1, at=plt, labels = tbl$val)
     }
@@ -86,8 +86,8 @@ server <- function(input, output) {
       interestCol <- input$histCol
       val <- io_table[input$mytable_rows_all, interestCol]
       numVal <- as.numeric(val)
-      par(mai=c(0.0,0.82,0.82,0.42))
-      hist(numVal, main = paste("Histogram of", interestCol, sep = " "), xlab = interestCol, labels = TRUE)
+      par(mai=c(0.37,0.82,0.82,0.42))
+      hist(numVal, main = paste("Histogram of", interestCol, sep = " "), labels = TRUE)
     }
     
     if (input$plotType == "box"){
