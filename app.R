@@ -86,8 +86,9 @@ server <- function(input, output) {
       interestCol <- input$histCol
       val <- io_table[input$mytable_rows_all, interestCol]
       numVal <- as.numeric(val)
-      par(mai=c(0.37,0.82,0.82,0.42))
-      hist(numVal, main = paste("Histogram of", interestCol, sep = " "), labels = TRUE)
+      par(mai=c(0.5,0.82,0.82,0.42))
+      plt <- hist(numVal, main = paste("Histogram of", interestCol, sep = " "), labels = FALSE)
+      text(x = plt$mids, y = plt$counts, label = plt$counts, pos = 3, cex = 0.8, offset = 0.1)
     }
     
     if (input$plotType == "box"){
