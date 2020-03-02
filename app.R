@@ -183,6 +183,9 @@ server <- function(input, output) {
           axis(1, at=plt, labels = tbl_NA$val)
         }
       }
+      if (input$plotType == "hist"){
+        
+      }
     } else{
     
       if (input$plotType == "bar"){
@@ -229,7 +232,7 @@ server <- function(input, output) {
         plot(num1, num2, ylab = numCol2, xlab = numCol1)
       }
     }
-  }, width = 1500, height = 450)
+  }, width = 1500, height = 425)
 
   
 }
