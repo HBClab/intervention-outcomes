@@ -1,5 +1,6 @@
 library(shiny)
 library(DT)
+library(ggplot2)
 
 io_table <- as.data.frame(read.csv(file="InterventionOutcomesR.csv", header=TRUE, na.strings = "NaN"))
 
@@ -11,6 +12,8 @@ categorical <- c("StudyName", "Include", "Design", "IndependentVariable", "Indep
 numerical <- c("TotalSampleSize", "InterventionDuration", "ExperimentalGroupN",
                "ExperimentalGroup2N", "ExperimentalGroup3N", "ControlGroupN", "MeanAge",
                "PercFemale")
+
+splitCategories <- c("Include", "Design", "LinkType", "AgeGroup")
 
 # Fix slider increments
 io_table$TotalSampleSize <- as.integer(io_table$TotalSampleSize)
@@ -38,7 +41,8 @@ ui <- fluidPage(
       ),
       conditionalPanel(
         condition = "input.plotType == 'histogram'",
-        selectInput("histCol", "Numerical Value", numerical)
+        selectInput("histCol", "Numerical Value", numerical),
+        checkboxInput("proportion_hist", "Proportions", value = FALSE)
       ),
       conditionalPanel(
         condition = "input.plotType == 'box'",
@@ -49,6 +53,11 @@ ui <- fluidPage(
         condition = "input.plotType == 'scatter'",
         selectInput("scatterCol1", "Numerical Value 1", numerical),
         selectInput("scatterCol2", "Numerical Value 2", numerical)
+      ),
+      checkboxInput("split", "Split Current Values", value = FALSE),
+      conditionalPanel(
+        condition = "input.split == 1",
+        selectInput("splitCol", "Split Category", splitCategories)
       )
     ),
     
@@ -70,6 +79,16 @@ server <- function(input, output) {
 
   output$mainPlot <- renderPlot({
     
+    if (input$split == 1){
+      if (input$plotType == "bar"){
+        attach(as.data.frame(table(io_table[input$mytable_rows_all, input$barCol])))
+        par(mfrow=c(3,1))
+        hist(wt)
+        hist(mpg)
+        hist(disp)
+      }
+    }
+    
     if (input$plotType == "bar"){
       interestCol <- input$barCol
       val <- io_table[input$mytable_rows_all, interestCol]
@@ -88,7 +107,12 @@ server <- function(input, output) {
       numVal <- as.numeric(val)
       par(mai=c(0.5,0.82,0.82,0.42))
       plt <- hist(numVal, main = paste("Histogram of", interestCol, sep = " "), labels = FALSE)
-      text(x = plt$mids, y = plt$counts, label = plt$counts, pos = 3, cex = 0.8, offset = 0.1)
+      if (input$proportion_hist == TRUE){
+        new_label = round(plt$counts/sum(plt$counts), 2)
+        text(x = plt$mids, y = plt$counts, label = new_label, pos = 3, cex = 0.8, offset = 0.1)
+      } else {
+        text(x = plt$mids, y = plt$counts, label = plt$counts, pos = 3, cex = 0.8, offset = 0.1)
+      }
     }
     
     if (input$plotType == "box"){
