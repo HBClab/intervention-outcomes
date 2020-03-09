@@ -22,52 +22,57 @@ io_table$ExperimentalGroup2N <- as.integer(io_table$ExperimentalGroup2N)
 io_table$ExperimentalGroup3N <- as.integer(io_table$ExperimentalGroup3N)
 io_table$ControlGroupN <- as.integer(io_table$ControlGroupN)
 
-ui <- fluidPage(
+ui <- navbarPage("Intervention Outcomes Data",
   
-  h2("Intervention Outcomes Data"),
+  tabPanel("Plot",
   
-  sidebarLayout(
-    
-    sidebarPanel(
+    sidebarLayout(
       
-      selectInput("plotType", "Plot type", 
-                  c("bar", "histogram", "box", "scatter")
+      sidebarPanel(
+        
+        selectInput("plotType", "Plot type", 
+                    c("bar", "histogram", "box", "scatter")
+        ),
+        conditionalPanel(
+          condition = "input.plotType == 'bar'",
+          selectInput("barCol", "Categorical Value", categorical),
+          checkboxInput("proportion", "Proportions", value = FALSE)
+        ),
+        conditionalPanel(
+          condition = "input.plotType == 'histogram'",
+          selectInput("histCol", "Numerical Value", numerical),
+          checkboxInput("proportion_hist", "Proportions", value = FALSE)
+        ),
+        conditionalPanel(
+          condition = "input.plotType == 'box'",
+          selectInput("boxCol1", "Categorical Value", categorical),
+          selectInput("boxCol2", "Numerical Value", numerical)
+        ),
+        conditionalPanel(
+          condition = "input.plotType == 'scatter'",
+          selectInput("scatterCol1", "Numerical Value 1", numerical),
+          selectInput("scatterCol2", "Numerical Value 2", numerical)
+        ),
+        checkboxInput("split", "Split Current Values", value = FALSE),
+        conditionalPanel(
+          condition = "input.split == 1",
+          selectInput("splitCol", "Split Category", splitCategories)
+        )
       ),
-      conditionalPanel(
-        condition = "input.plotType == 'bar'",
-        selectInput("barCol", "Categorical Value", categorical),
-        checkboxInput("proportion", "Proportions", value = FALSE)
-      ),
-      conditionalPanel(
-        condition = "input.plotType == 'histogram'",
-        selectInput("histCol", "Numerical Value", numerical),
-        checkboxInput("proportion_hist", "Proportions", value = FALSE)
-      ),
-      conditionalPanel(
-        condition = "input.plotType == 'box'",
-        selectInput("boxCol1", "Categorical Value", categorical),
-        selectInput("boxCol2", "Numerical Value", numerical)
-      ),
-      conditionalPanel(
-        condition = "input.plotType == 'scatter'",
-        selectInput("scatterCol1", "Numerical Value 1", numerical),
-        selectInput("scatterCol2", "Numerical Value 2", numerical)
-      ),
-      checkboxInput("split", "Split Current Values", value = FALSE),
-      conditionalPanel(
-        condition = "input.split == 1",
-        selectInput("splitCol", "Split Category", splitCategories)
+      
+      mainPanel(
+        plotOutput("mainPlot"),
       )
     ),
-    
-    mainPanel(
-      plotOutput("mainPlot"),
-    )
+    DT::dataTableOutput("mytable")
   ),
-  DT::dataTableOutput("mytable")
+  tabPanel("About",
+           textOutput("aboutText"))
 )
 
 server <- function(input, output) {
+  
+  output$aboutText <- renderText("https://psychology.uiowa.edu/health-brain-cognition-lab")
   
   output$mytable <- DT::renderDT({
     DT::datatable(io_table, filter = "top", options = list(pageLength = 10,
@@ -183,8 +188,137 @@ server <- function(input, output) {
           axis(1, at=plt, labels = tbl_NA$val)
         }
       }
-      if (input$plotType == "hist"){
-        
+      if (input$plotType == "histogram"){
+        if (input$splitCol == "Include"){
+          
+          par(mfrow=c(2,1))
+          val_N <- tbl[tbl[,"Include"] == "N", input$barCol]
+          val_Y <- tbl[tbl[,"Include"] == "Y", input$barCol]
+          tbl_N <- as.numeric(val_N)
+          tbl_Y <- as.numeric(val_Y)
+          
+          plt <- hist(tbl_N, main = paste("Include = N"), labels = FALSE)
+          if (input$proportion_hist == TRUE){
+            new_label = round(plt$counts/sum(plt$counts), 2)
+            text(x = plt$mids, y = plt$counts, label = new_label, pos = 3, cex = 0.8, offset = 0.1)
+          } else {
+            text(x = plt$mids, y = plt$counts, label = plt$counts, pos = 3, cex = 0.8, offset = 0.1)
+          }
+          
+          plt <- hist(tbl_Y, main = paste("Include = Y"), labels = FALSE)
+          if (input$proportion_hist == TRUE){
+            new_label = round(plt$counts/sum(plt$counts), 2)
+            text(x = plt$mids, y = plt$counts, label = new_label, pos = 3, cex = 0.8, offset = 0.1)
+          } else {
+            text(x = plt$mids, y = plt$counts, label = plt$counts, pos = 3, cex = 0.8, offset = 0.1)
+          }
+          
+        }
+        if (input$splitCol == "Design"){
+          
+          par(mfrow=c(3,1))
+          val_Acute <- tbl[tbl[,"Design"] == "Acute", input$barCol]
+          val_Intervention <- tbl[tbl[,"Design"] == "Intervention", input$barCol]
+          val_NA <- tbl[tbl[,"Design"] == "NA", input$barCol]
+          tbl_Acute <- as.numeric(val_Acute)
+          tbl_Intervention <- as.numeric(val_Intervention)
+          tbl_NA <- as.numeric(val_NA)
+          
+          plt <- hist(tbl_Acute, main = paste("Design = Acute"), labels = FALSE)
+          if (input$proportion_hist == TRUE){
+            new_label = round(plt$counts/sum(plt$counts), 2)
+            text(x = plt$mids, y = plt$counts, label = new_label, pos = 3, cex = 0.8, offset = 0.1)
+          } else {
+            text(x = plt$mids, y = plt$counts, label = plt$counts, pos = 3, cex = 0.8, offset = 0.1)
+          }
+          
+          plt <- hist(tbl_Intervention, main = paste("Design = Intervention"), labels = FALSE)
+          if (input$proportion_hist == TRUE){
+            new_label = round(plt$counts/sum(plt$counts), 2)
+            text(x = plt$mids, y = plt$counts, label = new_label, pos = 3, cex = 0.8, offset = 0.1)
+          } else {
+            text(x = plt$mids, y = plt$counts, label = plt$counts, pos = 3, cex = 0.8, offset = 0.1)
+          }
+          
+          plt <- hist(tbl_NA, main = paste("Design = NA"), labels = FALSE)
+          if (input$proportion_hist == TRUE){
+            new_label = round(plt$counts/sum(plt$counts), 2)
+            text(x = plt$mids, y = plt$counts, label = new_label, pos = 3, cex = 0.8, offset = 0.1)
+          } else {
+            text(x = plt$mids, y = plt$counts, label = plt$counts, pos = 3, cex = 0.8, offset = 0.1)
+          }
+          
+        }
+        if (input$splitCol == "LinkType"){
+          
+          par(mfrow=c(3,1))
+          val_Positive <- tbl[tbl[,"LinkType"] == "Positive", input$barCol]
+          val_Null <- tbl[tbl[,"LinkType"] == "NULL", input$barCol]
+          val_NA <- tbl[tbl[,"LinkType"] == "NA", input$barCol]
+          tbl_Positive <- as.numeric(val_Positive)
+          tbl_Null <- as.numeric(val_Null)
+          tbl_NA <- as.numeric(val_NA)
+          
+          plt <- hist(tbl_Positive, main = paste("LinkType = Positive"), labels = FALSE)
+          if (input$proportion_hist == TRUE){
+            new_label = round(plt$counts/sum(plt$counts), 2)
+            text(x = plt$mids, y = plt$counts, label = new_label, pos = 3, cex = 0.8, offset = 0.1)
+          } else {
+            text(x = plt$mids, y = plt$counts, label = plt$counts, pos = 3, cex = 0.8, offset = 0.1)
+          }
+          
+          plt <- hist(tbl_Null, main = paste("LinkType = Null"), labels = FALSE)
+          if (input$proportion_hist == TRUE){
+            new_label = round(plt$counts/sum(plt$counts), 2)
+            text(x = plt$mids, y = plt$counts, label = new_label, pos = 3, cex = 0.8, offset = 0.1)
+          } else {
+            text(x = plt$mids, y = plt$counts, label = plt$counts, pos = 3, cex = 0.8, offset = 0.1)
+          }
+          
+          plt <- hist(tbl_NA, main = paste("LinkType = NA"), labels = FALSE)
+          if (input$proportion_hist == TRUE){
+            new_label = round(plt$counts/sum(plt$counts), 2)
+            text(x = plt$mids, y = plt$counts, label = new_label, pos = 3, cex = 0.8, offset = 0.1)
+          } else {
+            text(x = plt$mids, y = plt$counts, label = plt$counts, pos = 3, cex = 0.8, offset = 0.1)
+          }
+          
+        }
+        if (input$splitCol == "AgeGroup"){
+          
+          par(mfrow=c(3,1))
+          val_Middle <- tbl[tbl[,"AgeGroup"] == "Middle", input$barCol]
+          val_Older <- tbl[tbl[,"AgeGroup"] == "Older", input$barCol]
+          val_NA <- tbl[tbl[,"AgeGroup"] == "NA", input$barCol]
+          tbl_Middle <- as.numeric(val_Middle)
+          tbl_Older <- as.numeric(val_Older)
+          tbl_NA <- as.numeric(val_NA)
+          
+          plt <- hist(tbl_Middle, main = paste("AgeGroup = Middle"), labels = FALSE)
+          if (input$proportion_hist == TRUE){
+            new_label = round(plt$counts/sum(plt$counts), 2)
+            text(x = plt$mids, y = plt$counts, label = new_label, pos = 3, cex = 0.8, offset = 0.1)
+          } else {
+            text(x = plt$mids, y = plt$counts, label = plt$counts, pos = 3, cex = 0.8, offset = 0.1)
+          }
+          
+          plt <- hist(tbl_Older, main = paste("AgeGroup = Older"), labels = FALSE)
+          if (input$proportion_hist == TRUE){
+            new_label = round(plt$counts/sum(plt$counts), 2)
+            text(x = plt$mids, y = plt$counts, label = new_label, pos = 3, cex = 0.8, offset = 0.1)
+          } else {
+            text(x = plt$mids, y = plt$counts, label = plt$counts, pos = 3, cex = 0.8, offset = 0.1)
+          }
+          
+          plt <- hist(tbl_NA, main = paste("AgeGroup = NA"), labels = FALSE)
+          if (input$proportion_hist == TRUE){
+            new_label = round(plt$counts/sum(plt$counts), 2)
+            text(x = plt$mids, y = plt$counts, label = new_label, pos = 3, cex = 0.8, offset = 0.1)
+          } else {
+            text(x = plt$mids, y = plt$counts, label = plt$counts, pos = 3, cex = 0.8, offset = 0.1)
+          }
+          
+        }
       }
     } else{
     
