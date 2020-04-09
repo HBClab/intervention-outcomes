@@ -1,6 +1,7 @@
 library(shiny)
 library(DT)
 library(ggplot2)
+library(markdown)
 
 io_table <- as.data.frame(read.csv(file="InterventionOutcomesR.csv", header=TRUE, na.strings = "NaN"))
 
@@ -68,12 +69,10 @@ ui <- navbarPage("Intervention Outcomes Data",
     DT::dataTableOutput("mytable")
   ),
   tabPanel("About",
-           textOutput("aboutText"))
+           includeMarkdown("about.md"))
 )
 
 server <- function(input, output) {
-  
-  output$aboutText <- renderText("https://psychology.uiowa.edu/health-brain-cognition-lab")
   
   output$mytable <- DT::renderDT({
     DT::datatable(io_table, filter = "top", options = list(pageLength = 10,
