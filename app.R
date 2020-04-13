@@ -24,7 +24,7 @@ io_table$ExperimentalGroup2N <- as.integer(io_table$ExperimentalGroup2N)
 io_table$ExperimentalGroup3N <- as.integer(io_table$ExperimentalGroup3N)
 io_table$ControlGroupN <- as.integer(io_table$ControlGroupN)
 
-ui <- navbarPage("Intervention Outcomes Data",
+ui <- navbarPage("PANO",
   
   tabPanel("Plot",
   
@@ -68,6 +68,9 @@ ui <- navbarPage("Intervention Outcomes Data",
     ),
     DT::dataTableOutput("mytable")
   ),
+  tabPanel("References",
+           textOutput("const")),
+           #DT::dataTableOutput("reference_table")),
   tabPanel("About",
            includeMarkdown("about.md"))
 )
@@ -80,6 +83,15 @@ server <- function(input, output) {
                                                            )
                   )
   })
+  
+  output$reference_table <- DT::renderDT({
+    DT::datatable(io_table, filter = "top", options = list(pageLength = 10,
+                                                           sDom  = '<"top">lrt<"bottom">ip'
+    )
+    )
+  })
+  
+  output$const <- renderText("Page under construction")
 
   output$mainPlot <- renderPlot({
     
@@ -89,34 +101,39 @@ server <- function(input, output) {
       tbl <- data.frame(io_table[input$mytable_rows_all, ])
       
       if (input$plotType == "bar"){
+        plt <- ggplot(tbl, aes(x=tbl[,interestCol])) + geom_bar() +
+          theme(axis.text.x = element_text(angle = 90, hjust=1)) + xlab("") +
+          ylab("Frequency") +
+          facet_wrap(~ tbl[,input$splitCol])
         
-        print(ggplot(tbl, aes(x=tbl[,interestCol])) + geom_bar() +
-                theme(axis.text.x = element_text(angle = 90, hjust=1)) + xlab("") +
-                ylab("Frequency") +
-                geom_text(stat='count', aes(label=..count..), vjust=-1) +
-                facet_wrap(~ tbl[,input$splitCol])
-        )
+        if (input$proportion ==TRUE){
+          print(plt + geom_text(stat='count', aes(label=round(..count../sum(..count..), 2)), vjust=-1)
+          )
+        } else{
+          print(plt + geom_text(stat='count', aes(label=..count..), vjust=-1)
+          )
+        }
         
       }
       if (input$plotType == "histogram"){
-        print(plt <- ggplot(tbl, aes(x=as.numeric(tbl[,interestCol]))) +
-                geom_histogram() +
-                stat_bin(geom="text", aes(label=round(..count..,2), y=..count..), vjust = -1) +
-                facet_wrap(~ tbl[,input$splitCol])
-        )
+        plt <- ggplot(tbl, aes(x=as.numeric(tbl[,interestCol]))) +
+          geom_histogram() +
+          facet_wrap(~ tbl[,input$splitCol])
+        
+        if (input$proportion_hist ==TRUE){
+          print(plt + stat_bin(geom="text", aes(label=round(..count../sum(..count..), 2)), vjust = -1)
+          )
+        } else{
+          print(plt + stat_bin(geom="text", aes(label=round(..count..,2)), vjust = -1)
+          )
+        }
+        
       }
     } else{
     
       if (input$plotType == "bar"){
         interestCol <- input$barCol
         tbl <- data.frame(io_table[input$mytable_rows_all,])
-        
-        #if (input$proportion == TRUE){
-        #  tbl$Freq <- round(tbl$Freq/(sum(tbl$Freq)), 2)
-        #}
-        #plt <- barplot(tbl$Freq, ylab = "Frequency", main = paste("Bar Plot of", interestCol), ylim = c(0, 1.1*max(tbl$Freq)))
-        #text(x = plt, y = tbl$Freq, label = tbl$Freq, pos = 3, cex = 0.8, offset = .5)
-        #axis(1, at=plt, labels = tbl$val)
         
         plt <- ggplot(tbl, aes(x= tbl[,interestCol])) +
                 geom_bar() +
@@ -126,7 +143,7 @@ server <- function(input, output) {
         
         
         if (input$proportion ==TRUE){
-          print(plt + geom_text(stat='identity', aes(label=..freq..), vjust=-1)
+          print(plt + geom_text(stat='count', aes(label=round(..count../sum(..count..), 2)), vjust=-1)
           )
         } else{
           print(plt + geom_text(stat='count', aes(label=..count..), vjust=-1)
@@ -137,18 +154,17 @@ server <- function(input, output) {
       if (input$plotType == "histogram"){
         interestCol <- input$histCol
         tbl <- data.frame(io_table[input$mytable_rows_all,])
-        #par(mai=c(0.5,0.82,0.82,0.42))
-        #plt <- hist(numVal, main = paste("Histogram of", interestCol, sep = " "), labels = FALSE)
-        #if (input$proportion_hist == TRUE){
-        #  new_label = round(plt$counts/sum(plt$counts), 2)
-        #  text(x = plt$mids, y = plt$counts, label = new_label, pos = 3, cex = 0.8, offset = 0.1)
-        #} else {
-        #  text(x = plt$mids, y = plt$counts, label = plt$counts, pos = 3, cex = 0.8, offset = 0.1)
-        #}
-        print(plt <- ggplot(tbl, aes(x=tbl[,interestCol])) + geom_histogram() +
-                stat_bin(geom="text", aes(label=round(..count..,2), y=..count..), vjust = -1)
-              )
 
+        plt <- ggplot(tbl, aes(x=tbl[,interestCol])) + geom_histogram() +
+          xlab("") + ylab("Frequency")
+        
+        if (input$proportion_hist ==TRUE){
+          print(plt + stat_bin(geom="text", aes(label=round(..count../sum(..count..), 2)), vjust = -1)
+            )
+        } else{
+          print(plt + stat_bin(geom="text", aes(label=round(..count..,2)), vjust = -1)
+            )
+        }
       }
       
       if (input$plotType == "box"){
