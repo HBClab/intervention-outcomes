@@ -3,6 +3,7 @@ library(DT)
 library(ggplot2)
 library(markdown)
 
+ref <- as.data.frame(read.csv(file="pano_intervention_references.csv", header = TRUE))
 io_table <- as.data.frame(read.csv(file="InterventionOutcomesR.csv", header=TRUE, na.strings = "NaN"))
 
 categorical <- c("StudyName", "Include", "Design", "IndependentVariable", "IndependentType",
@@ -13,6 +14,8 @@ categorical <- c("StudyName", "Include", "Design", "IndependentVariable", "Indep
 numerical <- c("TotalSampleSize", "InterventionDuration", "ExperimentalGroupN",
                "ExperimentalGroup2N", "ExperimentalGroup3N", "ControlGroupN", "MeanAge",
                "PercFemale")
+
+hidden_col_indices <- c(10,12,13,14,15,16,17,18,19,20,21)
 
 splitCategories <- c("Include", "Design", "LinkType", "AgeGroup")
 
@@ -68,9 +71,10 @@ ui <- navbarPage("PANO",
     ),
     DT::dataTableOutput("mytable")
   ),
+  
   tabPanel("References",
-           textOutput("const")),
-           #DT::dataTableOutput("reference_table")),
+           DT::dataTableOutput("reference_table")),
+  
   tabPanel("About",
            includeMarkdown("about.md"))
 )
@@ -79,19 +83,16 @@ server <- function(input, output) {
   
   output$mytable <- DT::renderDT({
     DT::datatable(io_table, filter = "top", options = list(pageLength = 10,
-                                                           sDom  = '<"top">lrt<"bottom">ip'
+                                                           sDom  = '<"top">lrt<"bottom">ip',
+                                                           columnDefs = list(list(visible=FALSE, targets=hidden_col_indices))
                                                            )
                   )
   })
   
   output$reference_table <- DT::renderDT({
-    DT::datatable(io_table, filter = "top", options = list(pageLength = 10,
-                                                           sDom  = '<"top">lrt<"bottom">ip'
-    )
+    DT::datatable(ref, options = list(pageLength = 10)
     )
   })
-  
-  output$const <- renderText("Page under construction")
 
   output$mainPlot <- renderPlot({
     
@@ -185,7 +186,7 @@ server <- function(input, output) {
         plot(num1, num2, ylab = numCol2, xlab = numCol1)
       }
     }
-  }, width = 1500, height = 425)
+  }, width = 1200, height = 425)
 
   
 }
