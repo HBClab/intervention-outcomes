@@ -4,18 +4,21 @@ library(ggplot2)
 library(markdown)
 
 ref <- as.data.frame(read.csv(file="pano_intervention_references.csv", header = TRUE))
-io_table <- as.data.frame(read.csv(file="InterventionOutcomesR.csv", header=TRUE, na.strings = "NaN"))
+io_table <- as.data.frame(read.csv(file="InterventionOutcomesRFull.csv", header=TRUE, na.strings = "NaN"))
 
 categorical <- c("StudyName", "Include", "Design", "IndependentVariable", "IndependentType",
                  "DependentVariable", "DependentType", "DependentSubType", "LinkType",
                  "ExperimentalGroup", "ExperimentalGroup2", "ExperimentalGroup3",
-                 "ControlGroup", "AgeGroup", "CognitiveStatus")
+                 "ControlGroup", "AgeGroup", "CognitiveStatus", "TestType", "TestTypeSub",
+                 "FitnessMeasure", "InterventionIntensity", "ConversionToNorton2010",
+                 "IntensityAdherence", "TrueInterventionToincreaseFtiness.")
 
 numerical <- c("TotalSampleSize", "InterventionDuration", "ExperimentalGroupN",
                "ExperimentalGroup2N", "ExperimentalGroup3N", "ControlGroupN", "MeanAge",
-               "PercFemale")
+               "PercFemale", "BMIBaseline", "SessionAdherence", "ChangeinFM",
+               "ChangeinFMStandardized", "SessionsPerWeek", "DurationInMinutes", "WeeklyMinutes")
 
-hidden_col_indices <- c(10,12,13,14,15,16,17,18,19,20,21)
+hidden_col_indices <- c(10,12,13,14,15,16,17,18,19,20,21,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40)
 
 splitCategories <- c("Include", "Design", "LinkType", "AgeGroup")
 
@@ -90,7 +93,8 @@ server <- function(input, output) {
   })
   
   output$reference_table <- DT::renderDT({
-    DT::datatable(ref, options = list(pageLength = 10)
+    tbl <- io_table[input$mytable_rows_all, "refID"]
+    DT::datatable(ref[ref$refID %in% tbl,], options = list(pageLength = 10)
     )
   })
 

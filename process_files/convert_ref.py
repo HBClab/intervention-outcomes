@@ -29,6 +29,7 @@ df['title'] = title
 df['author'] = author
 df['journal'] = journal
 df['year'] = year
-df['doi'] = doi
+df['refID'] = doi
 
-df.to_csv('pano_intervention_references.csv', sep=',', index=False)
+
+df.to_csv('../pano_intervention_references.csv', sep=',', index=False)

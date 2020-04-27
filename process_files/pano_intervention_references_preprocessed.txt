@@ -1,0 +1,2796 @@
+@article{RN3630,
+   author = {Babaei, P. and Azali Alamdari, K. and Soltani Tehrani, B. and Damirchi, A.},
+   title = {Effect of six weeks of endurance exercise and following detraining on serum brain derived neurotrophic factor and memory performance in middle aged males with metabolic syndrome},
+   journal = {J Sports Med Phys Fitness},
+   volume = {53},
+   number = {4},
+   pages = {437-43},
+   ISSN = {0022-4707 (Print)
+0022-4707 (Linking)},
+   DOI = {PMID23828292},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/23828292},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN3706,
+   author = {Bakken, R. C. and Carey, J. R. and Di Fabio, R. P. and Erlandson, T. J. and Hake, J. L. and Intihar, T. W.},
+   title = {Effect of aerobic exercise on tracking performance in elderly people: a pilot study},
+   journal = {Phys Ther},
+   volume = {81},
+   number = {12},
+   pages = {1870-9},
+   ISSN = {0031-9023 (Print)
+0031-9023 (Linking)},
+   DOI = {10.1093/ptj/81.12.1870},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/11736621},
+   year = {2001},
+   type = {Journal Article}
+}
+
+@article{RN3701,
+   author = {Bun, S. and Ikejima, C. and Kida, J. and Yoshimura, A. and Lebowitz, A. J. and Kakuma, T. and Asada, T.},
+   title = {A combination of supplements may reduce the risk of Alzheimer's disease in elderly Japanese with normal cognition},
+   journal = {Journal of Alzheimer’s Disease},
+   volume = {45},
+   number = {1875-8908 (Electronic)},
+   DOI = {10.3233/JAD-142232},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@book{RN3702,
+   author = {Busse, Alexandre and Jacob Filho, Wilson and Miskian Magaldi, Regina and Antônio Coelho, Venceslau and César Melo, Antônio and Aparecida Betoni, Rosana and Santarém, José},
+   title = {Effects of resistance training exercise on cognitive performance in elderly individuals with memory impairment: Results of a controlled trial},
+   volume = {6},
+   DOI = {991-Einstein%20v6n4%20402-407},
+   year = {2008},
+   type = {Book}
+}
+
+@article{RN3678,
+   author = {Fiatarone Singh, M. A. and Gates, N. and Saigal, N. and Wilson, G. C. and Meiklejohn, J. and Brodaty, H. and Wen, W. and Singh, N. and Baune, B. T. and Suo, C. and Baker, M. K. and Foroughi, N. and Wang, Y. and Sachdev, P. S. and Valenzuela, M.},
+   title = {The Study of Mental and Resistance Training (SMART) study-resistance training and/or cognitive training in mild cognitive impairment: a randomized, double-blind, double-sham controlled trial},
+   journal = {JAMDA},
+   volume = {15},
+   number = {1538-9375 (Electronic)},
+   pages = {873-880},
+   DOI = {10.1016/j.jamda.2014.09.010},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN3709,
+   author = {Francese, T., Sorrell, J., Butler F.},
+   title = {The effects of regular exercise on muscle strength and functional abilities of late stage Alzheimer's residents},
+   journal = {American Journal of Alzheimer's Disease},
+   DOI = {10.1177/153331759701200305},
+   year = {1997},
+   type = {Journal Article}
+}
+
+@phdthesis{RN3601,
+   author = {Gillogly, Barbara},
+   title = {Behavior management in senile dementia of the Alzheimer's type through exercise},
+   DOI = {OCLC25756556},
+   year = {1991},
+   type = {Thesis}
+}
+
+@article{RN3667,
+   author = {Liu-Ambrose, T. and Nagamatsu, L. S. and Graf, P. and Beattie, B. L. and Ashe, M. C. and Handy, T. C.},
+   title = {Resistance training and executive functions: a 12-month randomized controlled trial},
+   journal = {Arch Intern Med},
+   volume = {170},
+   number = {2},
+   pages = {170-8},
+   ISSN = {1538-3679 (Electronic)
+0003-9926 (Linking)},
+   DOI = {10.1001/archinternmed.2009.494},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/20101012},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN3683,
+   author = {Nagamatsu, L. S. and Handy, T. C. and Hsu, C. L. and Voss, M. and Liu-Ambrose, T.},
+   title = {Resistance training promotes cognitive and functional brain plasticity in seniors with probable mild cognitive impairment},
+   journal = {Arch Intern Med},
+   volume = {172},
+   number = {8},
+   pages = {666-8},
+   ISSN = {1538-3679 (Electronic)
+0003-9926 (Linking)},
+   DOI = {10.1001/archinternmed.2012.379},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/22529236},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN3645,
+   author = {Baker, L. D. and Frank, L. L. and Foster-Schubert, K. and Green, P. S. and Wilkinson, C. W. and McTiernan, A. and Plymate, S. R. and Fishel, M. A. and Watson, G. S. and Cholerton, B. A. and Duncan, G. E. and Mehta, P. D. and Craft, S.},
+   title = {Effects of aerobic exercise on mild cognitive impairment: a controlled trial},
+   journal = {Arch Neurol},
+   volume = {67},
+   number = {1},
+   pages = {71-9},
+   ISSN = {1538-3687 (Electronic)
+0003-9942 (Linking)},
+   DOI = {10.1001/archneurol.2009.307},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/20065132},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN3757,
+   author = {Teri, L. and Gibbons, L. E. and McCurry, S. M. and Logsdon, R. G. and Buchner, D. M. and Barlow, W. E. and Kukull, W. A. and LaCroix, A. Z. and McCormick, W. and Larson, E. B.},
+   title = {Exercise plus behavioral management in patients with Alzheimer disease: a randomized controlled trial},
+   journal = {JAMA},
+   volume = {290},
+   number = {15},
+   pages = {2015-22},
+   ISSN = {1538-3598 (Electronic)
+0098-7484 (Linking)},
+   DOI = {10.1001/jama.290.15.2015},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/14559955},
+   year = {2003},
+   type = {Journal Article}
+}
+
+@article{RN3707,
+   author = {Lautenschlager, N. T. and Cox, K. L. and Flicker, L. and Foster, J. K. and van Bockxmeer, F. M. and Xiao, J. and Greenop, K. R. and Almeida, O. P.},
+   title = {Effect of physical activity on cognitive function in older adults at risk for Alzheimer disease: a randomized trial},
+   journal = {JAMA},
+   volume = {300},
+   number = {9},
+   pages = {1027-37},
+   ISSN = {1538-3598 (Electronic)
+0098-7484 (Linking)},
+   DOI = {10.1001/jama.300.9.1027},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/18768414},
+   year = {2008},
+   type = {Journal Article}
+}
+
+@article{RN3730,
+   author = {Mulrow, C. D. and Gerety Mb Fau - Kanten, D. and Kanten D Fau - Cornell, J. E. and Cornell Je Fau - DeNino, L. A. and DeNino La Fau - Chiodo, L. and Chiodo L Fau - Aguilar, C. and Aguilar C Fau - O'Neil, M. B. and O'Neil Mb Fau - Rosenberg, J. and Rosenberg J Fau - Solis, R. M. and Solis, R. M.},
+   title = {A randomized trial of physical rehabilitation for very frail nursing home residents},
+   journal = {JAMA},
+   volume = {7},
+   number = {0098-7484 (Print)},
+   DOI = {10.1001/jama.1994.03510310049037},
+   year = {1994},
+   type = {Journal Article}
+}
+
+@article{RN4995,
+   author = {Sink, K. M. and Espeland, M. A. and Castro, C. M. and Church, T. and Cohen, R. and Dodson, J. A. and Guralnik, J. and Hendrie, H. C. and Jennings, J. and Katula, J. and Lopez, O. L. and McDermott, M. M. and Pahor, M. and Reid, K. F. and Rushing, J. and Verghese, J. and Rapp, S. and Williamson, J. D. and Investigators, Life Study},
+   title = {Effect of a 24-Month Physical Activity Intervention vs Health Education on Cognitive Outcomes in Sedentary Older Adults: The LIFE Randomized Trial},
+   journal = {JAMA},
+   volume = {314},
+   number = {8},
+   pages = {781-90},
+   ISSN = {1538-3598 (Electronic)
+0098-7484 (Linking)},
+   DOI = {10.1001/jama.2015.9617},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/26305648},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN4996,
+   author = {Barnes, D. E. and Santos-Modesitt, W. and Poelke, G. and Kramer, A. F. and Castro, C. and Middleton, L. E. and Yaffe, K.},
+   title = {The Mental Activity and eXercise (MAX) trial: a randomized controlled trial to enhance cognitive function in older adults},
+   journal = {JAMA Intern Med},
+   volume = {173},
+   number = {9},
+   pages = {797-804},
+   ISSN = {2168-6114 (Electronic)
+2168-6106 (Linking)},
+   DOI = {10.1001/jamainternmed.2013.189},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/23545598},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN3732,
+   author = {Pomeroy, V. M. and Warren Cm Fau - Honeycombe, C. and Honeycombe C Fau - Briggs, R. S. and Briggs Rs Fau - Wilkinson, D. G. and Wilkinson Dg Fau - Pickering, R. M. and Pickering Rm Fau - Steiner, A. and Steiner, A.},
+   title = {Mobility and dementia: is physiotherapy treatment during respite care effective?},
+   journal = {International Journal of Geriatric Psychiatry},
+   volume = {14},
+   number = {0885-6230 (Print)},
+   pages = {389-397},
+   DOI = {10.1002/%28SICI%291099-1166%28199905%2914%3A5<389%3A%3AAID-GPS933>3.0.CO%3B2-8},
+   year = {1999},
+   type = {Journal Article}
+}
+
+@article{RN3890,
+   author = {Steinberg, M. and Leoutsakos, J. M. and Podewils, L. J. and Lyketsos, C. G.},
+   title = {Evaluation of a home-based exercise program in the treatment of Alzheimer's disease: the Maximizing Independence in Dementia (MIND) study},
+   journal = {Int J Geriatr Psychiatry},
+   volume = {24},
+   number = {7},
+   pages = {680-5},
+   ISSN = {1099-1166 (Electronic)
+0885-6230 (Linking)},
+   DOI = {10.1002/gps.2175},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/19089875},
+   year = {2009},
+   type = {Journal Article}
+}
+
+@article{RN3740,
+   author = {Muscari, A. and Giannoni, C. and Pierpaoli, L. and Berzigotti, A. and Maietta, P. and Foschi, E. and Ravaioli, C. and Poggiopollini, G. and Bianchi, G. and Magalotti, D. and Tentoni, C. and Zoli, M.},
+   title = {Chronic endurance exercise training prevents aging-related cognitive decline in healthy older adults: a randomized controlled trial},
+   journal = {Int J Geriatr Psychiatry},
+   volume = {25},
+   number = {10},
+   pages = {1055-64},
+   ISSN = {1099-1166 (Electronic)
+0885-6230 (Linking)},
+   DOI = {10.1002/gps.2462},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/20033904},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN3766,
+   author = {Yaguez, L. and Shaw, K. N. and Morris, R. and Matthews, D.},
+   title = {The effects on cognitive functions of a movement-based intervention in patients with Alzheimer's type dementia: a pilot study},
+   journal = {Int J Geriatr Psychiatry},
+   volume = {26},
+   number = {2},
+   pages = {173-81},
+   ISSN = {1099-1166 (Electronic)
+0885-6230 (Linking)},
+   DOI = {10.1002/gps.2510},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/20878665},
+   year = {2011},
+   type = {Journal Article}
+}
+
+@article{RN3715,
+   author = {Lam, L. C. and Chau, R. C. and Wong, B. M. and Fung, A. W. and Lui, V. W. and Tam, C. C. and Leung, G. T. and Kwok, T. C. and Chiu, H. F. and Ng, S. and Chan, W. M.},
+   title = {Interim follow-up of a randomized controlled trial comparing Chinese style mind body (Tai Chi) and stretching exercises on cognitive function in subjects at risk of progressive cognitive decline},
+   journal = {Int J Geriatr Psychiatry},
+   volume = {26},
+   number = {7},
+   pages = {733-40},
+   ISSN = {1099-1166 (Electronic)
+0885-6230 (Linking)},
+   DOI = {10.1002/gps.2602},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/21495078},
+   year = {2011},
+   type = {Journal Article}
+}
+
+@article{RN4247,
+   author = {Ijuin, M. and Sugiyama, M. and Sakuma, N. and Inagaki, H. and Miyamae, F. and Ito, K. and Kojima, N. and Ura, C. and Awata, S.},
+   title = {Walking exercise and cognitive functions in community-dwelling older adults: preliminary results of a randomized controlled trial},
+   journal = {Int J Geriatr Psychiatry},
+   volume = {28},
+   number = {1},
+   pages = {109-10},
+   ISSN = {1099-1166 (Electronic)
+0885-6230 (Linking)},
+   DOI = {10.1002/gps.3804},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/23225698},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN4004,
+   author = {Voss, M. W. and Heo, S. and Prakash, R. S. and Erickson, K. I. and Alves, H. and Chaddock, L. and Szabo, A. N. and Mailey, E. L. and Wojcicki, T. R. and White, S. M. and Gothe, N. and McAuley, E. and Sutton, B. P. and Kramer, A. F.},
+   title = {The influence of aerobic fitness on cerebral white matter integrity and cognitive function in older adults: results of a one-year exercise intervention},
+   journal = {Hum Brain Mapp},
+   volume = {34},
+   number = {11},
+   pages = {2972-85},
+   ISSN = {1097-0193 (Electronic)
+1065-9471 (Linking)},
+   DOI = {10.1002/hbm.22119},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/22674729},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN3759,
+   author = {Tappen, R. M.},
+   title = {The effect of skill training on functional abilities of nursing home residents with dementia},
+   journal = {Res Nurs Health},
+   volume = {17},
+   number = {3},
+   pages = {159-65},
+   ISSN = {0160-6891 (Print)
+0160-6891 (Linking)},
+   DOI = {10.1002/nur.4770170303},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/8184127},
+   year = {1994},
+   type = {Journal Article}
+}
+
+@article{RN3664,
+   author = {Hassmen, P. and Ceci, R. and Backman, L.},
+   title = {Exercise for older women: a training method and its influences on physical and cognitive performance},
+   journal = {Eur J Appl Physiol Occup Physiol},
+   volume = {64},
+   number = {5},
+   pages = {460-6},
+   ISSN = {0301-5548 (Print)
+0301-5548 (Linking)},
+   DOI = {10.1007/bf00625068},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/1612088},
+   year = {1992},
+   type = {Journal Article}
+}
+
+@article{RN3718,
+   author = {Hassmen, P. and Koivula, N.},
+   title = {Mood, physical working capacity and cognitive performance in the elderly as related to physical activity},
+   journal = {Aging (Milano)},
+   volume = {9},
+   number = {1-2},
+   pages = {136-42},
+   ISSN = {0394-9532 (Print)
+0394-9532 (Linking)},
+   DOI = {10.1007/bf03340139},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/9177597},
+   year = {1997},
+   type = {Journal Article}
+}
+
+@article{RN3673,
+   author = {Albinet, C. T. and Boucard, G. and Bouquet, C. A. and Audiffren, M.},
+   title = {Increased heart rate variability and executive performance after aerobic training in the elderly},
+   journal = {Eur J Appl Physiol},
+   volume = {109},
+   number = {4},
+   pages = {617-24},
+   ISSN = {1439-6327 (Electronic)
+1439-6319 (Linking)},
+   DOI = {10.1007/s00421-010-1393-y},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/20186426},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN3739,
+   author = {Oswald, W. D. and Gunzelmann, T. and Rupprecht, R. and Hagen, B.},
+   title = {Differential effects of single versus combined cognitive and physical training with older adults: the SimA study in a 5-year perspective},
+   journal = {Eur J Ageing},
+   volume = {3},
+   number = {4},
+   pages = {179},
+   ISSN = {1613-9372 (Print)
+1613-9372 (Linking)},
+   DOI = {10.1007/s10433-006-0035-z},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/28794762},
+   year = {2006},
+   type = {Journal Article}
+}
+
+@article{RN3742,
+   author = {Masley, S. and Roetzheim, R. and Gualtieri, T.},
+   title = {Aerobic exercise enhances cognitive flexibility},
+   journal = {J Clin Psychol Med Settings},
+   volume = {16},
+   number = {2},
+   pages = {186-93},
+   ISSN = {1573-3572 (Electronic)
+1068-9583 (Linking)},
+   DOI = {10.1007/s10880-009-9159-6},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/19330430},
+   year = {2009},
+   type = {Journal Article}
+}
+
+@article{RN4239,
+   author = {Berryman, N. and Bherer, L. and Nadeau, S. and Lauziere, S. and Lehr, L. and Bobeuf, F. and Lussier, M. and Kergoat, M. J. and Vu, T. T. and Bosquet, L.},
+   title = {Multiple roads lead to Rome: combined high-intensity aerobic and strength training vs. gross motor activities leads to equivalent improvement in executive functions in a cohort of healthy older adults},
+   journal = {Age (Dordr)},
+   volume = {36},
+   number = {5},
+   pages = {9710},
+   ISSN = {1574-4647 (Electronic)
+0161-9152 (Linking)},
+   DOI = {10.1007/s11357-014-9710-8},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/25194940},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN3687,
+   author = {Antunes, H. K. and Santos-Galduroz, R. F. and De Aquino Lemos, V. and Bueno, O. F. and Rzezak, P. and de Santana, M. G. and De Mello, M. T.},
+   title = {The influence of physical exercise and leisure activity on neuropsychological functioning in older adults},
+   journal = {Age (Dordr)},
+   volume = {37},
+   number = {4},
+   pages = {9815},
+   ISSN = {1574-4647 (Electronic)
+0161-9152 (Linking)},
+   DOI = {10.1007/s11357-015-9815-8},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/26169946},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN4429,
+   author = {Smiley-Oyen, A. L. and Lowry, K. A. and Francois, S. J. and Kohut, M. L. and Ekkekakis, P.},
+   title = {Exercise, fitness, and neurocognitive function in older adults: the "selective improvement" and "cardiovascular fitness" hypotheses},
+   journal = {Ann Behav Med},
+   volume = {36},
+   number = {3},
+   pages = {280-91},
+   ISSN = {1532-4796 (Electronic)
+0883-6612 (Linking)},
+   DOI = {10.1007/s12160-008-9064-5},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/18825471},
+   year = {2008},
+   type = {Journal Article}
+}
+
+@article{RN3721,
+   author = {Palleschi, L. and Vetta, F. and De Gennaro, E. and Idone, G. and Sottosanti, G. and Gianni, W. and Marigliano, V.},
+   title = {Effect of aerobic training on the cognitive performance of elderly patients with senile dementia of Alzheimer type},
+   journal = {Arch Gerontol Geriatr},
+   volume = {22 Suppl 1},
+   pages = {47-50},
+   ISSN = {0167-4943 (Print)
+0167-4943 (Linking)},
+   DOI = {10.1016/0167-4943(96)86912-3},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/18653007},
+   year = {1996},
+   type = {Journal Article}
+}
+
+@article{RN3646,
+   author = {Dustman, R. E. and Ruhling, R. O. and Russell, E. M. and Shearer, D. E. and Bonekat, H. W. and Shigeoka, J. W. and Wood, J. S. and Bradford, D. C.},
+   title = {Aerobic exercise training and improved neuropsychological function of older individuals},
+   journal = {Neurobiol Aging},
+   volume = {5},
+   number = {1},
+   pages = {35-42},
+   ISSN = {0197-4580 (Print)
+0197-4580 (Linking)},
+   DOI = {10.1016/0197-4580(84)90083-6},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/6738784},
+   year = {1984},
+   type = {Journal Article}
+}
+
+@article{RN3745,
+   author = {Munguia-Izquierdo, D. and Legaz-Arrese, A.},
+   title = {Assessment of the effects of aquatic therapy on global symptomatology in patients with fibromyalgia syndrome: a randomized controlled trial},
+   journal = {Arch Phys Med Rehabil},
+   volume = {89},
+   number = {12},
+   pages = {2250-7},
+   ISSN = {1532-821X (Electronic)
+0003-9993 (Linking)},
+   DOI = {10.1016/j.apmr.2008.03.026},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/19061736},
+   year = {2008},
+   type = {Journal Article}
+}
+
+@article{RN3675,
+   author = {Eggermont, L. H. and Knol, D. L. and Hol, E. M. and Swaab, D. F. and Scherder, E. J.},
+   title = {Hand motor activity, cognition, mood, and the rest-activity rhythm in dementia: a clustered RCT},
+   journal = {Behav Brain Res},
+   volume = {196},
+   number = {2},
+   pages = {271-8},
+   ISSN = {1872-7549 (Electronic)
+0166-4328 (Linking)},
+   DOI = {10.1016/j.bbr.2008.09.012},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/18926856},
+   year = {2009},
+   type = {Journal Article}
+}
+
+@article{RN3690,
+   author = {Albinet, C. T. and Abou-Dest, A. and Andre, N. and Audiffren, M.},
+   title = {Executive functions improvement following a 5-month aquaerobics program in older adults: Role of cardiac vagal control in inhibition performance},
+   journal = {Biol Psychol},
+   volume = {115},
+   pages = {69-77},
+   ISSN = {1873-6246 (Electronic)
+0301-0511 (Linking)},
+   DOI = {10.1016/j.biopsycho.2016.01.010},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/26812613},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@article{RN3769,
+   author = {Stroth, S. and Kubesch, S. and Dieterle, K. and Ruchsow, M. and Heim, R. and Kiefer, M.},
+   title = {Physical fitness, but not acute exercise modulates event-related potential indices for executive control in healthy adolescents},
+   journal = {Brain Res},
+   volume = {1269},
+   pages = {114-24},
+   ISSN = {1872-6240 (Electronic)
+0006-8993 (Linking)},
+   DOI = {10.1016/j.brainres.2009.02.073},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/19285042},
+   year = {2009},
+   type = {Journal Article}
+}
+
+@article{RN3684,
+   author = {Komulainen, P. and Kivipelto, M. and Lakka, T. A. and Savonen, K. and Hassinen, M. and Kiviniemi, V. and Hänninen, T. and Rauramaa, R.},
+   title = {Exercise, fitness and cognition – A randomised controlled trial in older individuals: The DR's EXTRA study},
+   journal = {European Geriatric Medicine},
+   volume = {1},
+   number = {5},
+   pages = {266-272},
+   ISSN = {18787649},
+   DOI = {10.1016/j.eurger.2010.08.001},
+   url = {http://www.sciencedirect.com/science/article/pii/S1878764910002056},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN3641,
+   author = {Bossers, W. J. and van der Woude, L. H. and Boersma, F. and Hortobagyi, T. and Scherder, E. J. and van Heuvelen, M. J.},
+   title = {A 9-Week Aerobic and Strength Training Program Improves Cognitive and Motor Function in Patients with Dementia: A Randomized, Controlled Trial},
+   journal = {Am J Geriatr Psychiatry},
+   volume = {23},
+   number = {11},
+   pages = {1106-16},
+   ISSN = {1545-7214 (Electronic)
+1064-7481 (Linking)},
+   DOI = {10.1016/j.jagp.2014.12.191},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/25648055},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN3670,
+   author = {Lam, L. C. and Chau, R. C. and Wong, B. M. and Fung, A. W. and Tam, C. W. and Leung, G. T. and Kwok, T. C. and Leung, T. Y. and Ng, S. P. and Chan, W. M.},
+   title = {A 1-year randomized controlled trial comparing mind body exercise (Tai Chi) with stretching and toning exercise on cognitive function in older Chinese adults at risk of cognitive decline},
+   journal = {J Am Med Dir Assoc},
+   volume = {13},
+   number = {6},
+   pages = {568 e15-20},
+   ISSN = {1538-9375 (Electronic)
+1525-8610 (Linking)},
+   DOI = {10.1016/j.jamda.2012.03.008},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/22579072},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN5473,
+   author = {Tarazona-Santabalbina, F. J. and Gomez-Cabrera, M. C. and Perez-Ros, P. and Martinez-Arnau, F. M. and Cabo, H. and Tsaparas, K. and Salvador-Pascual, A. and Rodriguez-Manas, L. and Vina, J.},
+   title = {A Multicomponent Exercise Intervention that Reverses Frailty and Improves Cognition, Emotion, and Social Networking in the Community-Dwelling Frail Elderly: A Randomized Clinical Trial},
+   journal = {J Am Med Dir Assoc},
+   volume = {17},
+   number = {5},
+   pages = {426-33},
+   ISSN = {1538-9375 (Electronic)
+1525-8610 (Linking)},
+   DOI = {10.1016/j.jamda.2016.01.019},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/26947059},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@article{RN3763,
+   author = {Tsai, P. F. and Chang, J. Y. and Beck, C. and Kuo, Y. F. and Keefe, F. J.},
+   title = {A pilot cluster-randomized trial of a 20-week Tai Chi program in elders with cognitive impairment and osteoarthritic knee: effects on pain and other health outcomes},
+   journal = {J Pain Symptom Manage},
+   volume = {45},
+   number = {4},
+   pages = {660-9},
+   ISSN = {1873-6513 (Electronic)
+0885-3924 (Linking)},
+   DOI = {10.1016/j.jpainsymman.2012.04.009},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/23017610},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN4241,
+   author = {van de Rest, O. and van der Zwaluw, N. L. and Tieland, M. and Adam, J. J. and Hiddink, G. J. and van Loon, L. J. and de Groot, L. C.},
+   title = {Effect of resistance-type exercise training with or without protein supplementation on cognitive functioning in frail and pre-frail elderly: secondary analysis of a randomized, double-blind, placebo-controlled trial},
+   journal = {Mech Ageing Dev},
+   volume = {136-137},
+   pages = {85-93},
+   ISSN = {1872-6216 (Electronic)
+0047-6374 (Linking)},
+   DOI = {10.1016/j.mad.2013.12.005},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/24374288},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN3995,
+   author = {Ruscheweyh, R. and Willemer, C. and Kruger, K. and Duning, T. and Warnecke, T. and Sommer, J. and Volker, K. and Ho, H. V. and Mooren, F. and Knecht, S. and Floel, A.},
+   title = {Physical activity and memory functions: an interventional study},
+   journal = {Neurobiol Aging},
+   volume = {32},
+   number = {7},
+   pages = {1304-19},
+   ISSN = {1558-1497 (Electronic)
+0197-4580 (Linking)},
+   DOI = {10.1016/j.neurobiolaging.2009.08.001},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/19716631},
+   year = {2011},
+   type = {Journal Article}
+}
+
+@article{RN3689,
+   author = {Liu-Ambrose, T. and Nagamatsu, L. S. and Voss, M. W. and Khan, K. M. and Handy, T. C.},
+   title = {Resistance training and functional plasticity of the aging brain: a 12-month randomized controlled trial},
+   journal = {Neurobiol Aging},
+   volume = {33},
+   number = {8},
+   pages = {1690-8},
+   ISSN = {1558-1497 (Electronic)
+0197-4580 (Linking)},
+   DOI = {10.1016/j.neurobiolaging.2011.05.010},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/21741129},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN3717,
+   author = {Hopkins, M. E. and Davis, F. C. and Vantieghem, M. R. and Whalen, P. J. and Bucci, D. J.},
+   title = {Differential effects of acute and regular physical exercise on cognition and affect},
+   journal = {Neuroscience},
+   volume = {215},
+   pages = {59-68},
+   ISSN = {1873-7544 (Electronic)
+0306-4522 (Linking)},
+   DOI = {10.1016/j.neuroscience.2012.04.056},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/22554780},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN4342,
+   author = {Niemann, C. and Godde, B. and Staudinger, U. M. and Voelcker-Rehage, C.},
+   title = {Exercise-induced changes in basal ganglia volume and cognition in older adults},
+   journal = {Neuroscience},
+   volume = {281},
+   pages = {147-63},
+   ISSN = {1873-7544 (Electronic)
+0306-4522 (Linking)},
+   DOI = {10.1016/j.neuroscience.2014.09.033},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/25255932},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN3768,
+   author = {Stroth, S. and Reinhardt, R. K. and Thone, J. and Hille, K. and Schneider, M. and Hartel, S. and Weidemann, W. and Bos, K. and Spitzer, M.},
+   title = {Impact of aerobic exercise training on cognitive functions and affect associated to the COMT polymorphism in young adults},
+   journal = {Neurobiol Learn Mem},
+   volume = {94},
+   number = {3},
+   pages = {364-72},
+   ISSN = {1095-9564 (Electronic)
+1074-7427 (Linking)},
+   DOI = {10.1016/j.nlm.2010.08.003},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/20800689},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN3647,
+   author = {Griffin, E. W. and Mullally, S. and Foley, C. and Warmington, S. A. and O'Mara, S. M. and Kelly, A. M.},
+   title = {Aerobic exercise improves hippocampal function and increases BDNF in the serum of young adult males},
+   journal = {Physiol Behav},
+   volume = {104},
+   number = {5},
+   pages = {934-41},
+   ISSN = {1873-507X (Electronic)
+0031-9384 (Linking)},
+   DOI = {10.1016/j.physbeh.2011.06.005},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/21722657},
+   year = {2011},
+   type = {Journal Article}
+}
+
+@article{RN3726,
+   author = {Meuleman, J. R. and Brechue Wf Fau - Kubilis, P. S. and Kubilis Ps Fau - Lowenthal, D. T. and Lowenthal, D. T. and McMurdo, M. E. and Rennie, L. M.},
+   title = {Exercise training in the debilitated aged: strength and functional outcomes Improvements in quadriceps strength with regular seated exercise in the institutionalized elderly},
+   journal = {Arch Phys Med Rehabil},
+   volume = {81},
+   number = {0003-9993 (Print)},
+   pages = {312-318},
+   DOI = {10.1016/s0003-9993(00)90077-7},
+   year = {2000},
+   type = {Journal Article}
+}
+
+@article{RN3677,
+   author = {Chandler, J. M. and Duncan, P. W. and Kochersberger, G. and Studenski, S.},
+   title = {Is lower extremity strength gain associated with improvement in physical performance and disability in frail, community-dwelling elders?},
+   journal = {Arch Phys Med Rehabil},
+   volume = {79},
+   number = {1},
+   pages = {24-30},
+   ISSN = {0003-9993 (Print)
+0003-9993 (Linking)},
+   DOI = {10.1016/s0003-9993(98)90202-7},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/9440412},
+   year = {1998},
+   type = {Journal Article}
+}
+
+@article{RN3649,
+   author = {Best, J. R. and Chiu, B. K. and Liang Hsu, C. and Nagamatsu, L. S. and Liu-Ambrose, T.},
+   title = {Long-Term Effects of Resistance Exercise Training on Cognition and Brain Volume in Older Women: Results from a Randomized Controlled Trial},
+   journal = {J Int Neuropsychol Soc},
+   volume = {21},
+   number = {10},
+   pages = {745-56},
+   ISSN = {1469-7661 (Electronic)
+1355-6177 (Linking)},
+   DOI = {10.1017/S1355617715000673},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/26581787},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN3695,
+   author = {Pierce, T. W. and Madden, D. J. and Siegel, W. C. and Blumenthal, J. A.},
+   title = {Effects of aerobic exercise on cognitive and psychosocial functioning in patients with mild hypertension},
+   journal = {Health Psychol},
+   volume = {12},
+   number = {4},
+   pages = {286-91},
+   ISSN = {0278-6133 (Print)
+0278-6133 (Linking)},
+   DOI = {10.1037//0278-6133.12.4.286},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/8404802},
+   year = {1993},
+   type = {Journal Article}
+}
+
+@article{RN3637,
+   author = {Emery, C. F. and Schein, R. L. and Hauck, E. R. and MacIntyre, N. R.},
+   title = {Psychological and cognitive outcomes of a randomized trial of exercise among patients with chronic obstructive pulmonary disease},
+   journal = {Health Psychol},
+   volume = {17},
+   number = {3},
+   pages = {232-40},
+   ISSN = {0278-6133 (Print)
+0278-6133 (Linking)},
+   DOI = {10.1037//0278-6133.17.3.232},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/9619472},
+   year = {1998},
+   type = {Journal Article}
+}
+
+@article{RN3636,
+   author = {Madden, D. J. and Blumenthal, J. A. and Allen, P. A. and Emery, C. F.},
+   title = {Improving aerobic capacity in healthy older adults does not necessarily lead to improved cognitive performance},
+   journal = {Psychol Aging},
+   volume = {4},
+   number = {3},
+   pages = {307-20},
+   ISSN = {0882-7974 (Print)
+0882-7974 (Linking)},
+   DOI = {10.1037//0882-7974.4.3.307},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/2803624},
+   year = {1989},
+   type = {Journal Article}
+}
+
+@article{RN3653,
+   author = {Hawkins, H. L. and Kramer, A. F. and Capaldi, D.},
+   title = {Aging, exercise, and attention},
+   journal = {Psychol Aging},
+   volume = {7},
+   number = {4},
+   pages = {643-53},
+   ISSN = {0882-7974 (Print)
+0882-7974 (Linking)},
+   DOI = {10.1037//0882-7974.7.4.643},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/1466833},
+   year = {1992},
+   type = {Journal Article}
+}
+
+@article{RN3635,
+   author = {Hotting, K. and Reich, B. and Holzschneider, K. and Kauschke, K. and Schmidt, T. and Reer, R. and Braumann, K. M. and Roder, B.},
+   title = {Differential cognitive effects of cycling versus stretching/coordination training in middle-aged adults},
+   journal = {Health Psychol},
+   volume = {31},
+   number = {2},
+   pages = {145-55},
+   ISSN = {1930-7810 (Electronic)
+0278-6133 (Linking)},
+   DOI = {10.1037/a0025371},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/21895371},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN4246,
+   author = {Maillot, P. and Perrot, A. and Hartley, A.},
+   title = {Effects of interactive physical-activity video-game
+training on physical and cognitive function in older
+adults},
+   journal = {Psychology and Aging},
+   volume = {27},
+   pages = {589-600},
+   DOI = {10.1037/a0026268},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@misc{RN3651,
+   volume = {400(6743)},
+   pages = {418-9},
+   month = {Jul 29},
+   ISBN = {0028-0836},
+   DOI= {10.1038/22682},
+   url = {http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Citation&list_uids=10440369},
+   year = {1999},
+   type = {Generic}
+}
+
+@article{RN3731,
+   author = {Nowalk, M. P. and Prendergast Jm Fau - Bayles, C. M. and Bayles Cm Fau - D'Amico, F. J. and D'Amico Fj Fau - Colvin, G. C. and Colvin, G. C.},
+   title = {A randomized trial of exercise programs among older individuals living in two long-term care facilities: the FallsFREE program},
+   journal = {JAGS},
+   volume = {49},
+   number = {0002-8614 (Print)},
+   pages = {859–865},
+   DOI = {10.1046/j.1532-5415.2001.49174.x},
+   year = {2001},
+   type = {Journal Article}
+}
+
+@article{RN3733,
+   author = {Schnelle, J. F. and Alessi, C. A. and Simmons, S. F. and Al-Samarrai, N. R. and Beck, J. C. and Ouslander, J. G.},
+   title = {Translating clinical research into practice: a randomized controlled trial of exercise and incontinence care with nursing home residents},
+   journal = {J Am Geriatr Soc},
+   volume = {50},
+   number = {9},
+   pages = {1476-83},
+   ISSN = {0002-8614 (Print)
+0002-8614 (Linking)},
+   DOI = {10.1046/j.1532-5415.2002.50401.x},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/12383143},
+   year = {2002},
+   type = {Journal Article}
+}
+
+@article{RN5466,
+   author = {Matsufuji, S. and Shoji, T. and Yano, Y. and Tsujimoto, Y. and Kishimoto, H. and Tabata, T. and Emoto, M. and Inaba, M.},
+   title = {Effect of chair stand exercise on activity of daily living: a randomized controlled trial in hemodialysis patients},
+   journal = {J Ren Nutr},
+   volume = {25},
+   number = {1},
+   pages = {17-24},
+   ISSN = {1532-8503 (Electronic)
+1051-2276 (Linking)},
+   DOI = {10.1053/j.jrn.2014.06.010},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/25194621},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN3682,
+   author = {Fabre, C. and Chamari, K. and Mucci, P. and Masse-Biron, J. and Prefaut, C.},
+   title = {Improvement of cognitive function by mental and/or individualized aerobic training in healthy elderly subjects},
+   journal = {Int J Sports Med},
+   volume = {23},
+   number = {6},
+   pages = {415-21},
+   ISSN = {0172-4622 (Print)
+0172-4622 (Linking)},
+   DOI = {10.1055/s-2002-33735},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/12215960},
+   year = {2002},
+   type = {Journal Article}
+}
+
+@article{RN3723,
+   author = {Santana-Sosa, E. and Barriopedro, M. I. and Lopez-Mojares, L. M. and Perez, M. and Lucia, A.},
+   title = {Exercise training is beneficial for Alzheimer's patients},
+   journal = {Int J Sports Med},
+   volume = {29},
+   number = {10},
+   pages = {845-50},
+   ISSN = {0172-4622 (Print)
+0172-4622 (Linking)},
+   DOI = {10.1055/s-2008-1038432},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/18401810},
+   year = {2008},
+   type = {Journal Article}
+}
+
+@article{RN3719,
+   author = {Fiatarone, M. A. and O'Neill, E. F. and Ryan, N. D. and Clements, K. M. and Solares, G. R. and Nelson, M. E. and Roberts, S. B. and Kehayias, J. J. and Lipsitz, L. A. and Evans, W. J.},
+   title = {Exercise training and nutritional supplementation for physical frailty in very elderly people},
+   journal = {N Engl J Med},
+   volume = {330},
+   number = {25},
+   pages = {1769-75},
+   ISSN = {0028-4793 (Print)
+0028-4793 (Linking)},
+   DOI = {10.1056/NEJM199406233302501},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/8190152},
+   year = {1994},
+   type = {Journal Article}
+}
+
+@article{RN3663,
+   author = {Colcombe, S. J. and Kramer, A. F. and Erickson, K. I. and Scalf, P. and McAuley, E. and Cohen, N. J. and Webb, A. and Jerome, G. J. and Marquez, D. X. and Elavsky, S.},
+   title = {Cardiovascular fitness, cortical plasticity, and aging},
+   journal = {Proc Natl Acad Sci U S A},
+   volume = {101},
+   number = {9},
+   pages = {3316-21},
+   ISSN = {0027-8424 (Print)
+0027-8424 (Linking)},
+   DOI = {10.1073/pnas.0400266101},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/14978288},
+   year = {2004},
+   type = {Journal Article}
+}
+
+@article{RN4707,
+   author = {Erickson, K. I. and Voss, M. W. and Prakash, R. S. and Basak, C. and Szabo, A. and Chaddock, L. and Kim, J. S. and Heo, S. and Alves, H. and White, S. M. and Wojcicki, T. R. and Mailey, E. and Vieira, V. J. and Martin, S. A. and Pence, B. D. and Woods, J. A. and McAuley, E. and Kramer, A. F.},
+   title = {Exercise training increases size of hippocampus and improves memory},
+   journal = {Proc Natl Acad Sci U S A},
+   volume = {108},
+   number = {7},
+   pages = {3017-22},
+   ISSN = {1091-6490 (Electronic)
+0027-8424 (Linking)},
+   DOI = {10.1073/pnas.1015950108},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/21282661},
+   year = {2011},
+   type = {Journal Article}
+}
+
+@article{RN3722,
+   author = {Rikli, R. E. and Edwards, D. J.},
+   title = {Effects of a three-year exercise program on motor function and cognitive processing speed in older women},
+   journal = {Res Q Exerc Sport},
+   volume = {62},
+   number = {1},
+   pages = {61-7},
+   ISSN = {0270-1367 (Print)
+0270-1367 (Linking)},
+   DOI = {10.1080/02701367.1991.10607519},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/2028094},
+   year = {1991},
+   type = {Journal Article}
+}
+
+@article{RN3735,
+   author = {Stamford, B. A. and Hambacher, W. and Fallica, A.},
+   title = {Effects of daily physical exercise on the psychiatric state of institutionalized geriatric mental patients},
+   journal = {Res Q},
+   volume = {45},
+   number = {1},
+   pages = {34-41},
+   ISSN = {0034-5377 (Print)
+0034-5377 (Linking)},
+   DOI = {10.1080/10671188.1974.10615238},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/4522210},
+   year = {1974},
+   type = {Journal Article}
+}
+
+@article{RN3629,
+   author = {Evers, A. and Klusmann, V. and Schwarzer, R. and Heuser, I.},
+   title = {Improving cognition by adherence to physical or mental exercise: a moderated mediation analysis},
+   journal = {Aging Ment Health},
+   volume = {15},
+   number = {4},
+   pages = {446-55},
+   ISSN = {1364-6915 (Electronic)
+1360-7863 (Linking)},
+   DOI = {10.1080/13607863.2010.543657},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/21500011},
+   year = {2011},
+   type = {Journal Article}
+}
+
+@article{RN3746,
+   author = {Scherder, E. J. and Van Paasschen, J. and Deijen, J. B. and Van Der Knokke, S. and Orlebeke, J. F. and Burgers, I. and Devriese, P. P. and Swaab, D. F. and Sergeant, J. A.},
+   title = {Physical activity and executive functions in the elderly with mild cognitive impairment},
+   journal = {Aging Ment Health},
+   volume = {9},
+   number = {3},
+   pages = {272-80},
+   ISSN = {1360-7863 (Print)
+1360-7863 (Linking)},
+   DOI = {10.1080/13607860500089930},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/16019281},
+   year = {2005},
+   type = {Journal Article}
+}
+
+@article{RN3754,
+   author = {Williams, C. L. and Tappen, R. M.},
+   title = {Exercise training for depressed older adults with Alzheimer's disease},
+   journal = {Aging Ment Health},
+   volume = {12},
+   number = {1},
+   pages = {72-80},
+   ISSN = {1360-7863 (Print)
+1360-7863 (Linking)},
+   DOI = {10.1080/13607860701529932},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/18297481},
+   year = {2008},
+   type = {Journal Article}
+}
+
+@article{RN3633,
+   author = {Conradsson, M. and Littbrand, H. and Lindelof, N. and Gustafson, Y. and Rosendahl, E.},
+   title = {Effects of a high-intensity functional exercise programme on depressive symptoms and psychological well-being among older people living in residential care facilities: A cluster-randomized controlled trial},
+   journal = {Aging Ment Health},
+   volume = {14},
+   number = {5},
+   pages = {565-76},
+   ISSN = {1364-6915 (Electronic)
+1360-7863 (Linking)},
+   DOI = {10.1080/13607860903483078},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/20496181},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN3728,
+   author = {Molloy, D. W. and Richardson, L. D. and Crilly, R. G.},
+   title = {The effects of a three-month exercise programme on neuropsychological function in elderly institutionalized women: a randomized controlled trial},
+   journal = {Age Ageing},
+   volume = {17},
+   number = {5},
+   pages = {303-10},
+   ISSN = {0002-0729 (Print)
+0002-0729 (Linking)},
+   DOI = {10.1093/ageing/17.5.303},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/3068971},
+   year = {1988},
+   type = {Journal Article}
+}
+
+@article{RN3725,
+   author = {McMurdo, M. E. and Rennie, L.},
+   title = {A controlled trial of exercise by residents of old people's homes},
+   journal = {Age Ageing},
+   volume = {22},
+   number = {1},
+   pages = {11-5},
+   ISSN = {0002-0729 (Print)
+0002-0729 (Linking)},
+   DOI = {10.1093/ageing/22.1.11},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/8438659},
+   year = {1993},
+   type = {Journal Article}
+}
+
+@article{RN3724,
+   author = {McMurdo, M. E. and Johnstone, R.},
+   title = {A randomized controlled trial of a home exercise programme for elderly people with poor mobility},
+   journal = {Age Ageing},
+   volume = {24},
+   number = {5},
+   pages = {425-8},
+   ISSN = {0002-0729 (Print)
+0002-0729 (Linking)},
+   DOI = {10.1093/ageing/24.5.425},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/8669348},
+   year = {1995},
+   type = {Journal Article}
+}
+
+@article{RN4243,
+   author = {Hars, M. and Herrmann, F. R. and Gold, G. and Rizzoli, R. and Trombetti, A.},
+   title = {Effect of music-based multitask training on cognition and mood in older adults},
+   journal = {Age Ageing},
+   volume = {43},
+   number = {2},
+   pages = {196-200},
+   ISSN = {1468-2834 (Electronic)
+0002-0729 (Linking)},
+   DOI = {10.1093/ageing/aft163},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/24212920},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN4385,
+   author = {Vaughan, S. and Wallis, M. and Polit, D. and Steele, M. and Shum, D. and Morris, N.},
+   title = {The effects of multimodal exercise on cognitive and physical functioning and brain-derived neurotrophic factor in older women: a randomised controlled trial},
+   journal = {Age Ageing},
+   volume = {43},
+   number = {5},
+   pages = {623-9},
+   ISSN = {1468-2834 (Electronic)
+0002-0729 (Linking)},
+   DOI = {10.1093/ageing/afu010},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/24554791},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN3639,
+   author = {Law, L. L. and Barnett, F. and Yau, M. K. and Gray, M. A.},
+   title = {Effects of functional tasks exercise on older adults with cognitive impairment at risk of Alzheimer's disease: a randomised controlled trial},
+   journal = {Age Ageing},
+   volume = {43},
+   number = {6},
+   pages = {813-20},
+   ISSN = {1468-2834 (Electronic)
+0002-0729 (Linking)},
+   DOI = {10.1093/ageing/afu055},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/24850540},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN3729,
+   author = {Morris, J. N. and Fiatarone, M. and Kiely, D. K. and Belleville-Taylor, P. and Murphy, K. and Littlehale, S. and Ooi, W. L. and O'Neill, E. and Doyle, N.},
+   title = {Nursing rehabilitation and exercise strategies in the nursing home},
+   journal = {J Gerontol A Biol Sci Med Sci},
+   volume = {54},
+   number = {10},
+   pages = {M494-500},
+   ISSN = {1079-5006 (Print)
+1079-5006 (Linking)},
+   DOI = {10.1093/gerona/54.10.m494},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/10568531},
+   year = {1999},
+   type = {Journal Article}
+}
+
+@article{RN3711,
+   author = {Lazowski, D. A. and Ecclestone, N. A. and Myers, A. M. and Paterson, D. H. and Tudor-Locke, C. and Fitzgerald, C. and Jones, G. and Shima, N. and Cunningham, D. A.},
+   title = {A randomized outcome evaluation of group exercise programs in long-term care institutions},
+   journal = {J Gerontol A Biol Sci Med Sci},
+   volume = {54},
+   number = {12},
+   pages = {M621-8},
+   ISSN = {1079-5006 (Print)
+1079-5006 (Linking)},
+   DOI = {10.1093/gerona/54.12.m621},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/10647968},
+   year = {1999},
+   type = {Journal Article}
+}
+
+@article{RN4002,
+   author = {Colcombe, S. J. and Erickson, K. I. and Scalf, P. E. and Kim, J. S. and Prakash, R. and McAuley, E. and Elavsky, S. and Marquez, D. X. and Hu, L. and Kramer, A. F.},
+   title = {Aerobic exercise training increases brain volume in aging humans},
+   journal = {J Gerontol A Biol Sci Med Sci},
+   volume = {61},
+   number = {11},
+   pages = {1166-70},
+   ISSN = {1079-5006 (Print)
+1079-5006 (Linking)},
+   DOI = {10.1093/gerona/61.11.1166},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/17167157},
+   year = {2006},
+   type = {Journal Article}
+}
+
+@article{RN3560,
+   author = {Williamson, J. D. and Espeland, M. and Kritchevsky, S. B. and Newman, A. B. and King, A. C. and Pahor, M. and Guralnik, J. M. and Pruitt, L. A. and Miller, M. E. and Investigators, Life Study},
+   title = {Changes in cognitive function in a randomized trial of physical activity: results of the lifestyle interventions and independence for elders pilot study},
+   journal = {J Gerontol A Biol Sci Med Sci},
+   volume = {64},
+   number = {6},
+   pages = {688-94},
+   ISSN = {1758-535X (Electronic)
+1079-5006 (Linking)},
+   DOI = {10.1093/gerona/glp014},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/19244157},
+   year = {2009},
+   type = {Journal Article}
+}
+
+@article{RN3648,
+   author = {Rosano, C. and Venkatraman, V. K. and Guralnik, J. and Newman, A. B. and Glynn, N. W. and Launer, L. and Taylor, C. A. and Williamson, J. and Studenski, S. and Pahor, M. and Aizenstein, H.},
+   title = {Psychomotor speed and functional brain MRI 2 years after completing a physical activity treatment},
+   journal = {J Gerontol A Biol Sci Med Sci},
+   volume = {65},
+   number = {6},
+   pages = {639-47},
+   ISSN = {1758-535X (Electronic)
+1079-5006 (Linking)},
+   DOI = {10.1093/gerona/glq038},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/20348185},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN3680,
+   author = {Klusmann, V. and Evers, A. and Schwarzer, R. and Schlattmann, P. and Reischies, F. M. and Heuser, I. and Dimeo, F. C.},
+   title = {Complex mental and physical activity in older women and cognitive performance: a 6-month randomized controlled trial},
+   journal = {J Gerontol A Biol Sci Med Sci},
+   volume = {65},
+   number = {6},
+   pages = {680-8},
+   ISSN = {1758-535X (Electronic)
+1079-5006 (Linking)},
+   DOI = {10.1093/gerona/glq053},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/20418350},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN3659,
+   author = {Gothe, N. P. and Kramer, A. F. and McAuley, E.},
+   title = {The effects of an 8-week Hatha yoga intervention on executive function in older adults},
+   journal = {J Gerontol A Biol Sci Med Sci},
+   volume = {69},
+   number = {9},
+   pages = {1109-16},
+   ISSN = {1758-535X (Electronic)
+1079-5006 (Linking)},
+   DOI = {10.1093/gerona/glu095},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/25024234},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN3720,
+   author = {Langlois, F. and Vu, T. T. and Chasse, K. and Dupuis, G. and Kergoat, M. J. and Bherer, L.},
+   title = {Benefits of physical exercise training on cognition and quality of life in frail older adults},
+   journal = {J Gerontol B Psychol Sci Soc Sci},
+   volume = {68},
+   number = {3},
+   pages = {400-4},
+   ISSN = {1758-5368 (Electronic)
+1079-5014 (Linking)},
+   DOI = {10.1093/geronb/gbs069},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/22929394},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN3699,
+   author = {Barry, A. J. and Steinmetz, J. R. and Page, H. F. and Rodahl, K.},
+   title = {The effects of physical conditioning on older individuals. II. Motor performance and cognitive function},
+   journal = {J Gerontol},
+   volume = {21},
+   number = {2},
+   pages = {192-9},
+   ISSN = {0022-1422 (Print)
+0022-1422 (Linking)},
+   DOI = {10.1093/geronj/21.2.192},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/5930513},
+   year = {1966},
+   type = {Journal Article}
+}
+
+@article{RN3668,
+   author = {Powell, R. R.},
+   title = {Psychological effects of exercise therapy upon institutionalized geriatric mental patients},
+   journal = {J Gerontol},
+   volume = {29},
+   number = {2},
+   pages = {157-61},
+   ISSN = {0022-1422 (Print)
+0022-1422 (Linking)},
+   DOI = {10.1093/geronj/29.2.157},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/4811950},
+   year = {1974},
+   type = {Journal Article}
+}
+
+@article{RN3652,
+   author = {Clark, B. A. and Wade, M. G. and Massey, B. H. and Van Dyke, R.},
+   title = {Response of institutionalized geriatric mental patients to a twelve-week program of regular physical activity},
+   journal = {J Gerontol},
+   volume = {30},
+   number = {5},
+   pages = {565-73},
+   ISSN = {0022-1422 (Print)
+0022-1422 (Linking)},
+   DOI = {10.1093/geronj/30.5.565},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/1181361},
+   year = {1975},
+   type = {Journal Article}
+}
+
+@article{RN3634,
+   author = {Blumenthal, J. A. and Emery, C. F. and Madden, D. J. and George, L. K. and Coleman, R. E. and Riddle, M. W. and McKee, D. C. and Reasoner, J. and Williams, R. S.},
+   title = {Cardiovascular and behavioral effects of aerobic exercise training in healthy older men and women},
+   journal = {J Gerontol},
+   volume = {44},
+   number = {5},
+   pages = {M147-57},
+   ISSN = {0022-1422 (Print)
+0022-1422 (Linking)},
+   DOI = {10.1093/geronj/44.5.m147},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/2768768},
+   year = {1989},
+   type = {Journal Article}
+}
+
+@article{RN3748,
+   author = {Panton, L. B. and Graves, J. E. and Pollock, M. L. and Hagberg, J. M. and Chen, W.},
+   title = {Effect of aerobic and resistance training on fractionated reaction time and speed of movement},
+   journal = {J Gerontol},
+   volume = {45},
+   number = {1},
+   pages = {M26-31},
+   ISSN = {0022-1422 (Print)
+0022-1422 (Linking)},
+   DOI = {10.1093/geronj/45.1.m26},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/2295775},
+   year = {1990},
+   type = {Journal Article}
+}
+
+@article{RN3654,
+   author = {Blumenthal, J. A. and Emery, C. F. and Madden, D. J. and Schniebolk, S. and Walsh-Riddle, M. and George, L. K. and McKee, D. C. and Higginbotham, M. B. and Cobb, F. R. and Coleman, R. E.},
+   title = {Long-term effects of exercise on psychological functioning in older men and women},
+   journal = {J Gerontol},
+   volume = {46},
+   number = {6},
+   pages = {P352-61},
+   ISSN = {0022-1422 (Print)
+0022-1422 (Linking)},
+   DOI = {10.1093/geronj/46.6.p352},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/1940092},
+   year = {1991},
+   type = {Journal Article}
+}
+
+@article{RN3640,
+   author = {Hill, R. D. and Storandt, M. and Malley, M.},
+   title = {The impact of long-term exercise training on psychological function in older adults},
+   journal = {J Gerontol},
+   volume = {48},
+   number = {1},
+   pages = {P12-7},
+   ISSN = {0022-1422 (Print)
+0022-1422 (Linking)},
+   DOI = {10.1093/geronj/48.1.p12},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/8418145},
+   year = {1993},
+   type = {Journal Article}
+}
+
+@article{RN3688,
+   author = {Emery, C. F. and Gatz, M.},
+   title = {Psychological and cognitive effects of an exercise program for community-residing older adults},
+   journal = {Gerontologist},
+   volume = {30},
+   number = {2},
+   pages = {184-8},
+   ISSN = {0016-9013 (Print)
+0016-9013 (Linking)},
+   DOI = {10.1093/geront/30.2.184},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/2347498},
+   year = {1990},
+   type = {Journal Article}
+}
+
+@article{RN3666,
+   author = {Cheryl A. Cott, Pamela Dawson, Souraya Sidani, and Donna Wells},
+   title = {The Effects of a Walking/Talking Program on Communication, Ambulation, and Functional Status in Residents with Alzheimer Disease},
+   journal = {Alzheimer Disease and Associated Disorders},
+   volume = {16},
+   number = {2},
+   pages = {81-87},
+   DOI = {10.1097/01.WAD.0000015569.76518.F1},
+   year = {2002},
+   type = {Journal Article}
+}
+
+@article{RN3758,
+   author = {Tappen, R. M. and Roach, K. E. and Applegate, E. B. and Stowell, P.},
+   title = {Effect of a combined walking and conversation intervention on functional mobility of nursing home residents with Alzheimer disease},
+   journal = {Alzheimer Dis Assoc Disord},
+   volume = {14},
+   number = {4},
+   pages = {196-201},
+   ISSN = {0893-0341 (Print)
+0893-0341 (Linking)},
+   DOI = {10.1097/00002093-200010000-00002},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/11186596},
+   year = {2000},
+   type = {Journal Article}
+}
+
+@article{RN3704,
+   author = {Cott, C. A. and Dawson, P. and Sidani, S. and Wells, D.},
+   title = {The effects of a walking/talking program on communication, ambulation, and functional status in residents with Alzheimer disease},
+   journal = {Alzheimer Dis Assoc Disord},
+   volume = {16},
+   number = {2},
+   pages = {81-7},
+   ISSN = {0893-0341 (Print)
+0893-0341 (Linking)},
+   DOI = {10.1097/00002093-200204000-00005},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/12040303},
+   year = {2002},
+   type = {Journal Article}
+}
+
+@book{RN3714,
+   author = {Kounti, Fotini and Bakoglidou, Evaggelia and Agogiatou, Christina and Emerson Lombardo, Nancy and Lazarus Serper, Lynn and Tsolaki, Magda},
+   title = {RHEA,* a Nonpharmacological Cognitive Training Intervention in Patients With Mild Cognitive Impairment: A Pilot Study},
+   volume = {27},
+   pages = {289–300},
+   DOI = {10.1097/TGR.0b013e31821e59a9},
+   year = {2011},
+   type = {Book}
+}
+
+@article{RN5464,
+   author = {Kuo, Mei-Chen and Chen, Ching-Min and Jeng, Chii},
+   title = {A Randomized Controlled Trial of the Prescribed Stepper Walking Program in Preventing Frailty Among the Dwelling Elderly},
+   journal = {Topics in Geriatric Rehabilitation},
+   volume = {34},
+   number = {3},
+   pages = {223-333},
+   ISSN = {0882-7524},
+   DOI = {10.1097/tgr.0000000000000198},
+   year = {2018},
+   type = {Journal Article}
+}
+
+@article{RN3691,
+   author = {Ansai, J. H. and Rebelatto, J. R.},
+   title = {Effect of two physical exercise protocols on cognition and depressive symptoms in oldest-old people: A randomized controlled trial},
+   journal = {Geriatr Gerontol Int},
+   volume = {15},
+   number = {9},
+   pages = {1127-34},
+   ISSN = {1447-0594 (Electronic)
+1447-0594 (Linking)},
+   DOI = {10.1111/ggi.12411},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/25407380},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN3765,
+   author = {Yoon, D. H. and Kang, D. and Kim, H. J. and Kim, J. S. and Song, H. S. and Song, W.},
+   title = {Effect of elastic band-based high-speed power training on cognitive function, physical performance and muscle strength in older women with mild cognitive impairment},
+   journal = {Geriatr Gerontol Int},
+   volume = {17},
+   number = {5},
+   pages = {765-772},
+   ISSN = {1447-0594 (Electronic)
+1447-0594 (Linking)},
+   DOI = {10.1111/ggi.12784},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/27396580},
+   year = {2017},
+   type = {Journal Article}
+}
+
+@article{RN3642,
+   author = {Coelho, F. G. and Andrade, L. P. and Pedroso, R. V. and Santos-Galduroz, R. F. and Gobbi, S. and Costa, J. L. and Gobbi, L. T.},
+   title = {Multimodal exercise intervention improves frontal cognitive functions and gait in Alzheimer's disease: a controlled trial},
+   journal = {Geriatr Gerontol Int},
+   volume = {13},
+   number = {1},
+   pages = {198-203},
+   ISSN = {1447-0594 (Electronic)
+1447-0594 (Linking)},
+   DOI = {10.1111/j.1447-0594.2012.00887.x},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/22686565},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN3749,
+   author = {Williams, P. and Lord, S. R.},
+   title = {Effects of group exercise on cognitive functioning and mood in older women},
+   journal = {Aust N Z J Public Health},
+   volume = {21},
+   number = {1},
+   pages = {45-52},
+   ISSN = {1326-0200 (Print)
+1326-0200 (Linking)},
+   DOI = {10.1111/j.1467-842x.1997.tb01653.x},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/9141729},
+   year = {1997},
+   type = {Journal Article}
+}
+
+@article{RN3755,
+   author = {Vreugdenhil, A. and Cannell, J. and Davies, A. and Razay, G.},
+   title = {A community-based exercise programme to improve functional ability in people with Alzheimer's disease: a randomized controlled trial},
+   journal = {Scand J Caring Sci},
+   volume = {26},
+   number = {1},
+   pages = {12-9},
+   ISSN = {1471-6712 (Electronic)
+0283-9318 (Linking)},
+   DOI = {10.1111/j.1471-6712.2011.00895.x},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/21564154},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN3727,
+   author = {Molloy, D. W. and Beerschoten, D. A. and Borrie, M. J. and Crilly, R. G. and Cape, R. D.},
+   title = {Acute effects of exercise on neuropsychological function in elderly subjects},
+   journal = {J Am Geriatr Soc},
+   volume = {36},
+   number = {1},
+   pages = {29-33},
+   ISSN = {0002-8614 (Print)
+0002-8614 (Linking)},
+   DOI = {10.1111/j.1532-5415.1988.tb03430.x},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/3335727},
+   year = {1988},
+   type = {Journal Article}
+}
+
+@article{RN3676,
+   author = {Friedman, R. and Tappen, R. M.},
+   title = {The effect of planned walking on communication in Alzheimer's disease},
+   journal = {J Am Geriatr Soc},
+   volume = {39},
+   number = {7},
+   pages = {650-4},
+   ISSN = {0002-8614 (Print)
+0002-8614 (Linking)},
+   DOI = {10.1111/j.1532-5415.1991.tb03617.x},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/2061529},
+   year = {1991},
+   type = {Journal Article}
+}
+
+@article{RN3736,
+   author = {Schnelle, J. F. and MacRae, P. G. and Ouslander, J. G. and Simmons, S. F. and Nitta, M.},
+   title = {Functional Incidental Training, mobility performance, and incontinence care with nursing home residents},
+   journal = {J Am Geriatr Soc},
+   volume = {43},
+   number = {12},
+   pages = {1356-62},
+   ISSN = {0002-8614 (Print)
+0002-8614 (Linking)},
+   DOI = {10.1111/j.1532-5415.1995.tb06614.x},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/7490386},
+   year = {1995},
+   type = {Journal Article}
+}
+
+@article{RN3705,
+   author = {Alessi, C. A. and Schnelle, J. F. and MacRae, P. G. and Ouslander, J. G. and al-Samarrai, N. and Simmons, S. F. and Traub, S.},
+   title = {Does physical activity improve sleep in impaired nursing home residents?},
+   journal = {J Am Geriatr Soc},
+   volume = {43},
+   number = {10},
+   pages = {1098-102},
+   ISSN = {0002-8614 (Print)
+0002-8614 (Linking)},
+   DOI = {10.1111/j.1532-5415.1995.tb07007.x},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/7560698},
+   year = {1995},
+   type = {Journal Article}
+}
+
+@article{RN3734,
+   author = {Schnelle, J. F. and MacRae, P. G. and Giacobassi, K. and MacRae, H. S. and Simmons, S. F. and Ouslander, J. G.},
+   title = {Exercise with physically restrained nursing home residents: maximizing benefits of restraint reduction},
+   journal = {J Am Geriatr Soc},
+   volume = {44},
+   number = {5},
+   pages = {507-12},
+   ISSN = {0002-8614 (Print)
+0002-8614 (Linking)},
+   DOI = {10.1111/j.1532-5415.1996.tb01434.x},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/8617897},
+   year = {1996},
+   type = {Journal Article}
+}
+
+@article{RN3669,
+   author = {Okumiya, K. and Matsubayashi, K. and Wada, T. and Kimura, S. and Doi, Y. and Ozawa, T.},
+   title = {Effects of exercise on neurobehavioral function in community-dwelling older people more than 75 years of age},
+   journal = {J Am Geriatr Soc},
+   volume = {44},
+   number = {5},
+   pages = {569-72},
+   ISSN = {0002-8614 (Print)
+0002-8614 (Linking)},
+   DOI = {10.1111/j.1532-5415.1996.tb01444.x},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/8617907},
+   year = {1996},
+   type = {Journal Article}
+}
+
+@article{RN3660,
+   author = {MacRae, P. G. and Asplund, L. A. and Schnelle, J. F. and Ouslander, J. G. and Abrahamse, A. and Morris, C.},
+   title = {A walking program for nursing home residents: effects on walk endurance, physical activity, mobility, and quality of life},
+   journal = {J Am Geriatr Soc},
+   volume = {44},
+   number = {2},
+   pages = {175-80},
+   ISSN = {0002-8614 (Print)
+0002-8614 (Linking)},
+   DOI = {10.1111/j.1532-5415.1996.tb02435.x},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/8576508},
+   year = {1996},
+   type = {Journal Article}
+}
+
+@article{RN3631,
+   author = {Alessi, C. A. and Yoon, E. J. and Schnelle, J. F. and Al-Samarrai, N. R. and Cruise, P. A.},
+   title = {A randomized trial of a combined physical activity and environmental intervention in nursing home residents: do sleep and agitation improve?},
+   journal = {J Am Geriatr Soc},
+   volume = {47},
+   number = {7},
+   pages = {784-91},
+   ISSN = {0002-8614 (Print)
+0002-8614 (Linking)},
+   DOI = {10.1111/j.1532-5415.1999.tb03833.x},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/10404920},
+   year = {1999},
+   type = {Journal Article}
+}
+
+@article{RN3655,
+   author = {Rolland, Y. and Pillard, F. and Klapouszczak, A. and Reynish, E. and Thomas, D. and Andrieu, S. and Riviere, D. and Vellas, B.},
+   title = {Exercise program for nursing home residents with Alzheimer's disease: a 1-year randomized, controlled trial},
+   journal = {J Am Geriatr Soc},
+   volume = {55},
+   number = {2},
+   pages = {158-65},
+   ISSN = {0002-8614 (Print)
+0002-8614 (Linking)},
+   DOI = {10.1111/j.1532-5415.2007.01035.x},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/17302650},
+   year = {2007},
+   type = {Journal Article}
+}
+
+@article{RN3681,
+   author = {Liu-Ambrose, T. and Donaldson, M. G. and Ahamed, Y. and Graf, P. and Cook, W. L. and Close, J. and Lord, S. R. and Khan, K. M.},
+   title = {Otago home-based strength and balance retraining improves executive functioning in older fallers: a randomized controlled trial},
+   journal = {J Am Geriatr Soc},
+   volume = {56},
+   number = {10},
+   pages = {1821-30},
+   ISSN = {1532-5415 (Electronic)
+0002-8614 (Linking)},
+   DOI = {10.1111/j.1532-5415.2008.01931.x},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/18795987},
+   year = {2008},
+   type = {Journal Article}
+}
+
+@article{RN3650,
+   author = {Littbrand, H. and Lundin-Olsson, L. and Gustafson, Y. and Rosendahl, E.},
+   title = {The effect of a high-intensity functional exercise program on activities of daily living: a randomized controlled trial in residential care facilities},
+   journal = {J Am Geriatr Soc},
+   volume = {57},
+   number = {10},
+   pages = {1741-9},
+   ISSN = {1532-5415 (Electronic)
+0002-8614 (Linking)},
+   DOI = {10.1111/j.1532-5415.2009.02442.x},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/19702617},
+   year = {2009},
+   type = {Journal Article}
+}
+
+@article{RN4245,
+   author = {Maki, Y. and Ura, C. and Yamaguchi, T. and Murai, T. and Isahai, M. and Kaiho, A. and Yamagami, T. and Tanaka, S. and Miyamae, F. and Sugiyama, M. and Awata, S. and Takahashi, R. and Yamaguchi, H.},
+   title = {Effects of intervention using a community-based walking program for prevention of mental decline: a randomized controlled trial},
+   journal = {J Am Geriatr Soc},
+   volume = {60},
+   number = {3},
+   pages = {505-10},
+   ISSN = {1532-5415 (Electronic)
+0002-8614 (Linking)},
+   DOI = {10.1111/j.1532-5415.2011.03838.x},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/22288578},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN3665,
+   author = {de Andrade, L. P. and Gobbi, L. T. and Coelho, F. G. and Christofoletti, G. and Costa, J. L. and Stella, F.},
+   title = {Benefits of multimodal exercise intervention for postural control and frontal cognitive functions in individuals with Alzheimer's disease: a controlled trial},
+   journal = {J Am Geriatr Soc},
+   volume = {61},
+   number = {11},
+   pages = {1919-26},
+   ISSN = {1532-5415 (Electronic)
+0002-8614 (Linking)},
+   DOI = {10.1111/jgs.12531},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/24219193},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN5462,
+   author = {Kamegaya, T. and Araki, Y. and Kigure, H. and Long-Term-Care Prevention Team of Maebashi, City and Yamaguchi, H.},
+   title = {Twelve-week physical and leisure activity programme improved cognitive function in community-dwelling elderly subjects: a randomized controlled trial},
+   journal = {Psychogeriatrics},
+   volume = {14},
+   number = {1},
+   pages = {47-54},
+   ISSN = {1479-8301 (Electronic)
+1346-3500 (Linking)},
+   DOI = {10.1111/psyg.12038},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/24528600},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN3671,
+   author = {Moul, Jamie L. and Goldman, Bert and Warren, Beverly},
+   title = {Physical Activity and Cognitive Performance in the Older Population},
+   journal = {Journal of Aging and Physical Activity},
+   volume = {3},
+   number = {2},
+   pages = {135-145},
+   ISSN = {1063-8652
+1543-267X},
+   DOI = {10.1123/japa.3.2.135},
+   url = {<Go to ISI>://WOS:A1995QN27100002},
+   year = {1995},
+   type = {Journal Article}
+}
+
+@article{RN3756,
+   author = {Worm, Charlotte H. and Vad, Esther and Puggaard, Lis and Støvring, Henrik and Lauritsen, Jens and Kragstrup, Jakob},
+   title = {Effects of a Multicomponent Exercise Program on Functional Ability in Community-Dwelling, Frail Older Adults},
+   journal = {Journal of Aging and Physical Activity},
+   volume = {9},
+   number = {4},
+   pages = {414-424},
+   ISSN = {1063-8652
+1543-267X},
+   DOI = {10.1123/japa.9.4.414},
+   url = {https://doi.org/10.1123/japa.9.4.414},
+   year = {2001},
+   type = {Journal Article}
+}
+
+@article{RN3686,
+   author = {Lachman, M. E. and Neupert, S. D. and Bertrand, R. and Jette, A. M.},
+   title = {The effects of strength training on memory in older adults},
+   journal = {J Aging Phys Act},
+   volume = {14},
+   number = {1},
+   pages = {59-73},
+   ISSN = {1063-8652 (Print)
+1063-8652 (Linking)},
+   DOI = {10.1123/japa.14.1.59},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/16648652},
+   year = {2006},
+   type = {Journal Article}
+}
+
+@article{RN3760,
+   author = {Taylor-Piliae, R. E. and Newell, K. A. and Cherin, R. and Lee, M. J. and King, A. C. and Haskell, W. L.},
+   title = {Effects of Tai Chi and Western exercise on physical and cognitive functioning in healthy community-dwelling older adults},
+   journal = {J Aging Phys Act},
+   volume = {18},
+   number = {3},
+   pages = {261-79},
+   ISSN = {1063-8652 (Print)
+1063-8652 (Linking)},
+   DOI = {10.1123/japa.18.3.261},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/20651414},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN3685,
+   author = {Linde, K. and Alfermann, D.},
+   title = {Single versus combined cognitive and physical activity effects on fluid cognitive abilities of healthy older adults: a 4-month randomized controlled trial with follow-up},
+   journal = {J Aging Phys Act},
+   volume = {22},
+   number = {3},
+   pages = {302-13},
+   ISSN = {1543-267X (Electronic)
+1063-8652 (Linking)},
+   DOI = {10.1123/japa.2012-0149},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/23881448},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN3566,
+   author = {Leon, J. and Urena, A. and Bolanos, M. J. and Bilbao, A. and Ona, A.},
+   title = {A combination of physical and cognitive exercise improves reaction time in persons 61-84 years old},
+   journal = {J Aging Phys Act},
+   volume = {23},
+   number = {1},
+   pages = {72-7},
+   ISSN = {1543-267X (Electronic)
+1063-8652 (Linking)},
+   DOI = {10.1123/japa.2012-0313},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/24413071},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN4387,
+   author = {Nocera, J. R. and McGregor, K. M. and Hass, C. J. and Crosson, B.},
+   title = {Spin exercise improves semantic fluency in previously sedentary older adults},
+   journal = {J Aging Phys Act},
+   volume = {23},
+   number = {1},
+   pages = {90-4},
+   ISSN = {1543-267X (Electronic)
+1063-8652 (Linking)},
+   DOI = {10.1123/japa.2013-0107},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/24425525},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN3771,
+   author = {van Uffelen, J. G. and Chinapaw, M. J. and van Mechelen, W. and Hopman-Rock, M.},
+   title = {Walking or vitamin B for cognition in older adults with mild cognitive impairment? A randomised controlled trial},
+   journal = {Br J Sports Med},
+   volume = {42},
+   number = {5},
+   pages = {344-51},
+   ISSN = {1473-0480 (Electronic)
+0306-3674 (Linking)},
+   DOI = {10.1136/bjsm.2007.044735},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/18308888},
+   year = {2008},
+   type = {Journal Article}
+}
+
+@article{RN4386,
+   author = {Brown, A. K. and Liu-Ambrose, T. and Tate, R. and Lord, S. R.},
+   title = {The effect of group-based exercise on cognitive performance and mood in seniors residing in intermediate care and self-care retirement facilities: a randomised controlled trial},
+   journal = {Br J Sports Med},
+   volume = {43},
+   number = {8},
+   pages = {608-14},
+   ISSN = {1473-0480 (Electronic)
+0306-3674 (Linking)},
+   DOI = {10.1136/bjsm.2008.049882},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/18927162},
+   year = {2009},
+   type = {Journal Article}
+}
+
+@article{RN3696,
+   author = {ten Brinke, L. F. and Bolandzadeh, N. and Nagamatsu, L. S. and Hsu, C. L. and Davis, J. C. and Miran-Khan, K. and Liu-Ambrose, T.},
+   title = {Aerobic exercise increases hippocampal volume in older women with probable mild cognitive impairment: a 6-month randomised controlled trial},
+   journal = {Br J Sports Med},
+   volume = {49},
+   number = {4},
+   pages = {248-54},
+   ISSN = {1473-0480 (Electronic)
+0306-3674 (Linking)},
+   DOI = {10.1136/bjsports-2013-093184},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/24711660},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN5497,
+   author = {Hsu, C. L. and Best, J. R. and Davis, J. C. and Nagamatsu, L. S. and Wang, S. and Boyd, L. A. and Hsiung, G. R. and Voss, M. W. and Eng, J. J. and Liu-Ambrose, T.},
+   title = {Aerobic exercise promotes executive functions and impacts functional neural activity among older adults with vascular cognitive impairment},
+   journal = {Br J Sports Med},
+   volume = {52},
+   number = {3},
+   pages = {184-191},
+   ISSN = {1473-0480 (Electronic)
+0306-3674 (Linking)},
+   DOI = {10.1136/bjsports-2016-096846},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/28432077},
+   year = {2018},
+   type = {Journal Article}
+}
+
+@article{RN3657,
+   author = {Eggermont, L. H. and Swaab, D. F. and Hol, E. M. and Scherder, E. J.},
+   title = {Walking the line: a randomised trial on the effects of a short term walking programme on cognition in dementia},
+   journal = {J Neurol Neurosurg Psychiatry},
+   volume = {80},
+   number = {7},
+   pages = {802-4},
+   ISSN = {1468-330X (Electronic)
+0022-3050 (Linking)},
+   DOI = {10.1136/jnnp.2008.158444},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/19531688},
+   year = {2009},
+   type = {Journal Article}
+}
+
+@article{RN3693,
+   author = {Nagamatsu, L. S. and Chan, A. and Davis, J. C. and Beattie, B. L. and Graf, P. and Voss, M. W. and Sharma, D. and Liu-Ambrose, T.},
+   title = {Physical activity improves verbal and spatial memory in older adults with probable mild cognitive impairment: a 6-month randomized controlled trial},
+   journal = {J Aging Res},
+   volume = {2013},
+   pages = {861893},
+   ISSN = {2090-2204 (Print)
+2090-2204 (Linking)},
+   DOI = {10.1155/2013/861893},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/23509628},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN4242,
+   author = {Alghadir, A. H. and Gabr, S. A. and Al-Eisa, E. S.},
+   title = {Effects of Moderate Aerobic Exercise on Cognitive Abilities and Redox State Biomarkers in Older Adults},
+   journal = {Oxid Med Cell Longev},
+   volume = {2016},
+   pages = {2545168},
+   ISSN = {1942-0994 (Electronic)
+1942-0994 (Linking)},
+   DOI = {10.1155/2016/2545168},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/27195073},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@article{RN3644,
+   author = {Kemoun, G. and Thibaud, M. and Roumagne, N. and Carette, P. and Albinet, C. and Toussaint, L. and Paccalin, M. and Dugue, B.},
+   title = {Effects of a physical training programme on cognitive function and walking efficiency in elderly persons with dementia},
+   journal = {Dement Geriatr Cogn Disord},
+   volume = {29},
+   number = {2},
+   pages = {109-14},
+   ISSN = {1421-9824 (Electronic)
+1420-8008 (Linking)},
+   DOI = {10.1159/000272435},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/20150731},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN5472,
+   author = {Sugano, K. and Yokogawa, M. and Yuki, S. and Dohmoto, C. and Yoshita, M. and Hamaguchi, T. and Yanase, D. and Iwasa, K. and Komai, K. and Yamada, M.},
+   title = {Effect of cognitive and aerobic training intervention on older adults with mild or no cognitive impairment: a derivative study of the nakajima project},
+   journal = {Dement Geriatr Cogn Dis Extra},
+   volume = {2},
+   number = {1},
+   pages = {69-80},
+   ISSN = {1664-5464 (Electronic)
+1664-5464 (Linking)},
+   DOI = {10.1159/000337224},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/22619662},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN3643,
+   author = {Hildreth Kl Fau - Hildreth, Kerry L. and Van Pelt Re Fau - Van Pelt, Rachael E. and Moreau Kl Fau - Moreau, Kerrie L. and Grigsby J Fau - Grigsby, Jim and Hoth Kf Fau - Hoth, Karin F. and Pelak V Fau - Pelak, Victoria and Anderson Ca Fau - Anderson, C. Alan and Parnes B Fau - Parnes, Bennett and Kittelson J Fau - Kittelson, John and Wolfe P Fau - Wolfe, Pamela and Nakamura T Fau - Nakamura, Tammie and Linnebur Sa Fau - Linnebur, Sunny A. and Trujillo Jm Fau - Trujillo, Jennifer M. and Aquilante Cl Fau - Aquilante, Christina L. and Schwartz Rs Fau - Schwartz, Robert S.},
+   title = {Effects of Pioglitazone or Exercise in Older Adults with Mild Cognitive Impairment and Insulin Resistance: A Pilot Study},
+   journal = {Dement Geriatr Cogn Disord Extra},
+   volume = {5},
+   number = {1664-5464 (Print)},
+   pages = {51-63},
+   DOI = {10.1159/000371509},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN5459,
+   author = {Frandin, K. and Gronstedt, H. and Helbostad, J. L. and Bergland, A. and Andresen, M. and Puggaard, L. and Harms-Ringdahl, K. and Granbo, R. and Hellstrom, K.},
+   title = {Long-Term Effects of Individually Tailored Physical Training and Activity on Physical Function, Well-Being and Cognition in Scandinavian Nursing Home Residents: A Randomized Controlled Trial},
+   journal = {Gerontology},
+   volume = {62},
+   number = {6},
+   pages = {571-580},
+   ISSN = {1423-0003 (Electronic)
+0304-324X (Linking)},
+   DOI = {10.1159/000443611},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/26963569},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@article{RN3700,
+   author = {Christofoletti, G. and Oliani, M. M. and Gobbi, S. and Stella, F. and Bucken Gobbi, L. T. and Renato Canineu, P.},
+   title = {A controlled clinical trial on the effects of motor intervention on balance and cognition in institutionalized elderly patients with dementia},
+   journal = {Clin Rehabil},
+   volume = {22},
+   number = {7},
+   pages = {618-26},
+   ISSN = {0269-2155 (Print)
+0269-2155 (Linking)},
+   DOI = {10.1177/0269215507086239},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/18586813},
+   year = {2008},
+   type = {Journal Article}
+}
+
+@article{RN3767,
+   author = {Varela, S. and Ayan, C. and Cancela, J. M. and Martin, V.},
+   title = {Effects of two different intensities of aerobic exercise on elderly people with mild cognitive impairment: a randomized pilot study},
+   journal = {Clin Rehabil},
+   volume = {26},
+   number = {5},
+   pages = {442-50},
+   ISSN = {1477-0873 (Electronic)
+0269-2155 (Linking)},
+   DOI = {10.1177/0269215511425835},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/22116953},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN3752,
+   author = {Venturelli, M. and Scarsini, R. and Schena, F.},
+   title = {Six-month walking program changes cognitive and ADL performance in patients with Alzheimer},
+   journal = {Am J Alzheimers Dis Other Demen},
+   volume = {26},
+   number = {5},
+   pages = {381-8},
+   ISSN = {1938-2731 (Electronic)
+1533-3175 (Linking)},
+   DOI = {10.1177/1533317511418956},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/21852281},
+   year = {2011},
+   type = {Journal Article}
+}
+
+@article{RN3679,
+   author = {Buettner, Linda L. and Lundegren, Herberta and Lago, Daniel and Farrell, Patricia and Smith, Ralph},
+   title = {Therapeutic recreation as an intervention for persons with dementia and agitation: An efficacy study},
+   journal = {American Journal of Alzheimer's Disease},
+   volume = {11},
+   number = {5},
+   pages = {4-12},
+   ISSN = {1082-5207},
+   DOI = {10.1177/153331759601100503},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@article{RN3713,
+   author = {Legault, C. and Jennings, J. M. and Katula, J. A. and Dagenbach, D. and Gaussoin, S. A. and Sink, K. M. and Rapp, S. R. and Rejeski, W. J. and Shumaker, S. A. and Espeland, M. A. and Group, Sharp- P. Study},
+   title = {Designing clinical trials for assessing the effects of cognitive training and physical activity interventions on cognitive outcomes: the Seniors Health and Activity Research Program Pilot (SHARP-P) study, a randomized controlled trial},
+   journal = {BMC Geriatr},
+   volume = {11},
+   pages = {27},
+   ISSN = {1471-2318 (Electronic)
+1471-2318 (Linking)},
+   DOI = {10.1186/1471-2318-11-27},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/21615936},
+   year = {2011},
+   type = {Journal Article}
+}
+
+@article{RN3753,
+   author = {Volkers, K., and Scherder, E},
+   title = {The effect of regular walks on various health aspects in older people with dementia: protocol of a randomized-controlled trial},
+   DOI = {10.1186/1471-2318-11-38},
+   year = {2011},
+   type = {Journal Article}
+}
+
+@article{RN3561,
+   author = {Suzuki, T. and Shimada, H. and Makizako, H. and Doi, T. and Yoshida, D. and Tsutsumimoto, K. and Anan, Y. and Uemura, K. and Lee, S. and Park, H.},
+   title = {Effects of multicomponent exercise on cognitive function in older adults with amnestic mild cognitive impairment: a randomized controlled trial},
+   journal = {BMC Neurol},
+   volume = {12},
+   pages = {128},
+   ISSN = {1471-2377 (Electronic)
+1471-2377 (Linking)},
+   DOI = {10.1186/1471-2377-12-128},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/23113898},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN5460,
+   author = {Gschwind, Y. J. and Eichberg, S. and Ejupi, A. and de Rosario, H. and Kroll, M. and Marston, H. R. and Drobics, M. and Annegarn, J. and Wieching, R. and Lord, S. R. and Aal, K. and Vaziri, D. and Woodbury, A. and Fink, D. and Delbaere, K.},
+   title = {ICT-based system to predict and prevent falls (iStoppFalls): results from an international multicenter randomized controlled trial},
+   journal = {Eur Rev Aging Phys Act},
+   volume = {12},
+   pages = {10},
+   ISSN = {1813-7253 (Print)
+1813-7253 (Linking)},
+   DOI = {10.1186/s11556-015-0155-6},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/26865874},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN3751,
+   author = {Van de Winckel, A. and Feys, H. and De Weerdt, W. and Dom, R.},
+   title = {Cognitive and behavioural effects of music-based exercises in patients with dementia},
+   journal = {Clin Rehabil},
+   volume = {18},
+   number = {3},
+   pages = {253-60},
+   ISSN = {0269-2155 (Print)
+0269-2155 (Linking)},
+   DOI = {10.1191/0269215504cr750oa},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/15137556},
+   year = {2004},
+   type = {Journal Article}
+}
+
+@article{RN3743,
+   author = {Oken, B. S. and Kishiyama, S. and Zajdel, D. and Bourdette, D. and Carlsen, J. and Haas, M. and Hugos, C. and Kraemer, D. F. and Lawrence, J. and Mass, M.},
+   title = {Randomized controlled trial of yoga and exercise in multiple sclerosis},
+   journal = {Neurology},
+   volume = {62},
+   number = {11},
+   pages = {2058-64},
+   ISSN = {1526-632X (Electronic)
+0028-3878 (Linking)},
+   DOI = {10.1212/01.wnl.0000129534.88602.5c},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/15184614},
+   year = {2004},
+   type = {Journal Article}
+}
+
+@article{RN3738,
+   author = {Schwenk, M. and Zieschang, T. and Oster, P. and Hauer, K.},
+   title = {Dual-task performances can be improved in patients with dementia: a randomized controlled trial},
+   journal = {Neurology},
+   volume = {74},
+   number = {24},
+   pages = {1961-8},
+   ISSN = {1526-632X (Electronic)
+0028-3878 (Linking)},
+   DOI = {10.1212/WNL.0b013e3181e39696},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/20445152},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN5465,
+   author = {Liu-Ambrose, T. and Best, J. R. and Davis, J. C. and Eng, J. J. and Lee, P. E. and Jacova, C. and Boyd, L. A. and Brasher, P. M. and Munkacsy, M. and Cheung, W. and Hsiung, G. R.},
+   title = {Aerobic exercise and vascular cognitive impairment: A randomized controlled trial},
+   journal = {Neurology},
+   volume = {87},
+   number = {20},
+   pages = {2082-2090},
+   ISSN = {1526-632X (Electronic)
+0028-3878 (Linking)},
+   DOI = {10.1212/WNL.0000000000003332},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/27760869},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@article{RN3518,
+   author = {Hoffman, B. M. and Blumenthal, J. A. and Babyak, M. A. and Smith, P. J. and Rogers, S. D. and Doraiswamy, P. M. and Sherwood, A.},
+   title = {Exercise fails to improve neurocognition in depressed middle-aged and older adults},
+   journal = {Med Sci Sports Exerc},
+   volume = {40},
+   number = {7},
+   pages = {1344-52},
+   ISSN = {0195-9131 (Print)
+0195-9131 (Linking)},
+   DOI = {10.1249/MSS.0b013e31816b877c},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/18580416},
+   year = {2008},
+   type = {Journal Article}
+}
+
+@article{RN4686,
+   author = {Cassilhas, R. C. and Viana, V. A. and Grassmann, V. and Santos, R. T. and Santos, R. F. and Tufik, S. and Mello, M. T.},
+   title = {The impact of resistance exercise on the cognitive function of the elderly},
+   journal = {Med Sci Sports Exerc},
+   volume = {39},
+   number = {8},
+   pages = {1401-7},
+   ISSN = {0195-9131 (Print)
+0195-9131 (Linking)},
+   DOI = {10.1249/mss.0b013e318060111f},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/17762374},
+   year = {2007},
+   type = {Journal Article}
+}
+
+@article{RN3710,
+   author = {Holliman, Diane C. and Orgassa, Ute C. and Forney, Jennie Pillion},
+   title = {Developing an Interactive Physical Activity Group in a Geriatric Psychiatry Facility},
+   journal = {Activities, Adaptation & Aging},
+   volume = {26},
+   number = {1},
+   pages = {57-69},
+   ISSN = {0192-4788
+1544-4368},
+   DOI = {10.1300/J016v26n01_04},
+   year = {2001},
+   type = {Journal Article}
+}
+
+@article{RN5467,
+   author = {Merom, D. and Mathieu, E. and Cerin, E. and Morton, R. L. and Simpson, J. M. and Rissel, C. and Anstey, K. J. and Sherrington, C. and Lord, S. R. and Cumming, R. G.},
+   title = {Social Dancing and Incidence of Falls in Older Adults: A Cluster Randomised Controlled Trial},
+   journal = {PLoS Med},
+   volume = {13},
+   number = {8},
+   pages = {e1002112},
+   ISSN = {1549-1676 (Electronic)
+1549-1277 (Linking)},
+   DOI = {10.1371/journal.pmed.1002112},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/27575534},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@article{RN5470,
+   author = {Schoene, D. and Lord, S. R. and Delbaere, K. and Severino, C. and Davies, T. A. and Smith, S. T.},
+   title = {A randomized controlled pilot study of home-based step training in older people using videogame technology},
+   journal = {PLoS One},
+   volume = {8},
+   number = {3},
+   pages = {e57734},
+   ISSN = {1932-6203 (Electronic)
+1932-6203 (Linking)},
+   DOI = {10.1371/journal.pone.0057734},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/23472104},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN3694,
+   author = {Suzuki, T. and Shimada, H. and Makizako, H. and Doi, T. and Yoshida, D. and Ito, K. and Shimokata, H. and Washimi, Y. and Endo, H. and Kato, T.},
+   title = {A randomized controlled trial of multicomponent exercise in older adults with mild cognitive impairment},
+   journal = {PLoS One},
+   volume = {8},
+   number = {4},
+   pages = {e61483},
+   ISSN = {1932-6203 (Electronic)
+1932-6203 (Linking)},
+   DOI = {10.1371/journal.pone.0061483},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/23585901},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN4384,
+   author = {Alves, C. R. and Merege Filho, C. A. and Benatti, F. B. and Brucki, S. and Pereira, R. M. and de Sa Pinto, A. L. and Lima, F. R. and Roschel, H. and Gualano, B.},
+   title = {Creatine supplementation associated or not with strength training upon emotional and cognitive measures in older women: a randomized double-blind study},
+   journal = {PLoS One},
+   volume = {8},
+   number = {10},
+   pages = {e76301},
+   ISSN = {1932-6203 (Electronic)
+1932-6203 (Linking)},
+   DOI = {10.1371/journal.pone.0076301},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/24098469},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN3737,
+   author = {Satoh, M. and Ogawa, J. and Tokita, T. and Nakaguchi, N. and Nakao, K. and Kida, H. and Tomimoto, H.},
+   title = {The effects of physical exercise with music on cognitive function of elderly people: Mihama-Kiho project},
+   journal = {PLoS One},
+   volume = {9},
+   number = {4},
+   pages = {e95230},
+   ISSN = {1932-6203 (Electronic)
+1932-6203 (Linking)},
+   DOI = {10.1371/journal.pone.0095230},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/24769624},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN3712,
+   author = {Lam, L. C. and Chan, W. C. and Leung, T. and Fung, A. W. and Leung, E. M.},
+   title = {Would older adults with mild cognitive impairment adhere to and benefit from a structured lifestyle activity intervention to enhance cognition?: a cluster randomized controlled trial},
+   number = {1932-6203 (Electronic)},
+   DOI = {10.1371/journal.pone.0118173},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN3661,
+   author = {Holthoff, V. A. and Marschner, K. and Scharf, M. and Steding, J. and Meyer, S. and Koch, R. and Donix, M.},
+   title = {Effects of physical activity training in patients with Alzheimer's dementia: results of a pilot RCT study},
+   journal = {PLoS One},
+   volume = {10},
+   number = {4},
+   pages = {e0121478},
+   ISSN = {1932-6203 (Electronic)
+1932-6203 (Linking)},
+   DOI = {10.1371/journal.pone.0121478},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/25884637},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN4240,
+   author = {Vidoni, E. D. and Johnson, D. K. and Morris, J. K. and Van Sciver, A. and Greer, C. S. and Billinger, S. A. and Donnelly, J. E. and Burns, J. M.},
+   title = {Dose-Response of Aerobic Exercise on Cognition: A Community-Based, Pilot Randomized Controlled Trial},
+   journal = {PLoS One},
+   volume = {10},
+   number = {7},
+   pages = {e0131647},
+   ISSN = {1932-6203 (Electronic)
+1932-6203 (Linking)},
+   DOI = {10.1371/journal.pone.0131647},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/26158265},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN5471,
+   author = {Schoene, D. and Valenzuela, T. and Toson, B. and Delbaere, K. and Severino, C. and Garcia, J. and Davies, T. A. and Russell, F. and Smith, S. T. and Lord, S. R.},
+   title = {Interactive Cognitive-Motor Step Training Improves Cognitive Risk Factors of Falling in Older Adults - A Randomized Controlled Trial},
+   journal = {PLoS One},
+   volume = {10},
+   number = {12},
+   pages = {e0145161},
+   ISSN = {1932-6203 (Electronic)
+1932-6203 (Linking)},
+   DOI = {10.1371/journal.pone.0145161},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/26673919},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN3632,
+   author = {Fragala, M. S. and Beyer, K. S. and Jajtner, A. R. and Townsend, J. R. and Pruna, G. J. and Boone, C. H. and Bohner, J. D. and Fukuda, D. H. and Stout, J. R. and Hoffman, J. R.},
+   title = {Resistance exercise may improve spatial awareness and visual reaction in older adults},
+   journal = {J Strength Cond Res},
+   volume = {28},
+   number = {8},
+   pages = {2079-87},
+   ISSN = {1533-4287 (Electronic)
+1064-8011 (Linking)},
+   DOI = {10.1519/JSC.0000000000000520},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/24832975},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN3703,
+   author = {Arcoverde, C. and Deslandes, A. and Moraes, H. and Almeida, C. and Araujo, N. B. and Vasques, P. E. and Silveira, H. and Laks, J.},
+   title = {Treadmill training as an augmentation treatment for Alzheimer's disease: a pilot randomized controlled study},
+   journal = {Arq Neuropsiquiatr},
+   volume = {72},
+   number = {3},
+   pages = {190-6},
+   ISSN = {1678-4227 (Electronic)
+0004-282X (Linking)},
+   DOI = {10.1590/0004-282X20130231},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/24676435},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN3662,
+   author = {Antunes, H. K. and De Mello, M. T. and Santos-Galduroz, R. F. and Galduroz, J. C. and Lemos, V. A. and Tufik, S. and Bueno, O. F.},
+   title = {Effects of a physical fitness program on memory and blood viscosity in sedentary elderly men},
+   journal = {Braz J Med Biol Res},
+   volume = {48},
+   number = {9},
+   pages = {805-12},
+   ISSN = {1414-431X (Electronic)
+0100-879X (Linking)},
+   DOI = {10.1590/1414-431X20154529},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/26222648},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN3716,
+   author = {Hernandez, S. S. and Coelho, F. G. and Gobbi, S. and Stella, F.},
+   title = {Effects of physical activity on cognitive functions, balance and risk of falls in elderly patients with Alzheimer's dementia},
+   journal = {Rev Bras Fisioter},
+   volume = {14},
+   number = {1},
+   pages = {68-74},
+   DOI = {10.1590/S1413-35552010000100011 },
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/20414564},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN3764,
+   author = {Tsutsumi, T. and Don, B. M. and Zaichkowsky, L. D. and Delizonna, L. L.},
+   title = {Physical fitness and psychological benefits of strength training in community dwelling older adults},
+   journal = {Appl Human Sci},
+   volume = {16},
+   number = {6},
+   pages = {257-66},
+   ISSN = {1341-3473 (Print)
+1341-3473 (Linking)},
+   DOI = {10.2114/jpa.16.257},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/9545677},
+   year = {1997},
+   type = {Journal Article}
+}
+
+@article{RN3674,
+   author = {Kimura, K. and Obuchi, S. and Arai, T. and Nagasawa, H. and Shiba, Y. and Watanabe, S. and Kojima, M.},
+   title = {The influence of short-term strength training on health-related quality of life and executive cognitive function},
+   journal = {J Physiol Anthropol},
+   volume = {29},
+   number = {3},
+   pages = {95-101},
+   ISSN = {1880-6805 (Electronic)
+1880-6791 (Linking)},
+   DOI = {10.2114/jpa2.29.95},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/20558967},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN3741,
+   author = {Nguyen, M. H. and Kruse, A.},
+   title = {A randomized controlled trial of Tai chi for balance, sleep quality and cognitive performance in elderly Vietnamese},
+   journal = {Clin Interv Aging},
+   volume = {7},
+   pages = {185-90},
+   ISSN = {1178-1998 (Electronic)
+1176-9092 (Linking)},
+   DOI = {10.2147/CIA.S32600},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/22807627},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN3672,
+   author = {Ferreira, L. and Tanaka, K. and Santos-Galduroz, R. F. and Galduroz, J. C.},
+   title = {Respiratory training as strategy to prevent cognitive decline in aging: a randomized controlled trial},
+   journal = {Clin Interv Aging},
+   volume = {10},
+   number = {1178-1998 (Electronic)},
+   pages = {593-603},
+   ISSN = {1178-1998 (Electronic)
+1176-9092 (Linking)},
+   DOI = {10.2147/CIA.S79560},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/25848235},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN3698,
+   author = {Eggenberger, P. and Schumacher, V. and Angst, M. and Theill, N. and de Bruin, E. D.},
+   title = {Does multicomponent physical exercise with simultaneous cognitive training boost cognitive performance in older adults? A 6-month randomized controlled trial with a 1-year follow-up},
+   journal = {Clin Interv Aging},
+   volume = {10},
+   pages = {1335-49},
+   ISSN = {1178-1998 (Electronic)
+1176-9092 (Linking)},
+   DOI = {10.2147/CIA.S87732},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/26316729},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN5457,
+   author = {Desjardins-Crepeau, L. and Berryman, N. and Fraser, S. A. and Vu, T. T. and Kergoat, M. J. and Li, K. Z. and Bosquet, L. and Bherer, L.},
+   title = {Effects of combined physical and cognitive training on fitness and neuropsychological outcomes in healthy older adults},
+   journal = {Clin Interv Aging},
+   volume = {11},
+   pages = {1287-1299},
+   ISSN = {1178-1998 (Electronic)
+1176-9092 (Linking)},
+   DOI = {10.2147/cia.s115711},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/27698558},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@article{RN3656,
+   author = {Perri, S., 2nd and Templer, D. I.},
+   title = {The effects of an aerobic exercise program on psychological variables in older adults},
+   journal = {Int J Aging Hum Dev},
+   volume = {20},
+   number = {3},
+   pages = {167-72},
+   ISSN = {0091-4150 (Print)
+0091-4150 (Linking)},
+   DOI = {10.2190/a6ab-mbn1-g8hv-258h},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/6530295},
+   year = {1984},
+   type = {Journal Article}
+}
+
+@article{RN3772,
+   author = {Whitehurst, M.},
+   title = {Reaction time unchanged in older women following aerobic training},
+   journal = {Percept Mot Skills},
+   volume = {72},
+   number = {1},
+   pages = {251-6},
+   ISSN = {0031-5125 (Print)
+0031-5125 (Linking)},
+   DOI = {10.2466/pms.1991.72.1.251},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/2038520},
+   year = {1991},
+   type = {Journal Article}
+}
+
+@article{RN3638,
+   author = {Baker, L. D. and Frank, L. L. and Foster-Schubert, K. and Green, P. S. and Wilkinson, C. W. and McTiernan, A. and Cholerton, B. A. and Plymate, S. R. and Fishel, M. A. and Watson, G. S. and Duncan, G. E. and Mehta, P. D. and Craft, S.},
+   title = {Aerobic exercise improves cognition for older adults with glucose intolerance, a risk factor for Alzheimer's disease},
+   journal = {J Alzheimers Dis},
+   volume = {22},
+   number = {2},
+   pages = {569-79},
+   ISSN = {1875-8908 (Electronic)
+1387-2877 (Linking)},
+   DOI = {10.3233/JAD-2010-100768},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/20847403},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN3692,
+   author = {Mortimer, J. A. and Ding, D. and Borenstein, A. R. and DeCarli, C. and Guo, Q. and Wu, Y. and Zhao, Q. and Chu, S.},
+   title = {Changes in brain volume and cognition in a randomized trial of exercise and social interaction in a community-based sample of non-demented Chinese elders},
+   journal = {J Alzheimers Dis},
+   volume = {30},
+   number = {4},
+   pages = {757-66},
+   ISSN = {1875-8908 (Electronic)
+1387-2877 (Linking)},
+   DOI = {10.3233/JAD-2012-120079},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/22451320},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN5468,
+   author = {Nascimento, C. M. and Pereira, J. R. and Pires de Andrade, L. and Garuffi, M. and Ayan, C. and Kerr, D. S. and Talib, L. L. and Cominetti, M. R. and Stella, F.},
+   title = {Physical exercise improves peripheral BDNF levels and cognitive functions in mild cognitive impairment elderly with different bdnf Val66Met genotypes},
+   journal = {J Alzheimers Dis},
+   volume = {43},
+   number = {1},
+   pages = {81-91},
+   ISSN = {1875-8908 (Electronic)
+1387-2877 (Linking)},
+   DOI = {10.3233/JAD-140576},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/25062900},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN5463,
+   author = {Kattenstroth, J. C. and Kalisch, T. and Holt, S. and Tegenthoff, M. and Dinse, H. R.},
+   title = {Six months of dance intervention enhances postural, sensorimotor, and cognitive performance in elderly without affecting cardio-respiratory functions},
+   journal = {Front Aging Neurosci},
+   volume = {5},
+   pages = {5},
+   ISSN = {1663-4365 (Print)
+1663-4365 (Linking)},
+   DOI = {10.3389/fnagi.2013.00005},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/23447455},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN4244,
+   author = {Shatil, E.},
+   title = {Does combined cognitive training and physical activity training enhance cognitive abilities more than either alone? A four-condition randomized controlled trial among healthy older adults},
+   journal = {Front Aging Neurosci},
+   volume = {5},
+   pages = {8},
+   ISSN = {1663-4365 (Print)
+1663-4365 (Linking)},
+   DOI = {10.3389/fnagi.2013.00008},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/23531885},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN3439,
+   author = {Niemann, C. and Godde, B. and Voelcker-Rehage, C.},
+   title = {Not only cardiovascular, but also coordinative exercise increases hippocampal volume in older adults},
+   journal = {Front Aging Neurosci},
+   volume = {6},
+   pages = {170},
+   ISSN = {1663-4365 (Print)
+1663-4365 (Linking)},
+   DOI = {10.3389/fnagi.2014.00170},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/25165446},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN3761,
+   author = {Tao, J. and Liu, J. and Egorova, N. and Chen, X. and Sun, S. and Xue, X. and Huang, J. and Zheng, G. and Wang, Q. and Chen, L. and Kong, J.},
+   title = {Increased Hippocampus-Medial Prefrontal Cortex Resting-State Functional Connectivity and Memory Function after Tai Chi Chuan Practice in Elder Adults},
+   journal = {Front Aging Neurosci},
+   volume = {8},
+   pages = {25},
+   ISSN = {1663-4365 (Print)
+1663-4365 (Linking)},
+   DOI = {10.3389/fnagi.2016.00025},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/26909038},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@article{RN5458,
+   author = {Eggenberger, P. and Wolf, M. and Schumann, M. and de Bruin, E. D.},
+   title = {Exergame and Balance Training Modulate Prefrontal Brain Activity during Walking and Enhance Executive Function in Older Adults},
+   journal = {Front Aging Neurosci},
+   volume = {8},
+   pages = {66},
+   ISSN = {1663-4365 (Print)
+1663-4365 (Linking)},
+   DOI = {10.3389/fnagi.2016.00066},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/27148041},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@article{RN5469,
+   author = {Schattin, A. and Arner, R. and Gennaro, F. and de Bruin, E. D.},
+   title = {Adaptations of Prefrontal Brain Activity, Executive Functions, and Gait in Healthy Elderly Following Exergame and Balance Training: A Randomized-Controlled Study},
+   journal = {Front Aging Neurosci},
+   volume = {8},
+   pages = {278},
+   ISSN = {1663-4365 (Print)
+1663-4365 (Linking)},
+   DOI = {10.3389/fnagi.2016.00278},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/27932975},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@article{RN3762,
+   author = {Tsai, C. L. and Wang, C. H. and Pan, C. Y. and Chen, F. C.},
+   title = {The effects of long-term resistance exercise on the relationship between neurocognitive performance and GH, IGF-1, and homocysteine levels in the elderly},
+   journal = {Front Behav Neurosci},
+   volume = {9},
+   pages = {23},
+   ISSN = {1662-5153 (Print)
+1662-5153 (Linking)},
+   DOI = {10.3389/fnbeh.2015.00023},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/25713518},
+   year = {2015},
+   type = {Journal Article}
+}
+
+@article{RN3436,
+   author = {Leckie, R. L. and Oberlin, L. E. and Voss, M. W. and Prakash, R. S. and Szabo-Reed, A. and Chaddock-Heyman, L. and Phillips, S. M. and Gothe, N. P. and Mailey, E. and Vieira-Potter, V. J. and Martin, S. A. and Pence, B. D. and Lin, M. and Parasuraman, R. and Greenwood, P. M. and Fryxell, K. J. and Woods, J. A. and McAuley, E. and Kramer, A. F. and Erickson, K. I.},
+   title = {BDNF mediates improvements in executive function following a 1-year exercise intervention},
+   journal = {Front Hum Neurosci},
+   volume = {8},
+   number = {December},
+   pages = {985},
+   ISSN = {1662-5161 (Print)
+1662-5161 (Linking)},
+   DOI = {10.3389/fnhum.2014.00985},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/25566019},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN3697,
+   author = {Napoli, N. and Shah, K. and Waters, D. L. and Sinacore, D. R. and Qualls, C. and Villareal, D. T.},
+   title = {Effect of weight loss, exercise, or both on cognition and quality of life in obese older adults},
+   journal = {Am J Clin Nutr},
+   volume = {100},
+   number = {1},
+   pages = {189-98},
+   ISSN = {1938-3207 (Electronic)
+0002-9165 (Linking)},
+   DOI = {10.3945/ajcn.113.082883},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/24787497},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN3750,
+   author = {Stevens, J. and Killeen, M.},
+   title = {A randomised controlled trial testing the impact of exercise on cognitive symptoms and disability of residents with dementia},
+   journal = {Contemp Nurse},
+   volume = {21},
+   number = {1},
+   pages = {32-40},
+   ISSN = {1037-6178 (Print)
+1037-6178 (Linking)},
+   DOI = {10.5172/conu.2006.21.1.32},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/16594879},
+   year = {2006},
+   type = {Journal Article}
+}
+
+@article{RN3770,
+   author = {Wallman, K. E. and Morton, A. R. and Goodman, C. and Grove, R. and Guilfoyle, A. M.},
+   title = {Randomised controlled trial of graded exercise in chronic fatigue syndrome},
+   journal = {Med J Aust},
+   volume = {180},
+   number = {9},
+   pages = {444-8},
+   ISSN = {0025-729X (Print)
+0025-729X (Linking)},
+   DOI = {10.5694/j.1326-5377.2004.tb06019.x},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/15115421},
+   year = {2004},
+   type = {Journal Article}
+}
+
+@book{RN4669,
+   author = {Kramer, Arthur and Hahn, Sowon and McAuley, Edward and J Cohen, Neal and Banich, Marie and Harrison, Cate and Chason, Julie and Boileau, Richard and Bardell, Lynn and Colcombe, Angela and Vakil, Eli},
+   title = {Exercise, aging and cognition: healthy body, healthy mind},
+   DOI = {1576/a3ffdd41b55ce1f3047363afcdfcf27dbaf2},
+   year = {2002},
+   type = {Book}
+}
+
+@article{RN3658,
+   author = {Hwang, H. H. and Choi, Y. J.},
+   title = {The Effects of the Dance Therapy Program through Rhythmic Exercise on Cognitive Memory Performance of the Elderly with Dementia},
+   journal = {Proceedings of the 21st Pan-Asian Congress of Sports and Physical Education, Vol 4},
+   pages = {12-17},
+   DOI = {BLCP%3ACN080248325},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN3708,
+   author = {Kharti, P., Blumenthal, J.A., Babyak, M.A., Craighead, W.E., Herman, S., Baldewicz, T., Madden, D.J., Doraiswamy, M., Waugh, R., & Krishman, K.R.},
+   title = {Effects of exercise training on cognitive functioning among depressed older men and women},
+   journal = {Journal of Aging and Physical Activity},
+   volume = {9},
+   pages = {43-57},
+   DOI = {doi.org/10.1123/japa.9.1.43},
+   year = {2001},
+   type = {Journal Article}
+}
+
+@article{RN3747,
+   author = {Oken, B. S. and Zajdel, D. and Kishiyama, S. and Flegal, K. and Dehen, C. and Haas, M. and Kraemer, D. F. and Lawrence, J. and Leyva, J.},
+   title = {Randomized, controlled, six-month trial of yoga in healthy seniors: effects on cognition and quality of life},
+   journal = {Altern Ther Health Med},
+   volume = {12},
+   number = {1},
+   pages = {40-7},
+   ISSN = {1078-6791 (Print)
+1078-6791 (Linking)},
+   DOI = {PMC1457100},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/16454146},
+   year = {2006},
+   type = {Journal Article}
+}
+
+@article{RN5461,
+   author = {Hu, J. P. and Guo, Y. H. and Wang, F. and Zhao, X. P. and Zhang, Q. H. and Song, Q. H.},
+   title = {Exercise improves cognitive function in aging patients},
+   journal = {Int J Clin Exp Med},
+   volume = {7},
+   number = {10},
+   pages = {3144-9},
+   ISSN = {1940-5901 (Print)
+1940-5901 (Linking)},
+   DOI = {PMC4238545},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/25419345},
+   year = {2014},
+   type = {Journal Article}
+}
+
+@article{RN3602,
+   author = {McMurdo, M. E. and Rennie, L. M.},
+   title = {Improvements in quadriceps strength with regular seated exercise in the institutionalized elderly},
+   journal = {Arch Phys Med Rehabil},
+   volume = {75},
+   number = {5},
+   pages = {600-3},
+   ISSN = {0003-9993 (Print)
+0003-9993 (Linking)},
+   DOI = {PMID8185457},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/8185457},
+   year = {1994},
+   type = {Journal Article}
+}
+
+@article{RN3744,
+   author = {Masley, S. C. and Weaver, W. and Peri, G. and Phillips, S. E.},
+   title = {Efficacy of lifestyle changes in modifying practical markers of wellness and aging},
+   journal = {Altern Ther Health Med},
+   volume = {14},
+   number = {2},
+   pages = {24-9},
+   ISSN = {1078-6791 (Print)
+1078-6791 (Linking)},
+   DOI = {PMID18383987},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/18383987},
+   year = {2008},
+   type = {Journal Article}
+}
+
