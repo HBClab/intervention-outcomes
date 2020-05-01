@@ -2,6 +2,7 @@ library(shiny)
 library(DT)
 library(ggplot2)
 library(markdown)
+library(dplyr)
 
 ref <- as.data.frame(read.csv(file="pano_intervention_references.csv", header = TRUE))
 io_table <- as.data.frame(read.csv(file="InterventionOutcomesRFull.csv", header=TRUE,
@@ -29,12 +30,7 @@ splitCategories <- c("Design","IndependentVariable", "IndependentType", "Depende
                      "IntensityAdherence", "TrueInterventionToincreaseFitness.")
 
 # Fix slider increments
-io_table$TotalSampleSize <- as.integer(io_table$TotalSampleSize)
 io_table$InterventionDuration <- as.integer(io_table$InterventionDuration)
-io_table$ExperimentalGroupN <- as.integer(io_table$ExperimentalGroupN)
-io_table$ExperimentalGroup2N <- as.integer(io_table$ExperimentalGroup2N)
-io_table$ExperimentalGroup3N <- as.integer(io_table$ExperimentalGroup3N)
-io_table$ControlGroupN <- as.integer(io_table$ControlGroupN)
 
 ui <- navbarPage("PANO",
   
@@ -45,17 +41,32 @@ ui <- navbarPage("PANO",
       sidebarPanel(
         
         selectInput("plotType", "Plot type", 
-                    c("bar", "histogram", "box", "scatter")
+                    c("bar", "histogram", "heatmap", "box", "scatter")
         ),
         conditionalPanel(
           condition = "input.plotType == 'bar'",
           selectInput("barCol", "Categorical Value", categorical),
-          checkboxInput("proportion", "Proportions", value = FALSE)
+          checkboxInput("proportion", "Proportions", value = FALSE),
+          checkboxInput("split", "Split Current Values", value = FALSE),
+          conditionalPanel(
+            condition = "input.split == '1'",
+            selectInput("splitCol", "Split Category", splitCategories)
+          )
         ),
         conditionalPanel(
           condition = "input.plotType == 'histogram'",
           selectInput("histCol", "Numerical Value", numerical),
-          checkboxInput("proportion_hist", "Proportions", value = FALSE)
+          checkboxInput("proportion_hist", "Proportions", value = FALSE),
+          checkboxInput("split_hist", "Split Current Values", value = FALSE),
+          conditionalPanel(
+            condition = "input.split_hist == '1'",
+            selectInput("splitColHist", "Split Category", splitCategories)
+          )
+        ),
+        conditionalPanel(
+          condition = "input.plotType == 'heatmap'",
+          selectInput("heatCol1", "Categorical Value X", categorical),
+          selectInput("heatCol2", "Categorical Value Y", categorical[2:length(categorical)]),
         ),
         conditionalPanel(
           condition = "input.plotType == 'box'",
@@ -67,11 +78,6 @@ ui <- navbarPage("PANO",
           selectInput("scatterCol1", "Numerical Value 1", numerical),
           selectInput("scatterCol2", "Numerical Value 2", numerical)
         ),
-        checkboxInput("split", "Split Current Values", value = FALSE),
-        conditionalPanel(
-          condition = "input.split == 1",
-          selectInput("splitCol", "Split Category", splitCategories)
-        )
       ),
       
       mainPanel(
@@ -110,12 +116,12 @@ server <- function(input, output) {
     
     if (input$split == 1){
       
-      interestCol <- input$barCol
-      tbl <- data.frame(io_table[input$mytable_rows_all, ])
-      
       if (input$plotType == "bar"){
+        interestCol <- input$barCol
+        tbl <- data.frame(io_table[input$mytable_rows_all, ])
+        
         plt <- ggplot(tbl, aes(x=tbl[,interestCol])) + geom_bar() +
-          theme(axis.text.x = element_text(angle = 90, hjust=1)) + xlab("") +
+          theme(axis.text.x = element_text(angle = 90, hjust=1)) + xlab(interestCol) +
           ylab("Frequency") +
           facet_wrap(~ tbl[,input$splitCol])
         
@@ -128,10 +134,16 @@ server <- function(input, output) {
         }
         
       }
+
+    } else if(input$split_hist == 1){
+      
       if (input$plotType == "histogram"){
-        plt <- ggplot(tbl, aes(x=as.numeric(tbl[,interestCol]))) +
+        histCol <- input$histCol
+        tbl <- data.frame(io_table[input$mytable_rows_all, ])
+        
+        plt <- ggplot(tbl, aes(x=as.numeric(tbl[,histCol]))) +
           geom_histogram() +
-          facet_wrap(~ tbl[,input$splitCol])
+          facet_wrap(~ tbl[,input$splitColHist]) + xlab(histCol)
         
         if (input$proportion_hist ==TRUE){
           print(plt + stat_bin(geom="text", aes(label=round(..count../sum(..count..), 2)), vjust = -1)
@@ -140,7 +152,6 @@ server <- function(input, output) {
           print(plt + stat_bin(geom="text", aes(label=round(..count..,2)), vjust = -1)
           )
         }
-        
       }
     } else{
     
@@ -169,7 +180,7 @@ server <- function(input, output) {
         tbl <- data.frame(io_table[input$mytable_rows_all,])
 
         plt <- ggplot(tbl, aes(x=tbl[,interestCol])) + geom_histogram() +
-          xlab("") + ylab("Frequency")
+          xlab(interestCol) + ylab("Frequency")
         
         if (input$proportion_hist ==TRUE){
           print(plt + stat_bin(geom="text", aes(label=round(..count../sum(..count..), 2)), vjust = -1)
@@ -178,6 +189,21 @@ server <- function(input, output) {
           print(plt + stat_bin(geom="text", aes(label=round(..count..,2)), vjust = -1)
             )
         }
+      }
+      
+      if (input$plotType == "heatmap"){
+        
+        tbl <- data.frame(io_table[input$mytable_rows_all, ])
+        tbl_filt <- as.data.frame(select(tbl, input$heatCol1, input$heatCol2))
+        tbl_count <- as.data.frame(tbl_filt %>% count(tbl_filt[, input$heatCol1], 
+                                                      tbl_filt[, input$heatCol2]))
+        
+        
+        plt <- ggplot(data = tbl_count, mapping = aes(x = tbl_count[, 1],
+                                            y = tbl_count[, 2],
+                                            fill = tbl_count[, 3]))
+        print(plt + geom_tile() + xlab(input$heatCol1) + ylab(input$heatCol2) +
+                labs(fill = "Counts") + theme(axis.text.x = element_text(angle = 90, hjust=1)))
       }
       
       if (input$plotType == "box"){
