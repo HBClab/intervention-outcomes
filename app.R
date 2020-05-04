@@ -67,6 +67,11 @@ ui <- navbarPage("PANO",
           condition = "input.plotType == 'heatmap'",
           selectInput("heatCol1", "Categorical Value X", categorical),
           selectInput("heatCol2", "Categorical Value Y", categorical[2:length(categorical)]),
+          checkboxInput("split_heat", "Split Current Values", value = FALSE),
+          conditionalPanel(
+            condition = "input.split_heat == '1'",
+            selectInput("splitColHeat", "Split Category", splitCategories)
+          )
         ),
         conditionalPanel(
           condition = "input.plotType == 'box'",
@@ -114,45 +119,56 @@ server <- function(input, output) {
 
   output$mainPlot <- renderPlot({
     
-    if (input$split == 1){
+    if (input$split == 1 & input$plotType == "bar"){
       
-      if (input$plotType == "bar"){
-        interestCol <- input$barCol
-        tbl <- data.frame(io_table[input$mytable_rows_all, ])
-        
-        plt <- ggplot(tbl, aes(x=tbl[,interestCol])) + geom_bar() +
-          theme(axis.text.x = element_text(angle = 90, hjust=1)) + xlab(interestCol) +
-          ylab("Frequency") +
-          facet_wrap(~ tbl[,input$splitCol])
-        
-        if (input$proportion ==TRUE){
-          print(plt + geom_text(stat='count', aes(label=round(..count../sum(..count..), 2)), vjust=-1)
-          )
-        } else{
-          print(plt + geom_text(stat='count', aes(label=..count..), vjust=-1)
-          )
-        }
-        
+      interestCol <- input$barCol
+      tbl <- data.frame(io_table[input$mytable_rows_all, ])
+      
+      plt <- ggplot(tbl, aes(x=tbl[,interestCol])) + geom_bar() +
+        theme(axis.text.x = element_text(angle = 90, hjust=1)) + xlab(interestCol) +
+        ylab("Frequency") +
+        facet_wrap(~ tbl[,input$splitCol])
+      
+      if (input$proportion ==TRUE){
+        print(plt + geom_text(stat='count', aes(label=round(..count../sum(..count..), 2)), vjust=-1)
+        )
+      } else{
+        print(plt + geom_text(stat='count', aes(label=..count..), vjust=-1)
+        )
       }
 
-    } else if(input$split_hist == 1){
+    } else if(input$split_hist == 1 & input$plotType == "histogram"){
       
-      if (input$plotType == "histogram"){
-        histCol <- input$histCol
-        tbl <- data.frame(io_table[input$mytable_rows_all, ])
-        
-        plt <- ggplot(tbl, aes(x=as.numeric(tbl[,histCol]))) +
-          geom_histogram() +
-          facet_wrap(~ tbl[,input$splitColHist]) + xlab(histCol)
-        
-        if (input$proportion_hist ==TRUE){
-          print(plt + stat_bin(geom="text", aes(label=round(..count../sum(..count..), 2)), vjust = -1)
-          )
-        } else{
-          print(plt + stat_bin(geom="text", aes(label=round(..count..,2)), vjust = -1)
-          )
-        }
+      histCol <- input$histCol
+      tbl <- data.frame(io_table[input$mytable_rows_all, ])
+      
+      plt <- ggplot(tbl, aes(x=as.numeric(tbl[,histCol]))) +
+        geom_histogram() +
+        facet_wrap(~ tbl[,input$splitColHist]) + xlab(histCol)
+      
+      if (input$proportion_hist ==TRUE){
+        print(plt + stat_bin(geom="text", aes(label=round(..count../sum(..count..), 2)), vjust = -1)
+        )
+      } else{
+        print(plt + stat_bin(geom="text", aes(label=round(..count..,2)), vjust = -1)
+        )
       }
+    } else if(input$split_heat == 1 & input$plotType == "heatmap"){
+      
+      tbl <- data.frame(io_table[input$mytable_rows_all, ])
+      tbl_filt <- as.data.frame(select(tbl, input$heatCol1, input$heatCol2, input$splitColHeat))
+      tbl_count <- as.data.frame(tbl_filt %>% count(tbl_filt[, input$heatCol1], 
+                                                    tbl_filt[, input$heatCol2],
+                                                    tbl_filt[, input$splitColHeat]))
+      
+      
+      plt <- ggplot(data = tbl_count, mapping = aes(x = tbl_count[, 1],
+                                                    y = tbl_count[, 2],
+                                                    fill = tbl_count[, 4])) + geom_tile() +
+        facet_wrap(~ tbl_count[, 3])
+      print(plt + xlab(input$heatCol1) + ylab(input$heatCol2) +
+              labs(fill = "Counts") + theme(axis.text.x = element_text(angle = 90, hjust=1)))
+      
     } else{
     
       if (input$plotType == "bar"){
