@@ -21,7 +21,7 @@ numerical <- c("TotalSampleSize", "InterventionDuration", "ExperimentalGroupN",
                "ChangeinFMStandardized", "SessionsPerWeek", "DurationInMinutes", "WeeklyMinutes")
 
 hidden_col_indices <- c(10,12,13,14,15,16,17,18,19,20,21,24,25,26,27,28,29,30,31,32,33,
-                        34,35,36,37,38,39,40)
+                        34,35,36,37,38,39,40,41,42,43,44,45,46)
 
 splitCategories <- c("Design","IndependentVariable", "IndependentType", "DependentVariable",
                      "DependentType", "DependentSubType", "LinkType", "ExperimentalGroup",
@@ -29,8 +29,36 @@ splitCategories <- c("Design","IndependentVariable", "IndependentType", "Depende
                      "FitnessMeasure", "ConversionToNorton2010", "ConversionToGarber2011",
                      "IntensityAdherence", "TrueInterventionToincreaseFitness.")
 
-# Fix slider increments
+numToCat <- c("InterventionDurationCategorical", "PercFemaleCategorical", "BMIBaselineCategorical",
+              "SessionAdherenceCategorical", "ChangeinFMStandardizedCategorical",
+              "WeeklyMinutesCategorical")
+
+# Fix slider incrementsA
 io_table$InterventionDuration <- as.integer(io_table$InterventionDuration)
+
+# Create numerical -> categorical cols
+io_table$InterventionDurationCategorical <- cut(io_table$InterventionDuration, c(0, 11.99,
+                                                                                 23.99, 1000))
+levels(io_table$InterventionDurationCategorical) <- c("short (<12 weeks)", "medium (12-24 weeks)",
+                                                     "long (>24 weeks)")
+io_table$PercFemaleCategorical <- cut(io_table$PercFemale, c(-1, 49, 51, 101))
+levels(io_table$PercFemaleCategorical) <- c("majority men", "equal men/women N",
+                                                      "majority women")
+io_table$BMIBaselineCategorical <- cut(io_table$BMIBaseline, c(0, 18.5, 24.9, 29.9, 50))
+levels(io_table$BMIBaselineCategorical) <- c("underweight", "normal weight",
+                                            "overweight", "obese")
+io_table$SessionAdherenceCategorical <- cut(io_table$SessionAdherence, c(0, 60, 74, 89, 101))
+levels(io_table$SessionAdherenceCategorical) <- c("poor", "fair",
+                                             "moderate", "excellent")
+io_table$ChangeinFMStandardizedCategorical <- cut(io_table$ChangeinFMStandardized, c(-10, -.001,
+                                                                                     .001, 10))
+levels(io_table$ChangeinFMStandardizedCategorical) <- c("decrease", "no change", "increase")
+io_table$WeeklyMinutesCategorical <- cut(io_table$WeeklyMinutes, c(0, 150, 1000))
+levels(io_table$WeeklyMinutesCategorical) <- c("below 150 minutes/week",
+                                                        "at or above 150 minutes/week")
+
+
+
 
 ui <- navbarPage("PANO",
   
@@ -45,12 +73,12 @@ ui <- navbarPage("PANO",
         ),
         conditionalPanel(
           condition = "input.plotType == 'bar'",
-          selectInput("barCol", "Categorical Value", categorical),
+          selectInput("barCol", "Categorical Value", c(categorical, numToCat)),
           checkboxInput("proportion", "Proportions", value = FALSE),
           checkboxInput("split", "Split Current Values", value = FALSE),
           conditionalPanel(
             condition = "input.split == '1'",
-            selectInput("splitCol", "Split Category", splitCategories)
+            selectInput("splitCol", "Split Category", c(splitCategories, numToCat))
           )
         ),
         conditionalPanel(
@@ -60,17 +88,17 @@ ui <- navbarPage("PANO",
           checkboxInput("split_hist", "Split Current Values", value = FALSE),
           conditionalPanel(
             condition = "input.split_hist == '1'",
-            selectInput("splitColHist", "Split Category", splitCategories)
+            selectInput("splitColHist", "Split Category", c(splitCategories, numToCat))
           )
         ),
         conditionalPanel(
           condition = "input.plotType == 'heatmap'",
-          selectInput("heatCol1", "Categorical Value X", categorical),
-          selectInput("heatCol2", "Categorical Value Y", categorical[2:length(categorical)]),
+          selectInput("heatCol1", "Categorical Value X", c(categorical, numToCat)),
+          selectInput("heatCol2", "Categorical Value Y", c(categorical[2:length(categorical)], numToCat)),
           checkboxInput("split_heat", "Split Current Values", value = FALSE),
           conditionalPanel(
             condition = "input.split_heat == '1'",
-            selectInput("splitColHeat", "Split Category", splitCategories)
+            selectInput("splitColHeat", "Split Category", c(splitCategories, numToCat))
           )
         ),
         conditionalPanel(
