@@ -30,3 +30,5 @@ Smith, P. J., Blumenthal, J. A., Hoffman, B. M., Cooper, H., Strauman, T. A., We
 
 Young, J., Angevaren, M., & Rusted…, J. (2015). Aerobic exercise to improve cognitive function in older people without known cognitive impairment. Cochrane Database Syst Rev, 4, CD005381. doi:10.1002/14651858.CD005381.pub4
 
+
+**For issues/suggestions, please open an issue on Github [here](https://github.com/zkhan12/intervention-outcomes/issues)**
