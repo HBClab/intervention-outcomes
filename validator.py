@@ -1,3 +1,8 @@
+'''
+Validator for checking format of Intervention Outcomes data before it can be
+integrated with PANO.
+'''
+
 import pandas as pd
 import json
 
@@ -15,6 +20,11 @@ with open('categorical_key_values.json', 'r+') as json_file:
 
 
 def check_numeric(col_name):
+    '''
+    Ensure only numbers and NaN are included in numerical columns.
+
+    :param: col_name:name of the numerical column
+    '''
     for index, row in df.iterrows():
         ele = row[col_name]
         if ele != 'NaN':
@@ -27,6 +37,12 @@ def check_numeric(col_name):
 
 
 def check_categorical(col_name):
+    '''
+    Ensure only identified column values in `categorical_key_values.json` exist in their
+    respective columns.
+
+    :param: col_name:name of the categorical column
+    '''
     for index, row in df.iterrows():
         ele = row[col_name]
         if ele not in categorical_vals[col_name]:
