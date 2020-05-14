@@ -11,13 +11,13 @@ io_table <- as.data.frame(read.csv(file="InterventionOutcomesRFull.csv", header=
 categorical <- c("StudyName", "Include", "Design", "IndependentVariable", "IndependentType",
                  "DependentVariable", "DependentType", "DependentSubType", "LinkType",
                  "ExperimentalGroup", "ExperimentalGroup2", "ExperimentalGroup3",
-                 "ControlGroup", "AgeGroup", "CognitiveStatus", "TestType", "TestTypeSub",
-                 "FitnessMeasure", "InterventionIntensity", "ConversionToNorton2010",
+                 "ControlGroup", "AgeGroup", "CognitiveStatus", "TestType", "ChangeinFM",
+                 "TestTypeSub", "FitnessMeasure", "InterventionIntensity", "ConversionToNorton2010",
                  "IntensityAdherence", "TrueInterventionToincreaseFitness.")
 
 numerical <- c("TotalSampleSize", "InterventionDuration", "ExperimentalGroupN",
                "ExperimentalGroup2N", "ExperimentalGroup3N", "ControlGroupN", "MeanAge",
-               "PercFemale", "BMIBaseline", "SessionAdherence", "ChangeinFM",
+               "PercFemale", "BMIBaseline", "SessionAdherence",
                "ChangeinFMStandardized", "SessionsPerWeek", "DurationInMinutes", "WeeklyMinutes")
 
 hidden_col_indices <- c(10,12,13,14,15,16,17,18,19,20,21,24,25,26,27,28,29,30,31,32,33,
