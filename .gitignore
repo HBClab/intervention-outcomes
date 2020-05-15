@@ -2,3 +2,5 @@ about.html
 rsconnect/
 .Rhistory
 .RData
+credentials.json
+process_files/
