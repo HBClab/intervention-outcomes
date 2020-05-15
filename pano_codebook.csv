@@ -1,155 +1,39 @@
-Explanations for the fields. Use this to made sure you are correctly filling in the standardized fields and to keep track of your additional fields,,,,,,,,,
-,,,,,,,,,
-Field Name ,Description,Type,Format,Example,Required?,In shiny app table?,Eligible to split by?,Ordinal variable option for plotting,Notes
-Paper Description,,,,,,,,,
-StudyName,uniquely identifies a study,string,"last name of first author, year, and letter if necessary",Baker2010a,yes,Yes,No,No,
-Include,included from list of published meta-analyses,string,"Options:
--Y
--N",Y,yes,Yes,No,No,
-Study Design,,,,,,,,,
-Design,indicates study design,string,"Options:
--Intervention
--Acute",Intervention,yes,Yes,Yes,No,
-IndependentVariable,indicates type of training or physical activity manipulation,string,"Options:
--AerobicTraining
--MulticomponentTraining
--ResistanceTraining
--TaiChi
--Yoga
--Exergames
--Dance",AerobicTraining,yes,Yes,Yes,No,
-IndependentType,indicates more specific sub-type of training,string,"Options:
--recode this to refer to only training activities?",,yes,Yes,Yes,No,
-DependentVariable,indicates type of cognitive or brain outcome variable,string,"Options:
--see separate sheet",LogicalMemory,,Yes,Yes,No,
-DependentType,indicates more specific sub-type of outcome,string,"Options:
--see separate sheet
--capitalize first letter",Delayed,yes,Yes,Yes,No,
-DependentSubType,indicates sub-type version if applicable,string,"Options:
--see separate sheet
--capitalize first letter",WMS-III,no,Yes,Yes,No,
-LinkType,"indicates consistency of the direction of result with the hypothesis, based on approach of null hypothesis significance testing",string,"Options:
--Positive
--Null
--Negative",Positive,yes,No,Yes,No,
-TotalSampleSize,sample size across all groups,numeric,,,yes,No,No,No,
-InterventionDuration,intervention duration in weeks,numeric,,,yes,No,No,"Levels:
-<12 weeks = ""short (<12 weeks)""
-12-24 weeks = ""medium (12-24 weeks)""
->24 weeks = ""long (>24 weeks)""",
-ExperimentalGroup,name of primary experimental group or group proposed to have the strongest effect,string,"Options:
--Aerobic
--Multicomponent
--Resistance
--TaiChi
--Yoga
--Exergames
--Dance",Aerobic,yes,No,Yes,No,
-ExperimentalGroupN,sample size for ExperimentalGroup,numeric,,,yes,No,No,No,
-ExperimentalGroup2,name of secondary experimental group if applicable,string,"Options:
--Aerobic
--Multicomponent
--Resistance
--TaiChi
--Yoga
--Exergames
--Dance",,no,No,No,No,
-ExperimentalGroup2N,sample size for ExperimentalGroup2,numeric,,,no,No,No,No,
-ExperimentalGroup3,name of secondary experimental group if applicable,string,"Options:
--Aerobic
--Multicomponent
--Resistance
--TaiChi
--Yoga
--Exergames
--Dance",,no,No,No,No,
-ExperimentalGroup3N,sample size for ExperimentalGroup3,numeric,,,no,No,No,No,
-ControlGroup,name of control group if applicable,string,"Options:
--NoContact
--Waitlist
--Educational
--Stretch
--Cognitive
--Social
--PlaceboPill
--Other",,no,No,Yes,No,
-ControlGroupN,sample size for ControlGroup,numeric,,,no,No,No,No,
-Moderator Variables,,,,,,,,,
-MeanAge,average age for the total sample,numeric,,,yes,No,No,No,
-PercFemale,"percent female for the total sample, number only without a percent sign",numeric,,,yes,No,No,"Levels:
-<50 = ""majority men""
-50 = ""equal men/women N""
->50 = ""majority women""",
-AgeGroup,indicates age group for the sample,string,"Options:
--YoungAdult
--Middle
--Older",Older,yes,Yes,Yes,No,
-CognitiveStatus,cognitive status as indicated by the authors,string,"Options:
--CognitivelyNormal
--MCI
--Dementia
--Mixed
--MultipleSclerosis
--MajorDepressiveDisorder",CognitivelyNormal,yes,Yes,Yes,No,
-BMIBaseline,average BMI in weight (kg) / [height (m)]2 for the total sample at baseline,numeric,,,no,No,No,"Levels:
-<18.5 = ""underweight""
-18.5-24.9 = ""normal weight""
-25-29.9 = ""overweight""
->30 = ""obese""",
-SessionAdherence,Percentage of exercise prescription sessions attended,numeric,,,no,No,No,"Levels:
-<60 = ""poor""
-60-74 = ""fair""
-75-89 = ""moderate""
-90 = ""excellent""",
-TestType,Type of fitness measure test,string,"Options:
-- TreadmillModifiedBruce
-- TreadmillModifiedBalke
-- Age (formula)
-- CyclingMax
-- CyclingSubMax
-- Rockport Walk
-- 2km walk",CyclingMax,no,No,Yes,No,
-TestTypeSub,,,"-Max
--Calculated
--Estimated",Max,no,No,Yes,,
-FitnessMeasure,Fitness value used for reporting ,string,"-VO2Peak
--VO2Max
--SubMaxPerceivedExertion
--6minWalk
--PhysicalActivity",VO2Max,no,No,Yes,No,
-ChangeinFM,Reported value for the change in fitness measure used,numeric or percentile,"-11%
-5 on scale of value reported",,No,No,No,No,
-ChangeinFMStandardized,proportion change in FM (post-pre)/pre,numeric,,,no,No,No,"Levels:
-<0 = ""decrease""
-0 = ""no change""
->0 = ""increase""","Standardized version of ChangeinFM, to compare to multiple different changes in fitness measures used. We might want to see if theres a paper that gives approximate test-retest error for vo2 for no-change. maybe something like -2% -> 2%, and then %increase or decrease."
-InterventionIntensity,Reported exercise prescription intensity zones,string,-Several,55-65%VO2Max,no,No,No,No,
-ConversionToNorton2010,Converting intervention intensity to Norton 2010 suggestions for intensity classifications,string,"-Light
--Light-Moderate
--Moderate
--Moderate-Vigorous
--Vigorous",Moderate,no,No,Yes,No,
-ConversionToGarber2011,Converting intervention intensity to Garber 2011 suggestions for intensity classifications,string,"-Very Light
--Light
--Moderate
--Moderate-Vigorous
--Vigorous",Moderate-Vigorous,no,No,Yes,No,
-IntensityAdherence,"If intensity was monitored, how was it reported",string,"-HrMonitorSupervised
--Self-report
--HrMonitorSelf
--Supervised-Pulse
--Unclear",Self-report,no,No,Yes,No,
-SessionsPerWeek,"Number of sessions per week in exercise prescription. Calculated, if for example, 40 sessions in 16 weeks = 2.5 ",numeric,,,no,No,Yes,No,
-DurationInMinutes,Exercise session duration,numeric,,,no,No,No,No,
-WeeklyMinutes,"Calculated weekly minutes, sessions*duration",formula,,,no,No,No,"Levels:
-<150 = ""below 150 minutes/week""
->150 = ""at or above 150 minutes/week""",
-TrueInterventionToincreaseFitness?,"Subjective rating of whether study was intending to increase fitness or simply promote physical activity, based on exercise prescription, sessions per week/duration, aerobic fitness measures, intensity monitoring, target population, etc.",string,"-Yes
--No
--UnclearNoData",,,No,Yes,No,
-refID,doi for the paper; if no doi available pick next best unique indicator such as PMCID or PMID and preface number with code indicator,string,unique,"doi:
-10.1186/1471-2318-11-38
-
-if no doi:
-PMID23828292",yes,No,No,No,
-Notes,,,,,,,,,
+Field Name ,Description
+StudyName,uniquely identifies a study
+Include,included from list of published meta-analyses
+Design,indicates study design
+IndependentVariable,indicates type of training or physical activity manipulation
+IndependentType,indicates more specific sub-type of training
+DependentVariable,indicates type of cognitive or brain outcome variable
+DependentType,indicates more specific sub-type of outcome
+DependentSubType,indicates sub-type version if applicable
+LinkType,"indicates consistency of the direction of result with the hypothesis, based on approach of null hypothesis significance testing"
+TotalSampleSize,sample size across all groups
+InterventionDuration,intervention duration in weeks
+ExperimentalGroup,name of primary experimental group or group proposed to have the strongest effect
+ExperimentalGroupN,sample size for ExperimentalGroup
+ExperimentalGroup2,name of secondary experimental group if applicable
+ExperimentalGroup2N,sample size for ExperimentalGroup2
+ExperimentalGroup3,name of secondary experimental group if applicable
+ExperimentalGroup3N,sample size for ExperimentalGroup3
+ControlGroup,name of control group if applicable
+ControlGroupN,sample size for ControlGroup
+MeanAge,average age for the total sample
+PercFemale,"percent female for the total sample, number only without a percent sign"
+AgeGroup,indicates age group for the sample
+CognitiveStatus,cognitive status as indicated by the authors
+BMIBaseline,average BMI in weight (kg) / [height (m)]2 for the total sample at baseline
+SessionAdherence,Percentage of exercise prescription sessions attended
+TestType,Type of fitness measure test
+FitnessMeasure,Fitness value used for reporting 
+ChangeinFM,Reported value for the change in fitness measure used
+ChangeinFMStandardized,proportion change in FM (post-pre)/pre
+InterventionIntensity,Reported exercise prescription intensity zones
+ConversionToNorton2010,Converting intervention intensity to Norton 2010 suggestions for intensity classifications
+ConversionToGarber2011,Converting intervention intensity to Garber 2011 suggestions for intensity classifications
+IntensityAdherence,"If intensity was monitored, how was it reported"
+SessionsPerWeek,"Number of sessions per week in exercise prescription. Calculated, if for example, 40 sessions in 16 weeks = 2.5 "
+DurationInMinutes,Exercise session duration
+WeeklyMinutes,"Calculated weekly minutes, sessions*duration"
+TrueInterventionToincreaseFitness?,"Subjective rating of whether study was intending to increase fitness or simply promote physical activity, based on exercise prescription, sessions per week/duration, aerobic fitness measures, intensity monitoring, target population, etc."
+refID,doi for the paper; if no doi available pick next best unique indicator such as PMCID or PMID and preface number with code indicator

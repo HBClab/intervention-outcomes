@@ -7,6 +7,8 @@ library(dplyr)
 ref <- as.data.frame(read.csv(file="pano_intervention_references.csv", header = TRUE))
 io_table <- as.data.frame(read.csv(file="InterventionOutcomesRFull.csv", header=TRUE,
                                    na.strings = "NaN"))
+codebook <- as.data.frame(read.csv(file="pano_codebook.csv", header = TRUE))
+
 
 categorical <- c("StudyName", "Include", "Design", "IndependentVariable", "IndependentType",
                  "DependentVariable", "DependentType", "DependentSubType", "LinkType",
@@ -123,6 +125,9 @@ ui <- navbarPage("PANO",
   tabPanel("References",
            DT::dataTableOutput("reference_table")),
   
+  tabPanel("Data Description",
+           DT::dataTableOutput("codebook_table")),
+  
   tabPanel("About",
            includeMarkdown("about.md"))
 )
@@ -141,8 +146,12 @@ server <- function(input, output) {
     
   output$reference_table <- DT::renderDT({
     tbl <- io_table[input$mytable_rows_all, "refID"]
-    DT::datatable(ref[ref$refID %in% tbl,], options = list(pageLength = 10)
-    )
+    DT::datatable(ref[ref$refID %in% tbl,], options = list(pageLength = 10))
+  })
+  
+  output$codebook_table <- DT::renderDT({
+    DT::datatable(codebook, options = list(sDom  = '<"top">lrt<"bottom">ip',
+                                           pageLength = 100))
   })
 
   output$mainPlot <- renderPlot({

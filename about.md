@@ -1,3 +1,5 @@
+#### **About**
+
 **The Physical Activity Neurocognitive Outcomes (PANO)** application is a tool for visualizing results from research studies examining how physical activity and exercise training affects cognitive and neural outcomes. For example, currently the intervention database for PANO contains 349 unique results, or effects, that were included within 12 recently published meta-analyses. Our application aims to provide a tool for visualizing all of these results with user-defined filters to focus on the age-groups, intervention type, covariates, or outcomes of interest.
 
 **Why have the PANO application if we can read each meta-analysis?** Published meta-analyses are static and have limited comparability over time to aid in synthesizing the literature for new insights and theory development. PANO provides a tool for interactively visualizing results across studies with user-defined inclusion criteria upon an updated database of studies. 
@@ -29,6 +31,10 @@ Roig, M., Nordbrandt, S., Geertsen, S. S., & Nielsen, J. B. (2013). The effects 
 Smith, P. J., Blumenthal, J. A., Hoffman, B. M., Cooper, H., Strauman, T. A., Welsh-Bohmer, K., . . . Sherwood, A. (2010). Aerobic exercise and neurocognitive performance: a meta-analytic review of randomized controlled trials. Psychosom Med, 72(3), 239-252. doi:10.1097/PSY.0b013e3181d14633
 
 Young, J., Angevaren, M., & Rusted…, J. (2015). Aerobic exercise to improve cognitive function in older people without known cognitive impairment. Cochrane Database Syst Rev, 4, CD005381. doi:10.1002/14651858.CD005381.pub4
+
+
+#### **Example**
+![](example.jpg)
 
 
 **For issues/suggestions, please open an issue on Github [here](https://github.com/zkhan12/intervention-outcomes/issues)**
