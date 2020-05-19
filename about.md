@@ -30,7 +30,7 @@ The default plot is a bar graph showing the variable `StudyName` on the x-axis w
 
 > **Plotting categorical variables:** With the default Plot type of `bar`, plot frequency of different intervention types, and split count by ordinal variable `PercFemaleCategorical`. Include only studies have coded outcomes by selecting `Y` for the `Include` variable in the results database.  The plot indicates that about 150 of the effects reported from Aerobic Training interventions are from studies with a majority of women in the sample. Note this plot counts effects reported across studies, so two effects from one study counts as frequency of two. ![](example_type-with-percfemale.png) 
 ><br/> 
-> Using plot type `heatmap`, I can further split these counts by whether the results were in negative, null, or positive with respect to the hypothesized effect. ![](example_type-with-percfemale-and-linktype.png)
+> Using plot type `heatmap`, I can further split these counts by whether the results were in negative, null, or positive with respect to the hypothesized effect. The plot shows there were no negative results, and the majority of both null and positive effects have majority women in the sample. We can also see that it's uknown what the effect is for a Dance intervention with majority men in the sample. ![](example_type-with-percfemale-and-linktype.png)
 
 
 
