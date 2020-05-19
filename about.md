@@ -26,7 +26,7 @@
 
 **General usage and examples**
 
-The default plot is a bar graph showing the variable `StudyName` on the x-axis with frequency of occurance on the y-axis. Categorical variables can be plotted on the x-axis with plot types of `bar` `heatmap` or `box`. Once plot type is chosen, choose what is plotted on the x-axis as your `Categorical Value`. For example, to look at intervention effects for different training manipulations, choose `IndependentVariable` as my x-axis, and then in the database table I can filter to include only  levels of interest. To summarize based on levels of another categorical variable, choose `Split Current Values` and select the categorical variable. 
+The default plot is a bar graph showing the variable `StudyName` on the x-axis with frequency of occurance on the y-axis. Categorical variables can be plotted on the x-axis with plot types of `bar` `heatmap` or `box`. Once plot type is chosen, choose what is plotted on the x-axis as your `Categorical Value`. For example, to look at intervention effects for different training manipulations, choose `IndependentVariable` as your x-axis, and filter values of this variable to include by clicking the blank field below the variable in the table and choosing levels from the drop-down menu. To then summarize counts based on levels of another categorical variable, choose `Split Current Values` and select the relevant categorical variable. 
 
 > Example: With the default Plot type of `bar`, plot frequency of different intervention types, and split count by ordinal variable `PercFemaleCategorical`. ![](example_type-with-percfemale.png)
 
