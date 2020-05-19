@@ -28,10 +28,13 @@
 
 The default plot is a bar graph showing the variable `StudyName` on the x-axis with frequency of occurance on the y-axis. Categorical variables can be plotted on the x-axis with plot types of `bar` `heatmap` or `box`. Once plot type is chosen, choose what is plotted on the x-axis as your `Categorical Value`. For example, to look at intervention effects for different training manipulations, choose `IndependentVariable` as your x-axis, and filter values of this variable to include by clicking the blank field below the variable in the table and choosing levels from the drop-down menu. To then summarize counts based on levels of another categorical variable, choose `Split Current Values` and select the relevant categorical variable. 
 
-> Example: With the default Plot type of `bar`, plot frequency of different intervention types, and split count by ordinal variable `PercFemaleCategorical`. ![](example_type-with-percfemale.png)
+> **Plotting categorical variables:** With the default Plot type of `bar`, plot frequency of different intervention types, and split count by ordinal variable `PercFemaleCategorical`. The plot indicates that over 150 of the effects reported from Aerobic Training interventions are from studies with a majority of women in the sample. Note this plot counts effects reported across studies, so two effects from one study counts as frequency of two. ![](example_type-with-percfemale.png)
 
 
-By comparison, numerical variables can be plotted with `histogram` or `scatter` plots.
+
+<br/>
+
+> **Plotting numerical variables:** Use `scatter` plot to show `InterventionDuration` (weeks) on the x-axis and `TotalSampleSize` on y-axis. Overall, longer studies have larger sample sizes. ![](example_duration-with-samplesize.png) The plot type `histogram` can be helpful for seeing the distribution of a numerical variable across studies, such as intervention duration shown here: ![](example_duration-histogram.png)
 
 
 
