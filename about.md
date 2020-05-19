@@ -30,4 +30,4 @@
 
 <br/>
 
-> For issues/suggestions, please open an issue on Github [here](https://github.com/zkhan12/intervention-outcomes/issues)**
+**For issues/suggestions, please open an issue on Github [here](https://github.com/zkhan12/intervention-outcomes/issues)**
