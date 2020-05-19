@@ -23,7 +23,17 @@
 **Why have the PANO application if we can read each meta-analysis?** Published meta-analyses are static and have limited comparability with each other due to differences in inclusion criteria, how effect sizes are computed, and how cognitive tasks are grouped into higher-level cognitive constructs. To address these issues, PANO provides a tool for interactively visualizing results at the task-level across studies with user-defined inclusion criteria upon an updated database of studies. The database can be visualized based simply on number of present studies or based on `LinkType` where outcomes are coded relative to the hypothesized effect (negative/null/positive). With `LinkType`, the app can visualize a conservative estimate of patterns for strong effects, and identify gaps in the literature where few to no studies exist. 
 
 
-#### **Example usage**
+#### ** General usage and examples**
+
+The default plot is a bar graph showing the variable `StudyName` on the x-axis with frequency of occurance on the y-axis. Categorical variables can be plotted on the x-axis with plot types of `bar` `heatmap` or `box`. Once plot type is chosen, choose what is plotted on the x-axis as your `Categorical Value`. For example, to look at intervention effects for different training manipulations, choose `IndependentVariable` as my x-axis, and then in the database table I can filter to include only  levels of interest. To summarize based on levels of another categorical variable, choose `Split Current Values` and select the categorical variable. 
+
+> Example: With the default Plot type of `bar`, plot frequency of different intervention types, and split count by ordinal variable `PercFemaleCategorical`. ![](example_type-with-percfemale.png)
+
+
+By comparison, numerical variables can be plotted with `histogram` or `scatter` plots.
+
+
+
 
 ![](example.jpg)
 
