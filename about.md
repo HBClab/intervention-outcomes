@@ -23,8 +23,11 @@
 **Why have the PANO application if we can read each meta-analysis?** Published meta-analyses are static and have limited comparability with each other due to differences in inclusion criteria, how effect sizes are computed, and how cognitive tasks are grouped into higher-level cognitive constructs. To address these issues, PANO provides a tool for interactively visualizing results at the task-level across studies with user-defined inclusion criteria upon an updated database of studies. The database can be visualized based simply on number of present studies or based on `LinkType` where outcomes are coded relative to the hypothesized effect (negative/null/positive). With `LinkType`, the app can visualize a conservative estimate of patterns for strong effects, and identify gaps in the literature where few to no studies exist. 
 
 
-#### **Example**
+#### **Example usage**
+
 ![](example.jpg)
 
 
-**For issues/suggestions, please open an issue on Github [here](https://github.com/zkhan12/intervention-outcomes/issues)**
+<br/>
+
+> For issues/suggestions, please open an issue on Github [here](https://github.com/zkhan12/intervention-outcomes/issues)**
