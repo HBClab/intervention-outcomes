@@ -41,7 +41,7 @@ The default plot is a bar graph showing the variable `StudyName` on the x-axis w
 
 <br/>
 
-> **Using heatmaps to visualize patterns and gaps:** The app is designed to emphasize visualization of the strongest patterns in the literature and gaps in knowledge. The `heatmap` plot type can be very helpful for this purpose. For example, suppose I want to visualize episodic memory outcomes for aerobic training interventions of different durations. To do this, I would filter variable levels of interest in the table as: `Include=Y`, `IndependentVariable = AerobicTraining`, and select neuropsychological tasks testing episodic memory as the allowable `DependentVariable`. I can then split current values by `LinkType` to get the following plot: ![](example_duration-memory-linktype.png)
+> **Using heatmaps to visualize patterns and gaps:** The app is designed to emphasize visualization of the strongest patterns in the literature and gaps in knowledge. The `heatmap` plot type can be very helpful for this purpose. For example, suppose I want to visualize episodic memory outcomes for aerobic training interventions of different durations. To do this, I would filter variable levels of interest in the table as: `Include=Y`, `IndependentVariable = AerobicTraining`, and select neuropsychological tasks testing episodic memory as the allowable `DependentVariable`. I can then select `InterventionDurationCategorical` as my Categorical Value X, and `DependentVariable` as my Categorical Value Y, and split current values by `LinkType` to get the following plot: ![](example_duration-memory-linktype.png)
 
 <br/>
 
