@@ -1,6 +1,11 @@
-about.html
+.vscode/
 rsconnect/
+process_files/
 .Rhistory
 .RData
-credentials.json
-process_files/
+*.json
+!categorical_key_values.json
+*.csv
+!pano_codebook.csv
+!pano_intervention_references.csv
+!InterventionOutcomesRFull.csv
