@@ -1,6 +1,7 @@
 .vscode/
 rsconnect/
 process_files/
+validation/*.R
 .Rhistory
 .RData
 *.json

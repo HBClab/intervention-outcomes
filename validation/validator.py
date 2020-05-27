@@ -5,6 +5,17 @@ integrated with PANO.
 
 import pandas as pd
 import json
+import argparse
+import os
+
+
+def build_parser():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('data_file_path', help='path to intervention outcomes data')
+    parser.add_argument('categorical_key_values', help='path of categorical key values file')
+    parser.add_argument('output_file_dir', help='location of final intervention outcomes directory')
+    return parser
+
 
 numeric_cols = [
     "TotalSampleSize", "InterventionDuration", "ExperimentalGroupN",
@@ -13,9 +24,11 @@ numeric_cols = [
     "ChangeinFMStandardized", "SessionsPerWeek", "DurationInMinutes", "WeeklyMinutes"
     ]
 
-df = pd.read_csv('InterventionOutcomesRFull.csv', na_filter=False)
 
-with open('categorical_key_values.json', 'r+') as json_file:
+opts = build_parser().parse_args()
+df = pd.read_csv(opts.data_file_path, na_filter=False)
+
+with open(opts.categorical_key_values, 'r+') as json_file:
     categorical_vals = json.loads(json_file.read())
 
 
@@ -63,4 +76,7 @@ for cat_col in categorical_cols:
     check_categorical(cat_col)
 
 
-print('Passed successfully')
+# Passed successfully
+
+os.rename(opts.data_file_path, os.path.join(opts.output_file_dir,
+                                            'InterventionOutcomesRFull.csv'))

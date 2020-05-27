@@ -1,0 +1,35 @@
+ 
+version: 2
+jobs:
+
+    build_docker:
+        machine:
+            image: circleci/classic:201711-01
+        steps:
+            - run:
+                name: build docker image
+                no_output_timeout: 30m
+                command: |
+                    docker build -t io .
+    run_docker:
+        machine:
+            image: circleci/classic:201711-01
+        - run:
+            name: run docker image
+            no_output_timeout: 30m
+            command: |
+                docker run io
+workflows:
+    version: 2
+    build_and_run:
+        jobs:
+            - build_docker
+            - run_docker
+    nightly:
+        triggers:
+            - schedule:
+                cron: "0 0 * * 0"
+                filters:
+                    branches:
+                        only:
+                            - master
