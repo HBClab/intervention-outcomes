@@ -2,6 +2,8 @@ FROM ubuntu:18.04
 
 USER root
 
+ENV DEBIAN_FRONTEND=noninteractive
+
 RUN apt-get update \
     && apt-get -y install curl \
     && chmod 777 /opt \
