@@ -10,6 +10,7 @@ jobs:
                 no_output_timeout: 30m
                 command: |
                     echo ${PWD}
+                    ls
                     cd ${PWD}/intervention-outcomes/
                     docker build -t io .
                     echo $CREDENTIALS > credentials.json
