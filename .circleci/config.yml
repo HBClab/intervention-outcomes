@@ -6,8 +6,8 @@ jobs:
         steps:
             - checkout
             - run:
-                name: build docker image
-                no_output_timeout: 30m
+                name: build and run docker image testing
+                no_output_timeout: 60m
                 command: |
                     docker build -t io .
                     echo $CREDENTIALS > credentials.json
@@ -18,8 +18,8 @@ jobs:
         working_directory: /tmp/src/intervention-outcomes
         steps:
             - run:
-                name: build docker image
-                no_output_timeout: 30m
+                name: build and run docker image production
+                no_output_timeout: 60m
                 command: |
                     docker build -t io .
                     echo $CREDENTIALS > credentials.json
@@ -34,7 +34,7 @@ workflows:
             - build_run_docker_prod
         triggers:
             - schedule:
-                cron: "0 0 * * 0"
+                cron: "0 0 0 * * 1"
                 filters:
                     branches:
                         only:
