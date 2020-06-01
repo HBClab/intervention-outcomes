@@ -3,12 +3,13 @@ jobs:
     build_run_docker_test:
         machine:
             image: circleci/classic:201711-01
-        working_directory: /tmp/src/intervention-outcomes
         steps:
+            - checkout
             - run:
                 name: build docker image
                 no_output_timeout: 30m
                 command: |
+                    cd intervention-outcomes/
                     docker build -t io .
                     echo $CREDENTIALS > credentials.json
                     docker run -v ${PWD}/credentials.json:/home/coder/projects/validation/credentials.json io $DOCID $NAME_ACC $TOKEN_ACC $SECRET_ACC $APPID_DEPLOY $APPNAME_DEPLOY
