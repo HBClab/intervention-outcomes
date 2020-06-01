@@ -1,6 +1,6 @@
 version: 2
 jobs:
-    build_docker:
+    build_docker_test:
         machine:
             image: circleci/classic:201711-01
         steps:
@@ -9,7 +9,7 @@ jobs:
                 no_output_timeout: 30m
                 command: |
                     docker build -t io .
-    run_docker:
+    run_docker_test:
         machine:
             image: circleci/classic:201711-01
         steps:
@@ -17,14 +17,37 @@ jobs:
                 name: run docker image
                 no_output_timeout: 30m
                 command: |
-                    docker run io
+                    echo $CREDENTIALS > credentials.json
+                    docker run io -v ./credentials.json:/home/coder/projects/validation/credentials.json $DOCID $NAME_ACC $TOKEN_ACC $SECRET_ACC $APPID_DEPLOY $APPNAME_DEPLOY
+    build_docker_prod:
+        machine:
+            image: circleci/classic:201711-01
+        steps:
+            - run:
+                name: build docker image
+                no_output_timeout: 30m
+                command: |
+                    docker build -t io .
+    run_docker_prod:
+        machine:
+            image: circleci/classic:201711-01
+        steps:
+            - run:
+                name: run docker image
+                no_output_timeout: 30m
+                command: |
+                echo $CREDENTIALS > credentials.json
+                docker run io -v ./credentials.json:/home/coder/projects/validation/credentials.json $DOCID $NAME_ACC $TOKEN_ACC $SECRET_ACC $APPID_DEPLOY_PROD $APPNAME_DEPLOY_PROD
 workflows:
     version: 2
     build_and_run:
         jobs:
-            - build_docker
-            - run_docker
-    nightly:
+            - build_docker_test
+            - run_docker_test
+    weekly_data_update:
+        jobs:
+            - build_docker_prod
+            - run_docker_prod
         triggers:
             - schedule:
                 cron: "0 0 * * 0"

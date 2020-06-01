@@ -7,7 +7,10 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update \
     && apt-get -y install curl \
     && chmod 777 /opt \
-    && apt install -y r-base
+    && apt install -y r-base \
+    && apt-get install -y libssl-dev \
+    && apt-get install -y libcurl4-gnutls-dev \
+    && R -e "install.packages('rsconnect')"
 
 ENV PATH="/opt/miniconda-latest/bin:$PATH"
 
@@ -25,9 +28,6 @@ WORKDIR /home/coder/projects
 COPY --chown=coder . /home/coder/projects/
 
 RUN conda env create -f environment.yml
-RUN bash -c 'conda init && . /home/coder/.bashrc && . activate io' \
-    && echo $CREDENTIALS > validation/credentials.json \
-    && python validation/download.py validation/credentials.json $DOCID tmp/ \
-    && python validation/validator.py tmp/intervention_data.csv validation/categorical_key_values.json app/.
+RUN bash -c 'conda init && . /home/coder/.bashrc && . activate io'
 
-CMD ["/bin/bash"]
+ENTRYPOINT ["/bin/bash", "/home/coder/projects/validation/run.sh"]
