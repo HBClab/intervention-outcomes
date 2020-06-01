@@ -10,7 +10,7 @@ RUN apt-get update \
     && apt install -y r-base \
     && apt-get install -y libssl-dev \
     && apt-get install -y libcurl4-gnutls-dev \
-    && R -e "install.packages('rsconnect')"
+    && R -e "install.packages(c('rsconnect', 'shiny', 'DT', 'dplyr', 'markdown', 'ggplot2'))"
 
 ENV PATH="/opt/miniconda-latest/bin:$PATH"
 
@@ -28,6 +28,6 @@ WORKDIR /home/coder/projects
 COPY --chown=coder . /home/coder/projects/
 
 RUN conda env create -f environment.yml
-RUN bash -c 'conda init && . /home/coder/.bashrc && . activate io'
+RUN bash -c 'conda init && . /home/coder/.bashrc'
 
-ENTRYPOINT ["/bin/bash", "/home/coder/projects/validation/run.sh"]
+ENTRYPOINT ["/bin/bash", "./validation/run.sh"]

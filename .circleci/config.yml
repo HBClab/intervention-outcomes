@@ -3,6 +3,7 @@ jobs:
     build_run_docker_test:
         machine:
             image: circleci/classic:201711-01
+        working_directory: /tmp/src/intervention-outcomes
         steps:
             - run:
                 name: build docker image
@@ -10,10 +11,11 @@ jobs:
                 command: |
                     docker build -t io .
                     echo $CREDENTIALS > credentials.json
-                    docker run io -v ./credentials.json:/home/coder/projects/validation/credentials.json $DOCID $NAME_ACC $TOKEN_ACC $SECRET_ACC $APPID_DEPLOY $APPNAME_DEPLOY
+                    docker run -v ${PWD}/credentials.json:/home/coder/projects/validation/credentials.json io $DOCID $NAME_ACC $TOKEN_ACC $SECRET_ACC $APPID_DEPLOY $APPNAME_DEPLOY
     build_run_docker_prod:
         machine:
             image: circleci/classic:201711-01
+        working_directory: /tmp/src/intervention-outcomes
         steps:
             - run:
                 name: build docker image
@@ -21,7 +23,7 @@ jobs:
                 command: |
                     docker build -t io .
                     echo $CREDENTIALS > credentials.json
-                    docker run io -v ./credentials.json:/home/coder/projects/validation/credentials.json $DOCID $NAME_ACC $TOKEN_ACC $SECRET_ACC $APPID_DEPLOY_PROD $APPNAME_DEPLOY_PROD
+                    docker run -v ${PWD}/credentials.json:/home/coder/projects/validation/credentials.json io $DOCID $NAME_ACC $TOKEN_ACC $SECRET_ACC $APPID_DEPLOY_PROD $APPNAME_DEPLOY_PROD
 workflows:
     version: 2
     build_and_run:
