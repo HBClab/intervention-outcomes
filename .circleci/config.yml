@@ -9,7 +9,7 @@ jobs:
                 name: build docker image
                 no_output_timeout: 30m
                 command: |
-                    cd intervention-outcomes/
+                    cd /home/circleci/project/intervention-outcomes/
                     docker build -t io .
                     echo $CREDENTIALS > credentials.json
                     docker run -v ${PWD}/credentials.json:/home/coder/projects/validation/credentials.json io $DOCID $NAME_ACC $TOKEN_ACC $SECRET_ACC $APPID_DEPLOY $APPNAME_DEPLOY
