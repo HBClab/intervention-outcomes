@@ -17,6 +17,7 @@ jobs:
             image: circleci/classic:201711-01
         working_directory: /tmp/src/intervention-outcomes
         steps:
+            - checkout
             - run:
                 name: build and run docker image production
                 no_output_timeout: 60m
