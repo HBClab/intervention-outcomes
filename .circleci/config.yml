@@ -15,7 +15,6 @@ jobs:
     build_run_docker_prod:
         machine:
             image: circleci/classic:201711-01
-        working_directory: /tmp/src/intervention-outcomes
         steps:
             - checkout
             - run:
@@ -27,9 +26,13 @@ jobs:
                     docker run -v ${PWD}/credentials.json:/home/coder/projects/validation/credentials.json io $DOCID $NAME_ACC $TOKEN_ACC $SECRET_ACC $APPID_DEPLOY_PROD $APPNAME_DEPLOY_PROD
 workflows:
     version: 2
-    build_and_run:
+    build_run_test:
         jobs:
-            - build_run_docker_test
+            - build_run_docker_test:
+                filters:
+                    branches:
+                        ignore:
+                            - master
     weekly_data_update:
         jobs:
             - build_run_docker_prod
