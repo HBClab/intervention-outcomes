@@ -12,6 +12,10 @@ When adding data to categorical columns, note all Nonetype values must be writte
 
 # Overview of repo
 - `app/` folder contains all files and csv's required to run the web application
+- `validation/` folder contains all files needed to do the weekly data update
+
+Flowchart of weekly data update logic:
+![](examples/pano_logic_diagram.png)
 
 # Hosting through RStudio Shinyapps
 The PANO application is hosted via [shinyapps](http://shinyapps.io/). All management and analytics regarding usage can be accessed through the associated shinyapps account. Deploying and stopping running instances must also be controlled through the account.
