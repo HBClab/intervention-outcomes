@@ -20,10 +20,9 @@
         "MotorAssistedCycling",
         "NA",
         "NoContact",
-        "Nocontact",
         "Nointervention",
         "PlaceboPill",
-        "Sedentary5week",
+        "Sedentary",
         "Social",
         "Stretch",
         "Waitlist"
@@ -47,7 +46,7 @@
         "Physiotherapy",
         "Pioglitazone",
         "Resistance",
-        "Sedentary3week",
+        "Sedentary",
         "Social",
         "Stretching",
         "Walking",
@@ -254,9 +253,9 @@
         "Switching",
         "Verbal",
         "Volume",
-        "backward",
+        "Backward",
         "combined",
-        "forward",
+        "Forward",
         "serum"
     ],
     "ConversionToGarber2011": [
@@ -275,7 +274,6 @@
         "CyclingMaxTest",
         "CyclingSubMax",
         "NA",
-        "Na",
         "RockportWalk",
         "Treadmill",
         "TreadmillMaxTest",
@@ -294,8 +292,7 @@
         "Mixed",
         "NA",
         "Older",
-        "YoungAdult",
-        "older"
+        "YoungAdult"
     ],
     "ChangeinFM": [
         "-0.01",
@@ -385,7 +382,7 @@
         "VT1"
     ],
     "ExperimentalGroup3": [
-        "Aerobic3week",
+        "Aerobic",
         "Cognitive",
         "Diet",
         "MetabolicSyndromeControl",
