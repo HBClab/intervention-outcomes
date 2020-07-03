@@ -70,7 +70,7 @@ for num_col in numeric_cols:
     check_numeric(num_col)
 
 
-categorical_cols = list(set(list(df.drop(['Notes', 'refID'], axis=1).columns)) - set(numeric_cols))
+categorical_cols = list(set(list(df.drop(['Notes', 'refID', 'StudyName'], axis=1).columns)) - set(numeric_cols))
 
 for cat_col in categorical_cols:
     check_categorical(cat_col)

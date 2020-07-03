@@ -1,5 +1,21 @@
+# Contributing to data sources
+## Overview
+All data in PANO is updated weekly via a continuous integration pipeline. Every sunday night, the most recent copy of the google sheets data source is downloaded and any new entries to the data are run through a validation script to ensure that proper formatting is kept. If the validation passes, the downloaded copy will be pushed to RStudio Shinyapps and the updated data set will be reflected on the main PANO site.
+## Adding new data
+Any new data to be added to the main plot page of PANO can be directly added to the [google sheet](https://docs.google.com/spreadsheets/d/1nWcS0UrfvnPupAwb4uvaMeY7CqmFqIu09F3I9k4ND3s/edit#gid=0) with appropriate writing permissions.
+Data should be added directly to the data tab. It is important to note that when adding a new row to the data sheet, ALL columns must be filled out. If there is no data for a particular column, add the appropriate Nonetype value to the row. ![](examples/data-source.png)
+
+### Numerical Columns
+When adding data to numerical columns, note that all Nonetype values (NA, None, etc.) must be written as `NaN` for validation to pass properly. This is due to the processing that occurs in the R script. ![](examples/num-col.png)
+### Categorical Columns
+When adding data to categorical columns, note all Nonetype values must be written as `NA` for the validation to pass properly. It is also important to note that only certain data values are allowed for categorical columns to pass the validation. If any changes are being made to which column values are acceptable for a specific categorical column, they can be modified in the `validation/categorical_key_values.json` file and pushed to github following the best practices outlined below.![](examples/cat-col.png)
+
 # Overview of repo
 - `app/` folder contains all files and csv's required to run the web application
+- `validation/` folder contains all files needed to do the weekly data update
+
+Flowchart of weekly data update logic:
+![](examples/pano_logic_diagram.png)
 
 # Hosting through RStudio Shinyapps
 The PANO application is hosted via [shinyapps](http://shinyapps.io/). All management and analytics regarding usage can be accessed through the associated shinyapps account. Deploying and stopping running instances must also be controlled through the account.
