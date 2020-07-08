@@ -12,7 +12,7 @@ jobs:
                 no_output_timeout: 60m
                 command: |
                     source activate io
-                    echo $CREDENTIALS > credentials.json
+                    echo $CREDENTIALS > /home/coder/projects/validation/credentials.json
                     /home/coder/projects/validation/run.sh $DOCID $NAME_ACC $TOKEN_ACC $SECRET_ACC $APPID_DEPLOY $APPNAME_DEPLOY
     build_run_docker_prod:
         docker:
@@ -25,7 +25,7 @@ jobs:
                 no_output_timeout: 60m
                 command: |
                     source activate io
-                    echo $CREDENTIALS > credentials.json
+                    echo $CREDENTIALS > /home/coder/projects/validation/credentials.json
                     /home/coder/projects/validation/run.sh $DOCID $NAME_ACC $TOKEN_ACC $SECRET_ACC $APPID_DEPLOY_PROD $APPNAME_DEPLOY_PROD
 workflows:
     version: 2
