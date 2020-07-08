@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+set -eo pipefail
 python=/opt/miniconda-latest/envs/io/bin/python
 
 DOCID=$1

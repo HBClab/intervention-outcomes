@@ -51,3 +51,12 @@ Edit the code on the `dev` branch as you would like and keep the master branch f
 
 ## Merge into master branch and make a pull request
 Once the `dev` branch is confirmed to be stable, you can create a pull request on github ![](examples/pr.png)
+
+# Syncing walkthrough
+## Regular sync
+Normally to sync your local copy of the code with what is on github under the HBClab account, you can run `git pull origin master` when inside your local directory. To sync your local copy with the dev branch, run `git pull origin dev`.
+## Forked copy sync
+If your repository was forked from HBClab and there is now a repository called intervention-outcomes under your username, you can sync with your own repository using `git pull origin master` or `git pull origin dev` for the dev branch. To sync with the HBClab repository, use `git pull upstream master` or `git pull upstream dev` since upstream refers to the original repository which had the code base. (in this case the HBClab repository) 
+## Merge conflicts
+Occasionally if two people are working on the same code, merge conflicts can occur when git tries to combine two different copies of the same modified repository. For example, if someone made a change to the `README.md` and pushed their changes to github, but you have separate changes on your copy of the code locally, git doesn't know which version it should keep. To fix merge conflicts, git will modify the code so both copies appear and the user must manually remove the copy they don't want to keep. A merge conflict can appear when you try the above commands by using git pull and the unmerged code will look like the following: ![](examples/merge-conflict.png)
+More information on dealing with merge conflicts can be found [here](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts).
