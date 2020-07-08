@@ -8,9 +8,11 @@ jobs:
             - checkout
             
             - run:
-                name: build and run docker image testing
+                name: validate and deploy application (testing)
                 no_output_timeout: 60m
                 command: |
+                    conda init bash
+                    . ${HOME}/.bashrc
                     conda activate io
                     echo $CREDENTIALS > credentials.json
                     /home/coder/projects/validation/run.sh $DOCID $NAME_ACC $TOKEN_ACC $SECRET_ACC $APPID_DEPLOY $APPNAME_DEPLOY
@@ -21,9 +23,11 @@ jobs:
         steps:
             - checkout
             - run:
-                name: build and run docker image production
+                name: validate and deploy application (production)
                 no_output_timeout: 60m
                 command: |
+                    conda init bash
+                    . ${HOME}/.bashrc
                     conda activate io
                     echo $CREDENTIALS > credentials.json
                     /home/coder/projects/validation/run.sh $DOCID $NAME_ACC $TOKEN_ACC $SECRET_ACC $APPID_DEPLOY_PROD $APPNAME_DEPLOY_PROD
