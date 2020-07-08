@@ -1,7 +1,7 @@
 version: 2
 jobs:
     build_run_docker_test:
-        machine:
+        docker:
             image: hbclab/intervention-outcomes-env:v1.0.0
         working_directory: /home/coder/projects
         steps:
@@ -15,7 +15,7 @@ jobs:
                     echo $CREDENTIALS > credentials.json
                     /home/coder/projects/validation/run.sh $DOCID $NAME_ACC $TOKEN_ACC $SECRET_ACC $APPID_DEPLOY $APPNAME_DEPLOY
     build_run_docker_prod:
-        machine:
+        docker:
             image: hbclab/intervention-outcomes-env:v1.0.0
         working_directory: /home/coder/projects
         steps:
