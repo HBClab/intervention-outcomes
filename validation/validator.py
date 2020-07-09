@@ -63,7 +63,7 @@ def check_categorical(col_name):
         ele = row[col_name]
 
         if col_name == 'StudyName':
-            pattern = re.compile('^[A-Z][a-z]*[0-9]{4}')
+            pattern = re.compile('^[A-Z][a-z]*[0-9]{4}[a-z]{,1}$')
             if not pattern.match(row['StudyName']):
                 raise ValueError(
                         '''
