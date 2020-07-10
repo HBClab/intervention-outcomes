@@ -27,6 +27,22 @@ jobs:
                     source activate io
                     echo $CREDENTIALS > /home/coder/projects/validation/credentials.json
                     /home/coder/projects/validation/run.sh $DOCID $NAME_ACC $TOKEN_ACC $SECRET_ACC $APPID_DEPLOY_PROD $APPNAME_DEPLOY_PROD
+            - run:
+                name: add and commit files
+                command: |
+                    git config credential.helper 'cache --timeout=120'
+                    git config user.email "helper@help.com"
+                    git config user.name "QA Bot"
+                          
+                    # check to see if there were any changes to the repository.
+                    if [ -z "$(git ls-files --other --exclude-standard --directory)" ]; then
+                        echo "No files to be committed!"
+                    else
+                        # Push quietly to prevent showing the token in log
+                        git add .
+                        git commit -m "[skip ci] $(date)"
+                        git push -q https://${GITHUB_TOKEN}@github.com/HBClab/BetterTaskSwitch.git master
+                    fi
 workflows:
     version: 2
     build_run_test:
