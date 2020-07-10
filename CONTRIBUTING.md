@@ -23,6 +23,10 @@ The PANO application is hosted via [shinyapps](http://shinyapps.io/). All manage
 # Best practices regarding development
 - All development is encouraged to occur on the dev branch and be merged into the master branch via a pull request
 
+## Testing changes locally before pushing to github/dockerhub
+A good rule of thumb for development is to always see how a change to a piece of code is reflected on the developers own computer before pushing to online resources. Following the steps above to clone the repository on your own machine, the R Shiny app can be opened in R Studio. Once the project is opened and the app.R file is selected, R Studio will recognize that the file is a shiny app and will provide a button to run the app on the local machine (at the top-right of the code window). ![](examples/local-app.png)
+Clicking the Run App button will allow you to see how the current version of the code on your local machine is running the application, this is encouraged to be used throughout the development process before anything is committed to github or deployed to Shinyapps.io
+
 
 # Contributing walkthrough
 
