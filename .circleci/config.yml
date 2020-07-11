@@ -28,7 +28,7 @@ jobs:
                     echo $CREDENTIALS > /home/coder/projects/validation/credentials.json
                     /home/coder/projects/validation/run.sh $DOCID $NAME_ACC $TOKEN_ACC $SECRET_ACC $APPID_DEPLOY_PROD $APPNAME_DEPLOY_PROD
             - run:
-                name: add and commit files
+                name: update data files
                 command: |
                     git config credential.helper 'cache --timeout=120'
                     git config user.email "helper@help.com"
@@ -42,8 +42,8 @@ jobs:
                         # Push quietly to prevent showing the token in log
                         git add /home/coder/projects/app/InterventionOutcomesRFull.csv
                         git add /home/coder/projects/app/pano_codebook.csv
-                        git commit -m "[skip ci] $(date)"
-                        git push -q https://${GITHUB_TOKEN}@github.com/${CIRCLE_PROJECT_USERNAME}/BetterTaskSwitch.git ${CIRCLE_BRANCH}
+                        git commit -m "[skip ci] update data files $(date)"
+                        git push -q https://${GITHUB_TOKEN}@github.com/${CIRCLE_PROJECT_USERNAME}/intervention-outcomes.git ${CIRCLE_BRANCH}
                     fi
 workflows:
     version: 2
