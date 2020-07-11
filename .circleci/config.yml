@@ -2,7 +2,7 @@ version: 2
 jobs:
     build_run_docker_test:
         docker:
-            - image: hbclab/intervention-outcomes-env:v1.0.0
+            - image: hbclab/intervention-outcomes-env:v1.1.0
         working_directory: /home/coder/projects
         steps:
             - checkout
@@ -16,7 +16,7 @@ jobs:
                     /home/coder/projects/validation/run.sh $DOCID $NAME_ACC $TOKEN_ACC $SECRET_ACC $APPID_DEPLOY $APPNAME_DEPLOY
     build_run_docker_prod:
         docker:
-            - image: hbclab/intervention-outcomes-env:v1.0.0
+            - image: hbclab/intervention-outcomes-env:v1.1.0
         working_directory: /home/coder/projects
         steps:
             - checkout
@@ -32,16 +32,18 @@ jobs:
                 command: |
                     git config credential.helper 'cache --timeout=120'
                     git config user.email "helper@help.com"
-                    git config user.name "QA Bot"
-                          
+                    git config user.name "Data Update Bot"
+
+                    files_changed=$(git diff /home/coder/projects/app/InterventionOutcomesRFull.csv /home/coder/projects/app/pano_codebook.csv)
                     # check to see if there were any changes to the repository.
-                    if [ -z "$(git ls-files --other --exclude-standard --directory)" ]; then
+                    if [ -z "${files_changed}" ]; then
                         echo "No files to be committed!"
                     else
                         # Push quietly to prevent showing the token in log
-                        git add .
+                        git add /home/coder/projects/app/InterventionOutcomesRFull.csv
+                        git add /home/coder/projects/app/pano_codebook.csv
                         git commit -m "[skip ci] $(date)"
-                        git push -q https://${GITHUB_TOKEN}@github.com/HBClab/BetterTaskSwitch.git master
+                        git push -q https://${GITHUB_TOKEN}@github.com/${CIRCLE_PROJECT_USERNAME}/BetterTaskSwitch.git ${CIRCLE_BRANCH}
                     fi
 workflows:
     version: 2
