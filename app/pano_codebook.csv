@@ -1,4 +1,4 @@
-Field Name ,Description
+Field Name,Description
 StudyName,uniquely identifies a study
 Include,included from list of published meta-analyses
 Design,indicates study design
@@ -25,6 +25,7 @@ CognitiveStatus,cognitive status as indicated by the authors
 BMIBaseline,average BMI in weight (kg) / [height (m)]2 for the total sample at baseline
 SessionAdherence,Percentage of exercise prescription sessions attended
 TestType,Type of fitness measure test
+TestTypeSub,
 FitnessMeasure,Fitness value used for reporting 
 ChangeinFM,Reported value for the change in fitness measure used
 ChangeinFMStandardized,proportion change in FM (post-pre)/pre
@@ -37,3 +38,4 @@ DurationInMinutes,Exercise session duration
 WeeklyMinutes,"Calculated weekly minutes, sessions*duration"
 TrueInterventionToincreaseFitness?,"Subjective rating of whether study was intending to increase fitness or simply promote physical activity, based on exercise prescription, sessions per week/duration, aerobic fitness measures, intensity monitoring, target population, etc."
 refID,doi for the paper; if no doi available pick next best unique indicator such as PMCID or PMID and preface number with code indicator
+Notes,
