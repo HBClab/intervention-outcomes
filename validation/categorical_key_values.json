@@ -19,7 +19,6 @@
         "Homesafety",
         "MotorAssistedCycling",
         "NA",
-        "NoContact",
         "Nointervention",
         "PlaceboPill",
         "Sedentary",
@@ -49,7 +48,6 @@
         "Sedentary",
         "Social",
         "Stretching",
-        "Walking",
         "Yoga"
     ],
     "Design": [
@@ -161,33 +159,19 @@
     ],
     "DependentVariable": [
         "AVLT",
-        "BDNF",
         "CVLT",
         "ComplexFigure",
         "DigitSpan",
-        "Dopamine",
-        "EntorhinalCortex",
         "Flanker",
-        "Frontal",
-        "GrayMatter",
         "HVLT",
-        "Hippocampus",
-        "IGF1",
-        "LeftCingulateVolume",
-        "LeftPrefrontalVolume",
         "ListLearning",
         "LogicalMemory",
-        "Medialtemporallobe",
         "NA",
         "Nback",
-        "Occipital",
         "PairedAssociates",
-        "Parietal",
         "RAVLT",
         "Stroop",
         "Task-switching",
-        "Temporal",
-        "Totalbrainvolume",
         "TrailMaking",
         "VerbalFluency",
         "VerbalPairedAssociates"
@@ -196,12 +180,10 @@
         "ADS6",
         "AdjustedFromTrailA",
         "Animal",
-        "CNSVitalSigns",
         "CVVLT",
         "Chinese",
         "D-Kefs",
         "Dutch",
-        "FSL TBSS",
         "German",
         "MOCA",
         "NA",
@@ -240,12 +222,10 @@
         "Combined",
         "Configural",
         "Delayed",
-        "FractionalAnisotropy",
         "Immediate",
         "LearningTrials",
         "Letter",
         "NA",
-        "Plasma",
         "RBMT",
         "Recognition",
         "Semantic",
@@ -255,8 +235,7 @@
         "Volume",
         "Backward",
         "combined",
-        "Forward",
-        "serum"
+        "Forward"
     ],
     "ConversionToGarber2011": [
         "Light",
@@ -282,10 +261,7 @@
     ],
     "IndependentType": [
         "Activity",
-        "Biomarker",
-        "NA",
-        "Physiological",
-        "Volume"
+        "NA"
     ],
     "AgeGroup": [
         "Middle",
@@ -325,17 +301,13 @@
         "NaN"
     ],
     "IndependentVariable": [
-        "AerobicTraining",
-        "BDNF",
-        "CardiorespiratoryFitness",
+        "Aerobic",
         "Dance",
         "Exergames",
-        "Hippocampus",
-        "MulticomponentTraining",
+        "Multicomponent",
         "NA",
-        "ResistanceTraining",
+        "Resistance",
         "TaiChi",
-        "VEGFR1",
         "Yoga"
     ],
     "InterventionIntensity": [
@@ -414,7 +386,6 @@
     ],
     "TestTypeSub": [
         "Calculated",
-        "Estimate",
         "Estimated",
         "Max",
         "NA",
