@@ -12,12 +12,20 @@ When adding data to categorical columns, note all Nonetype values must be writte
 
 # Overview of repo
 - `app/` folder contains all files and csv's required to run the web application
+- `validation/` folder contains all files needed to do the weekly data update
+
+Flowchart of weekly data update logic:
+![](examples/pano_logic_diagram.png)
 
 # Hosting through RStudio Shinyapps
 The PANO application is hosted via [shinyapps](http://shinyapps.io/). All management and analytics regarding usage can be accessed through the associated shinyapps account. Deploying and stopping running instances must also be controlled through the account.
 
 # Best practices regarding development
 - All development is encouraged to occur on the dev branch and be merged into the master branch via a pull request
+
+## Testing changes locally before pushing to github/dockerhub
+A good rule of thumb for development is to always see how a change to a piece of code is reflected on the developers own computer before pushing to online resources. Following the steps above to clone the repository on your own machine, the R Shiny app can be opened in R Studio. Once the project is opened and the app.R file is selected, R Studio will recognize that the file is a shiny app and will provide a button to run the app on the local machine (at the top-right of the code window). ![](examples/local-app.png)
+Clicking the Run App button will allow you to see how the current version of the code on your local machine is running the application, this is encouraged to be used throughout the development process before anything is committed to github or deployed to Shinyapps.io
 
 
 # Contributing walkthrough
@@ -47,3 +55,12 @@ Edit the code on the `dev` branch as you would like and keep the master branch f
 
 ## Merge into master branch and make a pull request
 Once the `dev` branch is confirmed to be stable, you can create a pull request on github ![](examples/pr.png)
+
+# Syncing walkthrough
+## Regular sync
+Normally to sync your local copy of the code with what is on github under the HBClab account, you can run `git pull origin master` when inside your local directory. To sync your local copy with the dev branch, run `git pull origin dev`.
+## Forked copy sync
+If your repository was forked from HBClab and there is now a repository called intervention-outcomes under your username, you can sync with your own repository using `git pull origin master` or `git pull origin dev` for the dev branch. To sync with the HBClab repository, use `git pull upstream master` or `git pull upstream dev` since upstream refers to the original repository which had the code base. (in this case the HBClab repository) 
+## Merge conflicts
+Occasionally if two people are working on the same code, merge conflicts can occur when git tries to combine two different copies of the same modified repository. For example, if someone made a change to the `README.md` and pushed their changes to github, but you have separate changes on your copy of the code locally, git doesn't know which version it should keep. To fix merge conflicts, git will modify the code so both copies appear and the user must manually remove the copy they don't want to keep. A merge conflict can appear when you try the above commands by using git pull and the unmerged code will look like the following: ![](examples/merge-conflict.png)
+More information on dealing with merge conflicts can be found [here](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts).
