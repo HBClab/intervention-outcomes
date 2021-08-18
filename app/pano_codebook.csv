@@ -22,7 +22,7 @@ MeanAge,average age for the total sample
 PercFemale,"percent female for the total sample, number only without a percent sign"
 AgeGroup,indicates age group for the sample
 CognitiveStatus,cognitive status as indicated by the authors
-BMIBaseline,average BMI in weight (kg) / [height (m)]2 for the total sample at baseline
+MeanBMI,average BMI in weight (kg) / [height (m)]2 for the total sample at baseline
 SessionAdherence,Percentage of exercise prescription sessions attended
 TestType,Type of fitness measure test
 TestTypeSub,
