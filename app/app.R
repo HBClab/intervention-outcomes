@@ -19,7 +19,7 @@ categorical <- c("StudyName", "Include", "Design", "IndependentVariable", "Indep
 
 numerical <- c("TotalSampleSize", "InterventionDuration", "ExperimentalGroupN",
                "ExperimentalGroup2N", "ExperimentalGroup3N", "ControlGroupN", "MeanAge",
-               "PercFemale", "BMIBaseline", "SessionAdherence",
+               "PercFemale", "MeanBMI", "SessionAdherence",
                "ChangeinFMStandardized", "SessionsPerWeek", "DurationInMinutes", "WeeklyMinutes")
 
 hidden_col_indices <- c(10,12,13,14,15,16,17,18,19,20,21,24,25,26,27,28,29,30,31,32,33,
@@ -46,7 +46,7 @@ levels(io_table$InterventionDurationCategorical) <- c("short (<12 weeks)", "medi
 io_table$PercFemaleCategorical <- cut(io_table$PercFemale, c(-1, 49, 51, 101))
 levels(io_table$PercFemaleCategorical) <- c("majority men", "equal men/women N",
                                                       "majority women")
-io_table$BMIBaselineCategorical <- cut(io_table$BMIBaseline, c(0, 18.5, 24.9, 29.9, 50))
+io_table$BMIBaselineCategorical <- cut(io_table$MeanBMI, c(0, 18.5, 24.9, 29.9, 50))
 levels(io_table$BMIBaselineCategorical) <- c("underweight", "normal weight",
                                             "overweight", "obese")
 io_table$SessionAdherenceCategorical <- cut(io_table$SessionAdherence, c(0, 60, 74, 89, 101))
